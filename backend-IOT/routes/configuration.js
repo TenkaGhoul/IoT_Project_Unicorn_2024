@@ -1,31 +1,8 @@
-// Importation des modules
 const express = require('express');
-const bodyParser = require('body-parser');
-
-
-// Initialisation du serveur Express
-const app = express();
-const port = 3000;
-
-// Middleware pour parser le corps des requêtes en JSON
-app.use(bodyParser.json());
-
-// Route pour recevoir les données de la carte Hardwario
-app.post('/data', (req, res) => {
-    const data = req.body;
-    console.log('Données reçues :', data);
-    // Ajoutez ici le code pour traiter les données comme vous le souhaitez
-    res.status(200).send('Données reçues avec succès');
-});
-
-// Démarrage du serveur
-app.listen(port, () => {
-    console.log(`Serveur en cours d'écoute sur le port ${port}`);
-});
-
-// Chemin du fichier de configuration
+const router = express.Router();
 const fs = require('fs');
 
+// Chemin du fichier de configuration
 const configFilePath = './data/config.json';
 
 // Fonction pour charger la configuration depuis le fichier config.json
@@ -50,7 +27,7 @@ function saveConfiguration(configuration) {
 }
 
 // Route pour recevoir et modifier la configuration
-app.post('/configuration', (req, res) => {
+router.post('/', (req, res) => {
     const newConfiguration = req.body;
     console.log('Nouvelle configuration reçue :', newConfiguration);
 
@@ -72,3 +49,4 @@ app.post('/configuration', (req, res) => {
     res.status(200).send('Configuration mise à jour avec succès');
 });
 
+module.exports = router;

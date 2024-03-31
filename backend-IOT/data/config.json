@@ -1,0 +1,7 @@
+{
+  "brightness": {
+    "min": 0,
+    "max": 180,
+    "automatic": true
+  }
+}
