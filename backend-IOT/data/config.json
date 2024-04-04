@@ -1,7 +1,12 @@
 {
-  "brightness": {
-    "min": 0,
-    "max": 180,
-    "automatic": true
+  "maison": {
+    "luminositeMax": 100,
+    "luminositeMin": 100,
+    "automatique": true
+  },
+  "bathroom": {
+    "luminositeMax": 100,
+    "luminositeMin": 0,
+    "automatique": true
   }
 }
