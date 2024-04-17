@@ -3,12 +3,12 @@
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 68.05499999999999
+    "blinds": 56.102999999999994
   },
   "bathroom": {
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 68.05499999999999
+    "blinds": 98.148
   }
 }
