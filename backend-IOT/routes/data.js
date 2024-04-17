@@ -19,6 +19,18 @@ router.post('/', (req, res) => {
     res.status(200).send('Data received successfully');
 });
 
+// Route to load data from data.json
+router.get('/', (req, res) => {
+    try {
+        // Load data from the data.json file
+        const data = loadCurrentData();
+        res.status(200).json(data);
+    } catch (error) {
+        console.error('Error loading data from data.json:', error.toString());
+        res.status(500).send('Error loading data from data.json');
+    }
+});
+
 // Function to save data to the data.json file
 function saveData(data) {
     try {
