@@ -3,23 +3,25 @@ const bodyParser = require('body-parser');
 const dataRoutes = require('./routes/data');
 const configRoutes = require('./routes/configuration');
 const createRoomRoutes = require('./routes/room');
-const stateRoutes = require('./routes/state');
 const updateState = require('./updateState');
 
+// Create the express app
 const app = express();
-const port = 3000;
+const port = 3001;
 
+// Middleware to parse the body of the request
 app.use(bodyParser.json());
 
 // Routes
 app.use('/data', dataRoutes);
 app.use('/configuration', configRoutes);
 app.use('/rooms', createRoomRoutes);
-app.use('/state', stateRoutes);
+
 
 // Appel de la fonction pour mettre à jour l'état des pièces
 updateState();
 
+// Start the server
 app.listen(port, () => {
-    console.log(`Serveur en cours d'écoute sur le port ${port}`);
+    console.log(`Server is listening on port ${port}`);
 });
