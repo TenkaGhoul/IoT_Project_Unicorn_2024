@@ -17,7 +17,6 @@ app.use('/data', dataRoutes);
 app.use('/configuration', configRoutes);
 app.use('/rooms', createRoomRoutes);
 
-
 // Appel de la fonction pour mettre à jour l'état des pièces
 updateState();
 

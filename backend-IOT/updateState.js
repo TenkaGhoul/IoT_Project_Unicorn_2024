@@ -2,7 +2,7 @@ const cron = require('node-cron');
 const fs = require('fs');
 
 let isUpdating = false;
-
+const configFilePath = './data/config.json';
 function updateState() {
     // Check if the cron task is already running
     if (isUpdating) {
@@ -16,12 +16,12 @@ function updateState() {
     cron.schedule('*/1 * * * *', () => {
         console.log("\x1b[31m%s\x1b[0m",'Updating room states...');
 
-        // Load configuration and state data from combined config.json file
-        const configFilePath = './data/config.json';
-        const { config: configData, state: stateData } = loadConfiguration(configFilePath);
+        // Load configuration data from config.json file
 
-        if (!configData || !stateData) {
-            console.error('Unable to load room configuration or state data');
+        const configData = loadConfiguration(configFilePath);
+
+        if (!configData) {
+            console.error('Unable to load room configuration');
             // Reset the variable to allow a new update attempt
             isUpdating = false;
             return;
@@ -66,7 +66,7 @@ function updateState() {
                 }
 
                 // Update blinds state for the specific room
-                updateBlindsState(room, blindOpeningPercentage, stateData);
+                updateBlindsState(room, blindOpeningPercentage, configData);
             }
         }
 
@@ -78,7 +78,6 @@ function updateState() {
 function loadConfiguration(configFilePath) {
     try {
         const data = fs.readFileSync(configFilePath);
-        // Maintenant, jsonData contient toutes les données du fichier config.json
         return JSON.parse(data);
     } catch (error) {
         console.error('Error loading configuration:', error.toString());
@@ -114,23 +113,23 @@ function calculateAverageLight(data, roomId) {
 }
 
 
-function updateBlindsState(room, blindOpeningPercentage, stateData) {
+function updateBlindsState(room, blindOpeningPercentage, configData) {
     // Vérifie si le pourcentage d'ouverture des stores est valide
     if (!isNaN(blindOpeningPercentage) && blindOpeningPercentage >= 0 && blindOpeningPercentage <= 100) {
         // Met à jour les données pour la pièce spécifique
-        stateData[room] = { blinds: blindOpeningPercentage };
+        configData[room].blinds = blindOpeningPercentage;
 
-        console.log('Données mises à jour pour la pièce', room, ':', stateData);
+        console.log('Données mises à jour pour la pièce', room, ':', configData);
 
-        // Écrit les données mises à jour dans le fichier state.json
+        // Write updated data to config.json file
         try {
-            fs.writeFileSync(stateFilePath, JSON.stringify(stateData, null, 2));
-            console.log('État des stores mis à jour avec succès pour la pièce :', room);
+            fs.writeFileSync(configFilePath, JSON.stringify(configData, null, 2));
+            console.log('Blinds state updated successfully for room:', room);
         } catch (error) {
-            console.error('Erreur lors de la mise à jour de l\'état des stores :', error.toString());
+            console.error('Error updating blinds state:', error.toString());
         }
     } else {
-        console.error('Pourcentage d\'ouverture des stores invalide :', blindOpeningPercentage);
+        console.error('Invalid blind opening percentage:', blindOpeningPercentage);
     }
 }
 
