@@ -1,74 +1,61 @@
-// Importation des modules
 const express = require('express');
 const bodyParser = require('body-parser');
 
-
-// Initialisation du serveur Express
 const app = express();
-const port = 3000;
+const port = 3001;
 
-// Middleware pour parser le corps des requêtes en JSON
 app.use(bodyParser.json());
 
-// Route pour recevoir les données de la carte Hardwario
 app.post('/data', (req, res) => {
     const data = req.body;
-    console.log('Données reçues :', data);
-    // Ajoutez ici le code pour traiter les données comme vous le souhaitez
-    res.status(200).send('Données reçues avec succès');
+    console.log('Data received:', data);
+    res.status(200).send('- Data received with success');
 });
 
-// Démarrage du serveur
 app.listen(port, () => {
-    console.log(`Serveur en cours d'écoute sur le port ${port}`);
+    console.log(`Server is listening on port ${port}`);
 });
 
-// Chemin du fichier de configuration
 const fs = require('fs');
-
 const configFilePath = './data/config.json';
 
-// Fonction pour charger la configuration depuis le fichier config.json
+// Function to load the configuration from the config.json file
 function loadConfiguration() {
     try {
         const data = fs.readFileSync(configFilePath);
         return JSON.parse(data);
     } catch (error) {
-        console.error('Erreur lors du chargement de la configuration :', error.toString());
+        console.error('[ERROR] Impossible to load configuration:', error.toString());
         return null;
     }
 }
 
-// Fonction pour écrire la configuration dans le fichier config.json
+// Function to save the configuration in the config.json file
 function saveConfiguration(configuration) {
     try {
         fs.writeFileSync(configFilePath, JSON.stringify(configuration, null, 2));
-        console.log('Configuration mise à jour avec succès');
+        console.log('Configuration updated successfully');
     } catch (error) {
-        console.error('Erreur lors de la mise à jour de la configuration :', error.toString());
+        console.error('[ERROR] Impossible to save configuration:', error.toString());
     }
 }
 
-// Route pour recevoir et modifier la configuration
+// POST Route to update the configuration of a room
 app.post('/configuration', (req, res) => {
     const newConfiguration = req.body;
-    console.log('Nouvelle configuration reçue :', newConfiguration);
+    console.log('New configuration received:', newConfiguration);
 
-    // Charger la configuration actuelle
+    // load the current configuration from the config.json file
     let currentConfiguration = loadConfiguration();
 
     if (!currentConfiguration) {
-        // Impossible de charger la configuration actuelle, arrêter le traitement
-        return res.status(500).send('Impossible de charger la configuration actuelle');
+        return res.status(500).send('Impossible to load the current configuration');
     }
 
-    // Fusionner la nouvelle configuration avec la configuration actuelle
+    // Merge the new configuration with the current configuration
     Object.assign(currentConfiguration, newConfiguration);
 
-    // Enregistrer la nouvelle configuration dans le fichier config.json
+    // Save the updated configuration in the config.json file
     saveConfiguration(currentConfiguration);
-
-    // Envoyer une réponse indiquant que la configuration a été mise à jour avec succès
-    res.status(200).send('Configuration mise à jour avec succès');
+    res.status(200).send('Configuration updated with success');
 });
-

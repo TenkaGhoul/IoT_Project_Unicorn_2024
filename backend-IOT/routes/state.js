@@ -2,62 +2,85 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs');
 
-// Chemin du fichier d'état des stores
+// Path: backend-IOT/routes/state.js
 const blindsStateFilePath = './data/state.json';
 
-// Fonction pour charger l'état des stores depuis le fichier state.json
+// Function to load the blinds state from the state.json file
 function loadBlindsState() {
     try {
         const data = fs.readFileSync(blindsStateFilePath);
-        console.log('État des stores chargé avec succès :', data.toString());
+        console.log('Blinds state loaded successfully');
         return JSON.parse(data);
     } catch (error) {
-        console.error('Erreur lors du chargement de l\'état des stores :', error.toString());
+        console.error('[ERROR] Impossible to load blinds state:', error.toString());
         return null;
     }
 }
 
-// Fonction pour écrire l'état des stores dans le fichier state.json
+// Function to save the blinds state in the state.json file
 function saveBlindsState(blindsState) {
     try {
         fs.writeFileSync(blindsStateFilePath, JSON.stringify(blindsState, null, 2));
-        console.log('État des stores mis à jour avec succès');
+        console.log('Blinds state updated successfully');
     } catch (error) {
-        console.error('Erreur lors de la mise à jour de l\'état des stores :', error.toString());
+        console.error('[ERROR] Impossible to save blinds state:', error.toString());
     }
 }
 
-// Route pour modifier le state d'une pièce
-router.post('/:room', (req, res) => {
+// POST Route to update the state of a room
+// http://localhost:3000/state/living-room
+router.post('/:room', async (req, res) => {
     const room = req.params.room;
     const { state } = req.body;
 
-    // Vérifier si le pourcentage d'ouverture est valide (entre 0 et 100)
     if (typeof state !== 'number' || state < 0 || state > 100) {
-        return res.status(400).send('Le pourcentage d\'ouverture doit être compris entre 0 et 100');
+        return res.status(400).send('[Warning] Invalid state value, it should be a number between 0 and 100');
     }
 
-    // Charger le state actuel depuis le fichier state.json
-    let currentState = loadBlindsState();
+    try {
+        let currentState = await loadBlindsState();
 
-    if (!currentState) {
-        // Impossible de charger le state actuel, arrêter le traitement
-        return res.status(500).send('Impossible de charger le state actuel');
+        if (!currentState[room]) {
+            return res.status(404).send(`The room ${room} does not exist`);
+        }
+
+        currentState[room].blinds = state;
+
+        await saveBlindsState(currentState);
+
+        res.status(200).send(`State of the room ${room} updated with success`);
+    } catch (error) {
+        res.status(500).send('[Error] An error occurred while processing your request');
     }
+});
 
-    // Vérifier si la pièce existe déjà dans le state
-    if (!currentState[room]) {
-        return res.status(404).send(`La pièce ${room} n'existe pas dans le state`);
+// GET Route to get the state of a room
+// http://localhost:3000/state/living-room
+router.get('/:room', async (req, res) => {
+    const room = req.params.room;
+
+    try {
+        let currentState = await loadBlindsState();
+
+        if (!currentState[room]) {
+            return res.status(404).send(`The room ${room} does not exist`);
+        }
+
+        res.status(200).send(currentState[room]);
+    } catch (error) {
+        res.status(500).send('[Error] An error occurred while processing your request');
     }
+});
 
-    // Modifier le pourcentage d'ouverture du store de la pièce
-    currentState[room].blinds = state;
-
-    // Enregistrer le nouveau state dans le fichier state.json
-    saveBlindsState(currentState);
-
-    // Envoyer une réponse indiquant que le state a été mis à jour avec succès
-    res.status(200).send(`State de la pièce ${room} mis à jour avec succès`);
+// GET Route to get the state of all rooms
+// http://localhost:3000/state
+router.get('/', async (req, res) => {
+    try {
+        let currentState = await loadBlindsState();
+        res.status(200).send(currentState);
+    } catch (error) {
+        res.status(500).send('[Error] An error occurred while processing your request');
+    }
 });
 
 module.exports = router;
