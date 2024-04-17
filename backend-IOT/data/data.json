@@ -14609,5 +14609,340 @@
     "illuminance": 34.9,
     "id": "bathroom",
     "timestamp": "2024-04-17T15:22:08.603Z"
+  },
+  {
+    "illuminance": 28.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:30.343Z"
+  },
+  {
+    "illuminance": 32.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:35.440Z"
+  },
+  {
+    "illuminance": 33.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:40.568Z"
+  },
+  {
+    "illuminance": 33.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:45.705Z"
+  },
+  {
+    "illuminance": 29.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:50.824Z"
+  },
+  {
+    "illuminance": 32.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:43:55.950Z"
+  },
+  {
+    "illuminance": 31.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:01.084Z"
+  },
+  {
+    "illuminance": 32.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:06.211Z"
+  },
+  {
+    "illuminance": 31.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:11.334Z"
+  },
+  {
+    "illuminance": 31.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:16.454Z"
+  },
+  {
+    "illuminance": 31.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:21.590Z"
+  },
+  {
+    "illuminance": 31.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:26.716Z"
+  },
+  {
+    "illuminance": 32.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:31.842Z"
+  },
+  {
+    "illuminance": 31.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:36.977Z"
+  },
+  {
+    "illuminance": 31.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:42.097Z"
+  },
+  {
+    "illuminance": 31.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:47.251Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:52.346Z"
+  },
+  {
+    "illuminance": 28.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:44:57.484Z"
+  },
+  {
+    "illuminance": 28.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:02.605Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:07.730Z"
+  },
+  {
+    "illuminance": 28.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:12.848Z"
+  },
+  {
+    "illuminance": 28.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:17.986Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:23.109Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:28.233Z"
+  },
+  {
+    "illuminance": 29.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:33.369Z"
+  },
+  {
+    "illuminance": 29,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:38.495Z"
+  },
+  {
+    "illuminance": 28.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:43.616Z"
+  },
+  {
+    "illuminance": 29.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:48.736Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:53.875Z"
+  },
+  {
+    "illuminance": 31.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:45:59.001Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:04.120Z"
+  },
+  {
+    "illuminance": 32,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:09.242Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:14.382Z"
+  },
+  {
+    "illuminance": 29.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:19.507Z"
+  },
+  {
+    "illuminance": 28.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:24.629Z"
+  },
+  {
+    "illuminance": 28.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:29.766Z"
+  },
+  {
+    "illuminance": 28.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:34.888Z"
+  },
+  {
+    "illuminance": 29.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:40.009Z"
+  },
+  {
+    "illuminance": 28.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:45.139Z"
+  },
+  {
+    "illuminance": 28.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:50.274Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:46:55.411Z"
+  },
+  {
+    "illuminance": 29.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:00.518Z"
+  },
+  {
+    "illuminance": 28.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:05.659Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:10.777Z"
+  },
+  {
+    "illuminance": 28.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:15.901Z"
+  },
+  {
+    "illuminance": 28.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:21.021Z"
+  },
+  {
+    "illuminance": 28.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:26.163Z"
+  },
+  {
+    "illuminance": 28.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:31.282Z"
+  },
+  {
+    "illuminance": 29.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:36.404Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:41.528Z"
+  },
+  {
+    "illuminance": 29.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:46.665Z"
+  },
+  {
+    "illuminance": 27.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:51.789Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:47:56.912Z"
+  },
+  {
+    "illuminance": 28.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:02.033Z"
+  },
+  {
+    "illuminance": 29.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:07.174Z"
+  },
+  {
+    "illuminance": 28.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:12.294Z"
+  },
+  {
+    "illuminance": 30.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:17.418Z"
+  },
+  {
+    "illuminance": 30.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:22.555Z"
+  },
+  {
+    "illuminance": 30.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:27.683Z"
+  },
+  {
+    "illuminance": 27.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:32.800Z"
+  },
+  {
+    "illuminance": 28.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:37.924Z"
+  },
+  {
+    "illuminance": 29.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:43.065Z"
+  },
+  {
+    "illuminance": 28.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:48.185Z"
+  },
+  {
+    "illuminance": 28.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:53.870Z"
+  },
+  {
+    "illuminance": 28.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:48:58.445Z"
+  },
+  {
+    "illuminance": 27.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:49:03.567Z"
+  },
+  {
+    "illuminance": 28,
+    "id": "bathroom",
+    "timestamp": "2024-04-17T15:49:08.691Z"
   }
 ]

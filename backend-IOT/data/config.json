@@ -9,6 +9,12 @@
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 98.148
+    "blinds": 98.54700000000001
+  },
+  "house4": {
+    "luminositeMax": 2000,
+    "luminositeMin": 0,
+    "automatique": true,
+    "blinds": 0
   }
 }
