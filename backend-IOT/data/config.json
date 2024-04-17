@@ -1,12 +1,14 @@
 {
-  "maison": {
-    "luminositeMax": 100,
-    "luminositeMin": 100,
-    "automatique": true
+  "house1": {
+    "luminositeMax": 2000,
+    "luminositeMin": 0,
+    "automatique": true,
+    "blinds": 68.05499999999999
   },
   "bathroom": {
-    "luminositeMax": 100,
+    "luminositeMax": 2000,
     "luminositeMin": 0,
-    "automatique": true
+    "automatique": true,
+    "blinds": 68.05499999999999
   }
 }
