@@ -9,6 +9,7 @@ const stateRoutes = require('./routes/state');
 const app = express();
 const port = 3001;
 
+// Middleware to parse the body of the request
 app.use(bodyParser.json());
 
 
