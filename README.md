@@ -1,1 +1,1 @@
-# IoT_Project_Unicorn_2024
+# SmartShade - IOT project 2024

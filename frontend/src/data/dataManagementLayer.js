@@ -1,0 +1,1 @@
+// fetch initial data from the server
