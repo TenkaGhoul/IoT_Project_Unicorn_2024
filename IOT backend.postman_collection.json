@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "d30e4dfe-3833-4e48-8a74-ba2061dc8cca",
+		"name": "IOT backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33390580"
+	},
+	"item": [
+		{
+			"name": "Change config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"luminositeMax\": 2000,\r\n    \"luminositeMin\": 0,\r\n    \"automatique\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/configuration/house1"
+			},
+			"response": []
+		},
+		{
+			"name": "Creat Room",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/rooms/house4"
+			},
+			"response": []
+		},
+		{
+			"name": "Modify the state of blinders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"blinds\": 99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/rooms/house1/blinds"
+			},
+			"response": []
+		},
+		{
+			"name": "Load configuration",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/rooms/"
+			},
+			"response": []
+		},
+		{
+			"name": "Load data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3001/data/"
+			},
+			"response": []
+		},
+		{
+			"name": "Modify Room ID",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"room\": \"house1\",\r\n    \"newId\": 94038500663588\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3001/ID/modify-id"
+			},
+			"response": []
+		},
+		{
+			"name": "Get ID List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3001/ID/get-idList"
+			},
+			"response": []
+		}
+	]
+}

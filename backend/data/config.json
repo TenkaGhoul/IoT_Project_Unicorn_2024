@@ -1,20 +1,23 @@
 {
   "house1": {
+    "id": 94038500663588,
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 56.102999999999994
+    "blinds": 98.37100000000001
   },
   "bathroom": {
+    "id": 0,
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 98.54700000000001
+    "blinds": 97.3365
   },
   "house4": {
+    "id": 0,
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 0
+    "blinds": 97.248
   }
 }

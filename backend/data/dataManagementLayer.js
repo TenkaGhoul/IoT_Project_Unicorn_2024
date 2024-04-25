@@ -1,8 +1,10 @@
 const cron = require('node-cron');
 const fs = require('fs');
+const azureManagementLayer = require('./azureManagementLayer');
 
 let isUpdating = false;
 const configFilePath = './data/config.json';
+
 function updateState() {
     // Check if the cron task is already running
     if (isUpdating) {
@@ -17,7 +19,6 @@ function updateState() {
         console.log("\x1b[31m%s\x1b[0m",'Updating room states...');
 
         // Load configuration data from config.json file
-
         const configData = loadConfiguration(configFilePath);
 
         if (!configData) {
@@ -39,9 +40,7 @@ function updateState() {
 
                 if (!data) {
                     console.error('Unable to load light data');
-                    // Reset the variable to allow a new update attempt
-                    isUpdating = false;
-                    return;
+                    continue; // Continue to the next room
                 }
 
                 // Calculate median light of last 10 data points
@@ -49,9 +48,7 @@ function updateState() {
 
                 if (medianLight === null) {
                     console.error('Unable to calculate median light');
-                    // Reset the variable to allow a new update attempt
-                    isUpdating = false;
-                    return;
+                    continue; // Continue to the next room
                 }
 
                 // Calculate blind opening percentage based on median light
@@ -97,7 +94,7 @@ function loadData(dataFilePath) {
 
 function calculateAverageLight(data, roomId) {
     // Filtrer les données pour la pièce spécifiée
-    const roomData = data.filter(entry => entry.id === roomId);
+    const roomData = data.filter(entry => entry.id === roomId && (Date.now() - new Date(entry.timestamp).getTime()) < 120000);
 
     if (roomData.length < 10) {
         console.error('Il n\'y a pas assez de données pour calculer la moyenne pour la pièce', roomId);
@@ -121,10 +118,13 @@ function updateBlindsState(room, blindOpeningPercentage, configData) {
 
         console.log('Données mises à jour pour la pièce', room, ':', configData);
 
-        // Write updated data to config.json file
+        // Écrire les données mises à jour dans le fichier config.json
         try {
             fs.writeFileSync(configFilePath, JSON.stringify(configData, null, 2));
             console.log('Blinds state updated successfully for room:', room);
+
+            // Appeler la fonction d'envoi de messages Azure IoT Hub
+            azureManagementLayer.sendMessageToAzure(room, blindOpeningPercentage);
         } catch (error) {
             console.error('Error updating blinds state:', error.toString());
         }

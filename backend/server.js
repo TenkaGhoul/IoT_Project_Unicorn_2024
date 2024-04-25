@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const dataRoutes = require('./routes/data');
 const configRoutes = require('./routes/configuration');
 const createRoomRoutes = require('./routes/room');
+const IdRoutes = require('./routes/IdRoutage')
 const updateState = require('./data/dataManagementLayer');
 
 // Create the express app
@@ -16,6 +17,7 @@ app.use(bodyParser.json());
 app.use('/data', dataRoutes);
 app.use('/configuration', configRoutes);
 app.use('/rooms', createRoomRoutes);
+app.use('/ID', IdRoutes)
 
 // Update the state of the rooms
 updateState();

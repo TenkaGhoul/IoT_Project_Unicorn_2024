@@ -14944,5 +14944,5675 @@
     "illuminance": 28,
     "id": "bathroom",
     "timestamp": "2024-04-17T15:49:08.691Z"
+  },
+  {
+    "illuminance": 10.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:02.830Z"
+  },
+  {
+    "illuminance": 14.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:07.929Z"
+  },
+  {
+    "illuminance": 16.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:13.051Z"
+  },
+  {
+    "illuminance": 821.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:18.189Z"
+  },
+  {
+    "illuminance": 307,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:23.312Z"
+  },
+  {
+    "illuminance": 343.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:28.438Z"
+  },
+  {
+    "illuminance": 358.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:33.559Z"
+  },
+  {
+    "illuminance": 455,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:38.695Z"
+  },
+  {
+    "illuminance": 336.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:43.821Z"
+  },
+  {
+    "illuminance": 329.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:48.943Z"
+  },
+  {
+    "illuminance": 330.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:54.079Z"
+  },
+  {
+    "illuminance": 474.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:32:59.203Z"
+  },
+  {
+    "illuminance": 482.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:04.326Z"
+  },
+  {
+    "illuminance": 389.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:09.445Z"
+  },
+  {
+    "illuminance": 448.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:14.583Z"
+  },
+  {
+    "illuminance": 731.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:19.709Z"
+  },
+  {
+    "illuminance": 736,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:24.828Z"
+  },
+  {
+    "illuminance": 732.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:29.960Z"
+  },
+  {
+    "illuminance": 730.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:35.093Z"
+  },
+  {
+    "illuminance": 729,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:40.214Z"
+  },
+  {
+    "illuminance": 727.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:45.335Z"
+  },
+  {
+    "illuminance": 727,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:50.482Z"
+  },
+  {
+    "illuminance": 727,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:33:55.596Z"
+  },
+  {
+    "illuminance": 727,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:00.722Z"
+  },
+  {
+    "illuminance": 727,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:05.888Z"
+  },
+  {
+    "illuminance": 728.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:10.983Z"
+  },
+  {
+    "illuminance": 728.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:16.104Z"
+  },
+  {
+    "illuminance": 729,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:21.225Z"
+  },
+  {
+    "illuminance": 729,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:26.353Z"
+  },
+  {
+    "illuminance": 730.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:31.486Z"
+  },
+  {
+    "illuminance": 733.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:36.610Z"
+  },
+  {
+    "illuminance": 737.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:41.737Z"
+  },
+  {
+    "illuminance": 742.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:46.855Z"
+  },
+  {
+    "illuminance": 743,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:51.997Z"
+  },
+  {
+    "illuminance": 729,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:34:57.117Z"
+  },
+  {
+    "illuminance": 711.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:02.239Z"
+  },
+  {
+    "illuminance": 703.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:07.384Z"
+  },
+  {
+    "illuminance": 468.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:12.502Z"
+  },
+  {
+    "illuminance": 623.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:17.625Z"
+  },
+  {
+    "illuminance": 436.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:22.749Z"
+  },
+  {
+    "illuminance": 411.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:27.886Z"
+  },
+  {
+    "illuminance": 535,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:33.006Z"
+  },
+  {
+    "illuminance": 591.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:38.128Z"
+  },
+  {
+    "illuminance": 399.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:43.251Z"
+  },
+  {
+    "illuminance": 391.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:48.389Z"
+  },
+  {
+    "illuminance": 384.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:53.511Z"
+  },
+  {
+    "illuminance": 381.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:35:58.634Z"
+  },
+  {
+    "illuminance": 378.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:03.774Z"
+  },
+  {
+    "illuminance": 375.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:08.895Z"
+  },
+  {
+    "illuminance": 373.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:14.018Z"
+  },
+  {
+    "illuminance": 251.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:19.142Z"
+  },
+  {
+    "illuminance": 371.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:24.282Z"
+  },
+  {
+    "illuminance": 136.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:29.403Z"
+  },
+  {
+    "illuminance": 135.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:34.526Z"
+  },
+  {
+    "illuminance": 137.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:39.647Z"
+  },
+  {
+    "illuminance": 145.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:44.789Z"
+  },
+  {
+    "illuminance": 164.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:49.909Z"
+  },
+  {
+    "illuminance": 325.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:36:55.031Z"
+  },
+  {
+    "illuminance": 371.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:00.156Z"
+  },
+  {
+    "illuminance": 374.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:05.292Z"
+  },
+  {
+    "illuminance": 379.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:10.415Z"
+  },
+  {
+    "illuminance": 376,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:15.538Z"
+  },
+  {
+    "illuminance": 376,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:20.662Z"
+  },
+  {
+    "illuminance": 370.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:25.799Z"
+  },
+  {
+    "illuminance": 370.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:30.922Z"
+  },
+  {
+    "illuminance": 369.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:36.045Z"
+  },
+  {
+    "illuminance": 383,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:41.183Z"
+  },
+  {
+    "illuminance": 383.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:46.305Z"
+  },
+  {
+    "illuminance": 383.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:51.427Z"
+  },
+  {
+    "illuminance": 383,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:37:56.550Z"
+  },
+  {
+    "illuminance": 382.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:01.689Z"
+  },
+  {
+    "illuminance": 382.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:06.816Z"
+  },
+  {
+    "illuminance": 382.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:11.937Z"
+  },
+  {
+    "illuminance": 377.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:17.058Z"
+  },
+  {
+    "illuminance": 371.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:22.197Z"
+  },
+  {
+    "illuminance": 362.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:27.318Z"
+  },
+  {
+    "illuminance": 347.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:32.440Z"
+  },
+  {
+    "illuminance": 353.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:37.580Z"
+  },
+  {
+    "illuminance": 364.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:42.701Z"
+  },
+  {
+    "illuminance": 365.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:47.825Z"
+  },
+  {
+    "illuminance": 364.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:52.946Z"
+  },
+  {
+    "illuminance": 364.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:38:58.087Z"
+  },
+  {
+    "illuminance": 365.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-18T13:39:03.210Z"
+  },
+  {
+    "illuminance": 348.2,
+    "timestamp": "2024-04-25T10:04:29.876Z"
+  },
+  {
+    "illuminance": 344,
+    "timestamp": "2024-04-25T10:04:34.966Z"
+  },
+  {
+    "illuminance": 288.8,
+    "timestamp": "2024-04-25T10:04:40.103Z"
+  },
+  {
+    "illuminance": 285.6,
+    "timestamp": "2024-04-25T10:04:45.224Z"
+  },
+  {
+    "illuminance": 292.5,
+    "timestamp": "2024-04-25T10:04:50.346Z"
+  },
+  {
+    "illuminance": 297.3,
+    "timestamp": "2024-04-25T10:04:55.482Z"
+  },
+  {
+    "illuminance": 304.3,
+    "timestamp": "2024-04-25T10:05:00.612Z"
+  },
+  {
+    "illuminance": 309.4,
+    "timestamp": "2024-04-25T10:05:05.731Z"
+  },
+  {
+    "illuminance": 317.4,
+    "timestamp": "2024-04-25T10:05:10.853Z"
+  },
+  {
+    "illuminance": 615.7,
+    "timestamp": "2024-04-25T10:06:02.140Z"
+  },
+  {
+    "illuminance": 689.9,
+    "timestamp": "2024-04-25T10:06:07.252Z"
+  },
+  {
+    "illuminance": 678.4,
+    "timestamp": "2024-04-25T10:06:12.391Z"
+  },
+  {
+    "illuminance": 689.9,
+    "timestamp": "2024-04-25T10:06:17.514Z"
+  },
+  {
+    "illuminance": 650.2,
+    "timestamp": "2024-04-25T10:06:22.634Z"
+  },
+  {
+    "illuminance": 636.2,
+    "timestamp": "2024-04-25T10:06:27.761Z"
+  },
+  {
+    "illuminance": 641.9,
+    "timestamp": "2024-04-25T10:06:32.897Z"
+  },
+  {
+    "illuminance": 655.4,
+    "timestamp": "2024-04-25T10:06:38.021Z"
+  },
+  {
+    "illuminance": 662.4,
+    "timestamp": "2024-04-25T10:06:43.144Z"
+  },
+  {
+    "illuminance": 659.2,
+    "timestamp": "2024-04-25T10:06:48.283Z"
+  },
+  {
+    "illuminance": 649.6,
+    "timestamp": "2024-04-25T10:06:53.403Z"
+  },
+  {
+    "illuminance": 649.6,
+    "timestamp": "2024-04-25T10:06:58.520Z"
+  },
+  {
+    "illuminance": 659.8,
+    "timestamp": "2024-04-25T10:07:03.650Z"
+  },
+  {
+    "illuminance": 675.2,
+    "timestamp": "2024-04-25T10:07:08.786Z"
+  },
+  {
+    "illuminance": 638.7,
+    "timestamp": "2024-04-25T10:07:13.905Z"
+  },
+  {
+    "illuminance": 689.3,
+    "timestamp": "2024-04-25T10:07:19.025Z"
+  },
+  {
+    "illuminance": 464.3,
+    "timestamp": "2024-04-25T10:07:24.153Z"
+  },
+  {
+    "illuminance": 458.6,
+    "timestamp": "2024-04-25T10:07:29.290Z"
+  },
+  {
+    "illuminance": 491.2,
+    "timestamp": "2024-04-25T10:07:34.410Z"
+  },
+  {
+    "illuminance": 497,
+    "timestamp": "2024-04-25T10:07:39.540Z"
+  },
+  {
+    "illuminance": 485.4,
+    "timestamp": "2024-04-25T10:07:44.678Z"
+  },
+  {
+    "illuminance": 314.6,
+    "timestamp": "2024-04-25T10:07:49.798Z"
+  },
+  {
+    "illuminance": 295.7,
+    "timestamp": "2024-04-25T10:07:54.918Z"
+  },
+  {
+    "illuminance": 313.9,
+    "timestamp": "2024-04-25T10:08:00.038Z"
+  },
+  {
+    "illuminance": 248,
+    "timestamp": "2024-04-25T10:08:05.161Z"
+  },
+  {
+    "illuminance": 226.1,
+    "timestamp": "2024-04-25T10:08:10.303Z"
+  },
+  {
+    "illuminance": 225.1,
+    "timestamp": "2024-04-25T10:08:15.428Z"
+  },
+  {
+    "illuminance": 218.4,
+    "timestamp": "2024-04-25T10:08:20.550Z"
+  },
+  {
+    "illuminance": 222.9,
+    "timestamp": "2024-04-25T10:08:25.687Z"
+  },
+  {
+    "illuminance": 223.5,
+    "timestamp": "2024-04-25T10:08:30.810Z"
+  },
+  {
+    "illuminance": 238.1,
+    "timestamp": "2024-04-25T10:08:35.929Z"
+  },
+  {
+    "illuminance": 240.8,
+    "timestamp": "2024-04-25T10:08:41.072Z"
+  },
+  {
+    "illuminance": 245,
+    "timestamp": "2024-04-25T10:08:46.195Z"
+  },
+  {
+    "illuminance": 253,
+    "timestamp": "2024-04-25T10:08:51.318Z"
+  },
+  {
+    "illuminance": 262.1,
+    "timestamp": "2024-04-25T10:08:56.440Z"
+  },
+  {
+    "illuminance": 273.3,
+    "timestamp": "2024-04-25T10:09:01.577Z"
+  },
+  {
+    "illuminance": 270.7,
+    "timestamp": "2024-04-25T10:09:06.701Z"
+  },
+  {
+    "illuminance": 266.1,
+    "timestamp": "2024-04-25T10:09:11.838Z"
+  },
+  {
+    "illuminance": 277,
+    "timestamp": "2024-04-25T10:13:17.929Z"
+  },
+  {
+    "illuminance": 303.4,
+    "timestamp": "2024-04-25T10:13:23.033Z"
+  },
+  {
+    "illuminance": 318.4,
+    "timestamp": "2024-04-25T10:13:28.176Z"
+  },
+  {
+    "illuminance": 312,
+    "timestamp": "2024-04-25T10:13:33.296Z"
+  },
+  {
+    "illuminance": 321.3,
+    "timestamp": "2024-04-25T10:13:38.421Z"
+  },
+  {
+    "illuminance": 320,
+    "timestamp": "2024-04-25T10:13:43.542Z"
+  },
+  {
+    "illuminance": 331.2,
+    "timestamp": "2024-04-25T10:13:48.686Z"
+  },
+  {
+    "illuminance": 351,
+    "timestamp": "2024-04-25T10:13:53.804Z"
+  },
+  {
+    "illuminance": 395.5,
+    "timestamp": "2024-04-25T10:13:58.928Z"
+  },
+  {
+    "illuminance": 620.8,
+    "timestamp": "2024-04-25T10:14:04.047Z"
+  },
+  {
+    "illuminance": 621.4,
+    "timestamp": "2024-04-25T10:14:09.189Z"
+  },
+  {
+    "illuminance": 574.1,
+    "timestamp": "2024-04-25T10:14:14.309Z"
+  },
+  {
+    "illuminance": 630.4,
+    "timestamp": "2024-04-25T10:14:19.432Z"
+  },
+  {
+    "illuminance": 588.5,
+    "timestamp": "2024-04-25T10:14:24.557Z"
+  },
+  {
+    "illuminance": 1274.9,
+    "id": "home",
+    "timestamp": "2024-04-25T10:23:22.892Z"
+  },
+  {
+    "illuminance": 1290.2,
+    "id": "home",
+    "timestamp": "2024-04-25T10:23:28.004Z"
+  },
+  {
+    "illuminance": 1294.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:33.131Z"
+  },
+  {
+    "illuminance": 1303,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:38.269Z"
+  },
+  {
+    "illuminance": 1301.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:43.397Z"
+  },
+  {
+    "illuminance": 1323.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:48.514Z"
+  },
+  {
+    "illuminance": 1335,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:53.640Z"
+  },
+  {
+    "illuminance": 1326.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:23:58.776Z"
+  },
+  {
+    "illuminance": 1192.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:03.897Z"
+  },
+  {
+    "illuminance": 1349.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:09.023Z"
+  },
+  {
+    "illuminance": 1345.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:14.145Z"
+  },
+  {
+    "illuminance": 1356.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:19.284Z"
+  },
+  {
+    "illuminance": 1368.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:24.409Z"
+  },
+  {
+    "illuminance": 1361.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:29.528Z"
+  },
+  {
+    "illuminance": 1309.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:34.666Z"
+  },
+  {
+    "illuminance": 1391.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:39.786Z"
+  },
+  {
+    "illuminance": 1400.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:44.912Z"
+  },
+  {
+    "illuminance": 1402.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:50.036Z"
+  },
+  {
+    "illuminance": 1402.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:24:55.172Z"
+  },
+  {
+    "illuminance": 1406.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:00.295Z"
+  },
+  {
+    "illuminance": 1410.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:05.418Z"
+  },
+  {
+    "illuminance": 1415.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:10.541Z"
+  },
+  {
+    "illuminance": 1418.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:15.679Z"
+  },
+  {
+    "illuminance": 1423.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:20.796Z"
+  },
+  {
+    "illuminance": 1427.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:25.917Z"
+  },
+  {
+    "illuminance": 1429.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:31.065Z"
+  },
+  {
+    "illuminance": 1388.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:36.185Z"
+  },
+  {
+    "illuminance": 1331.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:41.307Z"
+  },
+  {
+    "illuminance": 1419.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:46.430Z"
+  },
+  {
+    "illuminance": 1402.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:51.564Z"
+  },
+  {
+    "illuminance": 1399,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:25:56.692Z"
+  },
+  {
+    "illuminance": 1408,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:01.812Z"
+  },
+  {
+    "illuminance": 1414.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:06.937Z"
+  },
+  {
+    "illuminance": 1418.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:12.073Z"
+  },
+  {
+    "illuminance": 1404.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:17.197Z"
+  },
+  {
+    "illuminance": 1369.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:22.317Z"
+  },
+  {
+    "illuminance": 1374.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:27.438Z"
+  },
+  {
+    "illuminance": 1340.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:32.579Z"
+  },
+  {
+    "illuminance": 1382.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:37.706Z"
+  },
+  {
+    "illuminance": 1310.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:42.828Z"
+  },
+  {
+    "illuminance": 1252.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:47.961Z"
+  },
+  {
+    "illuminance": 1169.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:53.085Z"
+  },
+  {
+    "illuminance": 1079,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:26:58.206Z"
+  },
+  {
+    "illuminance": 1036.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:03.333Z"
+  },
+  {
+    "illuminance": 1020.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:08.472Z"
+  },
+  {
+    "illuminance": 1135.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:13.594Z"
+  },
+  {
+    "illuminance": 1250.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:18.715Z"
+  },
+  {
+    "illuminance": 1230.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:23.840Z"
+  },
+  {
+    "illuminance": 1100.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:28.976Z"
+  },
+  {
+    "illuminance": 1223,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:34.099Z"
+  },
+  {
+    "illuminance": 1231.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:39.219Z"
+  },
+  {
+    "illuminance": 1027.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:44.356Z"
+  },
+  {
+    "illuminance": 1029.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:49.479Z"
+  },
+  {
+    "illuminance": 1173.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:27:59.748Z"
+  },
+  {
+    "illuminance": 1299.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:28:04.870Z"
+  },
+  {
+    "illuminance": 1148.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:28:09.989Z"
+  },
+  {
+    "illuminance": 425,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:19.694Z"
+  },
+  {
+    "illuminance": 455,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:24.808Z"
+  },
+  {
+    "illuminance": 396.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:29.935Z"
+  },
+  {
+    "illuminance": 400,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:35.052Z"
+  },
+  {
+    "illuminance": 436.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:40.191Z"
+  },
+  {
+    "illuminance": 414.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:45.312Z"
+  },
+  {
+    "illuminance": 412.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:50.436Z"
+  },
+  {
+    "illuminance": 416.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:31:55.574Z"
+  },
+  {
+    "illuminance": 493.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:32:00.698Z"
+  },
+  {
+    "illuminance": 599.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:32:05.819Z"
+  },
+  {
+    "illuminance": 686.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:32:10.964Z"
+  },
+  {
+    "illuminance": 389.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:36:42.686Z"
+  },
+  {
+    "illuminance": 399.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:36:47.793Z"
+  },
+  {
+    "illuminance": 1431,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:36:52.917Z"
+  },
+  {
+    "illuminance": 1408,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:36:58.039Z"
+  },
+  {
+    "illuminance": 1161,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:03.177Z"
+  },
+  {
+    "illuminance": 359.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:08.302Z"
+  },
+  {
+    "illuminance": 368.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:13.425Z"
+  },
+  {
+    "illuminance": 381.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:18.562Z"
+  },
+  {
+    "illuminance": 477.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:23.687Z"
+  },
+  {
+    "illuminance": 555.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:28.807Z"
+  },
+  {
+    "illuminance": 423.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:33.945Z"
+  },
+  {
+    "illuminance": 473.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:39.069Z"
+  },
+  {
+    "illuminance": 398.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:44.190Z"
+  },
+  {
+    "illuminance": 431.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:49.313Z"
+  },
+  {
+    "illuminance": 396.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:54.453Z"
+  },
+  {
+    "illuminance": 495,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:37:59.577Z"
+  },
+  {
+    "illuminance": 452.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:04.699Z"
+  },
+  {
+    "illuminance": 433.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:09.825Z"
+  },
+  {
+    "illuminance": 481.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:14.958Z"
+  },
+  {
+    "illuminance": 422.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:20.081Z"
+  },
+  {
+    "illuminance": 465.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:25.204Z"
+  },
+  {
+    "illuminance": 548.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:30.342Z"
+  },
+  {
+    "illuminance": 522.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:35.462Z"
+  },
+  {
+    "illuminance": 507.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:40.593Z"
+  },
+  {
+    "illuminance": 452.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:45.711Z"
+  },
+  {
+    "illuminance": 478.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:50.847Z"
+  },
+  {
+    "illuminance": 572.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:38:55.975Z"
+  },
+  {
+    "illuminance": 532.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:01.101Z"
+  },
+  {
+    "illuminance": 495.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:06.214Z"
+  },
+  {
+    "illuminance": 385.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:11.355Z"
+  },
+  {
+    "illuminance": 419.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:16.478Z"
+  },
+  {
+    "illuminance": 459.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:21.601Z"
+  },
+  {
+    "illuminance": 706.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:26.723Z"
+  },
+  {
+    "illuminance": 1171.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:31.861Z"
+  },
+  {
+    "illuminance": 1104,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:36.985Z"
+  },
+  {
+    "illuminance": 1081,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:42.107Z"
+  },
+  {
+    "illuminance": 1191.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:47.246Z"
+  },
+  {
+    "illuminance": 1209,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:52.369Z"
+  },
+  {
+    "illuminance": 1213.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:39:57.490Z"
+  },
+  {
+    "illuminance": 1230.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:02.611Z"
+  },
+  {
+    "illuminance": 1217.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:07.734Z"
+  },
+  {
+    "illuminance": 1224.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:12.874Z"
+  },
+  {
+    "illuminance": 1187.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:17.998Z"
+  },
+  {
+    "illuminance": 1222.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:23.118Z"
+  },
+  {
+    "illuminance": 1223.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:28.256Z"
+  },
+  {
+    "illuminance": 1233.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:33.378Z"
+  },
+  {
+    "illuminance": 1226.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:38.504Z"
+  },
+  {
+    "illuminance": 1237.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:43.624Z"
+  },
+  {
+    "illuminance": 1224.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:48.763Z"
+  },
+  {
+    "illuminance": 1125.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:53.884Z"
+  },
+  {
+    "illuminance": 1183.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:40:59.009Z"
+  },
+  {
+    "illuminance": 1119.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:04.144Z"
+  },
+  {
+    "illuminance": 1193,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:09.271Z"
+  },
+  {
+    "illuminance": 1050.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:14.392Z"
+  },
+  {
+    "illuminance": 1141.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:19.512Z"
+  },
+  {
+    "illuminance": 1102.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:24.653Z"
+  },
+  {
+    "illuminance": 1149.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:29.776Z"
+  },
+  {
+    "illuminance": 1203.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:34.898Z"
+  },
+  {
+    "illuminance": 1161.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:40.020Z"
+  },
+  {
+    "illuminance": 1185.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:45.160Z"
+  },
+  {
+    "illuminance": 1191,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:50.283Z"
+  },
+  {
+    "illuminance": 1216,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:41:55.403Z"
+  },
+  {
+    "illuminance": 1201.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:00.527Z"
+  },
+  {
+    "illuminance": 1230.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:05.669Z"
+  },
+  {
+    "illuminance": 1227.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:10.788Z"
+  },
+  {
+    "illuminance": 1214.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:15.910Z"
+  },
+  {
+    "illuminance": 1215.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:21.051Z"
+  },
+  {
+    "illuminance": 1207.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:26.172Z"
+  },
+  {
+    "illuminance": 1210.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:31.295Z"
+  },
+  {
+    "illuminance": 1218.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:36.418Z"
+  },
+  {
+    "illuminance": 1238.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:41.558Z"
+  },
+  {
+    "illuminance": 1237.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:46.676Z"
+  },
+  {
+    "illuminance": 1225,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:51.801Z"
+  },
+  {
+    "illuminance": 1231.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:42:56.924Z"
+  },
+  {
+    "illuminance": 1226.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:02.062Z"
+  },
+  {
+    "illuminance": 1205.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:07.182Z"
+  },
+  {
+    "illuminance": 1210.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:12.307Z"
+  },
+  {
+    "illuminance": 1202.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:17.443Z"
+  },
+  {
+    "illuminance": 1175.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:22.569Z"
+  },
+  {
+    "illuminance": 1183.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:27.689Z"
+  },
+  {
+    "illuminance": 1097,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:32.812Z"
+  },
+  {
+    "illuminance": 1086.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:37.951Z"
+  },
+  {
+    "illuminance": 1117.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:43.074Z"
+  },
+  {
+    "illuminance": 1140.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:48.196Z"
+  },
+  {
+    "illuminance": 1140.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:53.319Z"
+  },
+  {
+    "illuminance": 1135.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:43:58.459Z"
+  },
+  {
+    "illuminance": 1121.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:03.581Z"
+  },
+  {
+    "illuminance": 1178.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:08.702Z"
+  },
+  {
+    "illuminance": 1180.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:13.825Z"
+  },
+  {
+    "illuminance": 1198.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:18.964Z"
+  },
+  {
+    "illuminance": 1168,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:24.088Z"
+  },
+  {
+    "illuminance": 1286.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:29.210Z"
+  },
+  {
+    "illuminance": 1233.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:34.333Z"
+  },
+  {
+    "illuminance": 1189.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:39.471Z"
+  },
+  {
+    "illuminance": 1127,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:44.595Z"
+  },
+  {
+    "illuminance": 1134.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:49.716Z"
+  },
+  {
+    "illuminance": 1198.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:54.855Z"
+  },
+  {
+    "illuminance": 1206.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:44:59.976Z"
+  },
+  {
+    "illuminance": 1244.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:05.099Z"
+  },
+  {
+    "illuminance": 1258.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:10.222Z"
+  },
+  {
+    "illuminance": 1244.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:15.360Z"
+  },
+  {
+    "illuminance": 1200,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:20.485Z"
+  },
+  {
+    "illuminance": 1281.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:25.607Z"
+  },
+  {
+    "illuminance": 1255,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:30.727Z"
+  },
+  {
+    "illuminance": 1239,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:35.869Z"
+  },
+  {
+    "illuminance": 1235.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:40.988Z"
+  },
+  {
+    "illuminance": 1235.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:46.112Z"
+  },
+  {
+    "illuminance": 1238.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:51.251Z"
+  },
+  {
+    "illuminance": 1260.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:45:56.372Z"
+  },
+  {
+    "illuminance": 1297.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T10:46:01.496Z"
+  },
+  {
+    "illuminance": 7.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:01:34.595Z"
+  },
+  {
+    "illuminance": 7.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:01:39.721Z"
+  },
+  {
+    "illuminance": 6.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:01:44.845Z"
+  },
+  {
+    "illuminance": 216.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:01:49.966Z"
+  },
+  {
+    "illuminance": 896,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:01:55.088Z"
+  },
+  {
+    "illuminance": 910.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:00.228Z"
+  },
+  {
+    "illuminance": 1016.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:05.350Z"
+  },
+  {
+    "illuminance": 1119.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:10.474Z"
+  },
+  {
+    "illuminance": 1167.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:15.614Z"
+  },
+  {
+    "illuminance": 1168,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:20.734Z"
+  },
+  {
+    "illuminance": 1166.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:25.856Z"
+  },
+  {
+    "illuminance": 1168,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:30.976Z"
+  },
+  {
+    "illuminance": 1173.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:36.118Z"
+  },
+  {
+    "illuminance": 1175.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:41.240Z"
+  },
+  {
+    "illuminance": 1177.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:46.362Z"
+  },
+  {
+    "illuminance": 1179.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:51.483Z"
+  },
+  {
+    "illuminance": 1180.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:02:56.623Z"
+  },
+  {
+    "illuminance": 1182.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:01.747Z"
+  },
+  {
+    "illuminance": 1183.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:06.865Z"
+  },
+  {
+    "illuminance": 1184,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:11.989Z"
+  },
+  {
+    "illuminance": 1183.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:17.125Z"
+  },
+  {
+    "illuminance": 1185.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:22.251Z"
+  },
+  {
+    "illuminance": 1187.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:27.373Z"
+  },
+  {
+    "illuminance": 1182.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:32.508Z"
+  },
+  {
+    "illuminance": 1184,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:37.631Z"
+  },
+  {
+    "illuminance": 1187.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:42.754Z"
+  },
+  {
+    "illuminance": 1189.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:47.880Z"
+  },
+  {
+    "illuminance": 1188.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:53.018Z"
+  },
+  {
+    "illuminance": 1187.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:03:58.144Z"
+  },
+  {
+    "illuminance": 1184,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:03.264Z"
+  },
+  {
+    "illuminance": 1179.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:08.387Z"
+  },
+  {
+    "illuminance": 1174.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:13.526Z"
+  },
+  {
+    "illuminance": 1173.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:18.649Z"
+  },
+  {
+    "illuminance": 1171.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:23.772Z"
+  },
+  {
+    "illuminance": 1147.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:28.909Z"
+  },
+  {
+    "illuminance": 1135.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:34.032Z"
+  },
+  {
+    "illuminance": 1123.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:39.150Z"
+  },
+  {
+    "illuminance": 1090.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:44.277Z"
+  },
+  {
+    "illuminance": 1084.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:49.417Z"
+  },
+  {
+    "illuminance": 1043.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:54.540Z"
+  },
+  {
+    "illuminance": 1054.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:04:59.658Z"
+  },
+  {
+    "illuminance": 1085.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:04.781Z"
+  },
+  {
+    "illuminance": 1121.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:09.917Z"
+  },
+  {
+    "illuminance": 1105.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:15.048Z"
+  },
+  {
+    "illuminance": 1097.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:20.166Z"
+  },
+  {
+    "illuminance": 1097,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:25.292Z"
+  },
+  {
+    "illuminance": 745.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:30.434Z"
+  },
+  {
+    "illuminance": 972.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:35.547Z"
+  },
+  {
+    "illuminance": 967,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:40.673Z"
+  },
+  {
+    "illuminance": 965.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:45.813Z"
+  },
+  {
+    "illuminance": 969.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:50.936Z"
+  },
+  {
+    "illuminance": 975.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:05:56.057Z"
+  },
+  {
+    "illuminance": 970.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:01.183Z"
+  },
+  {
+    "illuminance": 973.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:06.317Z"
+  },
+  {
+    "illuminance": 969.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:11.438Z"
+  },
+  {
+    "illuminance": 970.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:16.562Z"
+  },
+  {
+    "illuminance": 969,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:21.684Z"
+  },
+  {
+    "illuminance": 969,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:26.824Z"
+  },
+  {
+    "illuminance": 967.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:31.947Z"
+  },
+  {
+    "illuminance": 969,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:37.069Z"
+  },
+  {
+    "illuminance": 967.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:42.205Z"
+  },
+  {
+    "illuminance": 970.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:47.332Z"
+  },
+  {
+    "illuminance": 967,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:52.451Z"
+  },
+  {
+    "illuminance": 967,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:06:57.582Z"
+  },
+  {
+    "illuminance": 963.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:02.717Z"
+  },
+  {
+    "illuminance": 981.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:07.835Z"
+  },
+  {
+    "illuminance": 979.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:12.959Z"
+  },
+  {
+    "illuminance": 983,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:18.088Z"
+  },
+  {
+    "illuminance": 983,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:23.219Z"
+  },
+  {
+    "illuminance": 960,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:28.343Z"
+  },
+  {
+    "illuminance": 965.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:33.467Z"
+  },
+  {
+    "illuminance": 968.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:38.604Z"
+  },
+  {
+    "illuminance": 961.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:43.727Z"
+  },
+  {
+    "illuminance": 829.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:48.848Z"
+  },
+  {
+    "illuminance": 857,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:53.968Z"
+  },
+  {
+    "illuminance": 874.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:07:59.108Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:04.234Z"
+  },
+  {
+    "illuminance": 874.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:09.357Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:14.477Z"
+  },
+  {
+    "illuminance": 883.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:19.615Z"
+  },
+  {
+    "illuminance": 889,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:24.743Z"
+  },
+  {
+    "illuminance": 899.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:29.862Z"
+  },
+  {
+    "illuminance": 886.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:34.984Z"
+  },
+  {
+    "illuminance": 893.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:40.125Z"
+  },
+  {
+    "illuminance": 902.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:45.247Z"
+  },
+  {
+    "illuminance": 899.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:50.369Z"
+  },
+  {
+    "illuminance": 898.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:08:55.507Z"
+  },
+  {
+    "illuminance": 894.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:00.630Z"
+  },
+  {
+    "illuminance": 884.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:05.754Z"
+  },
+  {
+    "illuminance": 881.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:10.877Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:15.996Z"
+  },
+  {
+    "illuminance": 881.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:21.137Z"
+  },
+  {
+    "illuminance": 872.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:26.257Z"
+  },
+  {
+    "illuminance": 877.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:31.381Z"
+  },
+  {
+    "illuminance": 877.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:36.517Z"
+  },
+  {
+    "illuminance": 879.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:41.641Z"
+  },
+  {
+    "illuminance": 871,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:46.764Z"
+  },
+  {
+    "illuminance": 878.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:51.902Z"
+  },
+  {
+    "illuminance": 879.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:09:57.026Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:02.151Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:07.271Z"
+  },
+  {
+    "illuminance": 876.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:12.408Z"
+  },
+  {
+    "illuminance": 878.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:17.533Z"
+  },
+  {
+    "illuminance": 881.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:22.654Z"
+  },
+  {
+    "illuminance": 877.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:27.776Z"
+  },
+  {
+    "illuminance": 881.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:32.917Z"
+  },
+  {
+    "illuminance": 860.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:38.034Z"
+  },
+  {
+    "illuminance": 874.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:43.161Z"
+  },
+  {
+    "illuminance": 883.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:48.286Z"
+  },
+  {
+    "illuminance": 882.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:53.420Z"
+  },
+  {
+    "illuminance": 883.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:10:58.543Z"
+  },
+  {
+    "illuminance": 887,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:03.666Z"
+  },
+  {
+    "illuminance": 887,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:08.794Z"
+  },
+  {
+    "illuminance": 858.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:13.928Z"
+  },
+  {
+    "illuminance": 885.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:19.052Z"
+  },
+  {
+    "illuminance": 880,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:24.172Z"
+  },
+  {
+    "illuminance": 891.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:29.310Z"
+  },
+  {
+    "illuminance": 891.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:34.434Z"
+  },
+  {
+    "illuminance": 894.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:39.557Z"
+  },
+  {
+    "illuminance": 897.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:44.676Z"
+  },
+  {
+    "illuminance": 899.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:49.814Z"
+  },
+  {
+    "illuminance": 899.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:11:54.943Z"
+  },
+  {
+    "illuminance": 903,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:00.059Z"
+  },
+  {
+    "illuminance": 906.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:05.186Z"
+  },
+  {
+    "illuminance": 901.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:10.323Z"
+  },
+  {
+    "illuminance": 899.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:15.447Z"
+  },
+  {
+    "illuminance": 895.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:20.568Z"
+  },
+  {
+    "illuminance": 896,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:25.693Z"
+  },
+  {
+    "illuminance": 896,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:30.833Z"
+  },
+  {
+    "illuminance": 893.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:35.954Z"
+  },
+  {
+    "illuminance": 892.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:41.077Z"
+  },
+  {
+    "illuminance": 896,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:46.200Z"
+  },
+  {
+    "illuminance": 897.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:51.337Z"
+  },
+  {
+    "illuminance": 894.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:12:56.459Z"
+  },
+  {
+    "illuminance": 899.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:01.582Z"
+  },
+  {
+    "illuminance": 903,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:06.720Z"
+  },
+  {
+    "illuminance": 903,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:11.844Z"
+  },
+  {
+    "illuminance": 902.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:16.965Z"
+  },
+  {
+    "illuminance": 902.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:22.088Z"
+  },
+  {
+    "illuminance": 904.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:27.222Z"
+  },
+  {
+    "illuminance": 903.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:32.349Z"
+  },
+  {
+    "illuminance": 903,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:37.474Z"
+  },
+  {
+    "illuminance": 900.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:42.596Z"
+  },
+  {
+    "illuminance": 897.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:47.735Z"
+  },
+  {
+    "illuminance": 894.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:52.856Z"
+  },
+  {
+    "illuminance": 893.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:13:57.979Z"
+  },
+  {
+    "illuminance": 887,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:03.117Z"
+  },
+  {
+    "illuminance": 883.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:08.239Z"
+  },
+  {
+    "illuminance": 890.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:13.361Z"
+  },
+  {
+    "illuminance": 894.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:18.484Z"
+  },
+  {
+    "illuminance": 894.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:23.624Z"
+  },
+  {
+    "illuminance": 895.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:28.745Z"
+  },
+  {
+    "illuminance": 894.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:33.867Z"
+  },
+  {
+    "illuminance": 892.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:38.992Z"
+  },
+  {
+    "illuminance": 858.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:44.131Z"
+  },
+  {
+    "illuminance": 857.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:49.249Z"
+  },
+  {
+    "illuminance": 881.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:54.375Z"
+  },
+  {
+    "illuminance": 867.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:14:59.518Z"
+  },
+  {
+    "illuminance": 891.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:15:04.635Z"
+  },
+  {
+    "illuminance": 894.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T11:15:09.757Z"
+  },
+  {
+    "illuminance": 625.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:16.805Z"
+  },
+  {
+    "illuminance": 629.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:21.845Z"
+  },
+  {
+    "illuminance": 633.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:26.963Z"
+  },
+  {
+    "illuminance": 636.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:32.104Z"
+  },
+  {
+    "illuminance": 639.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:37.225Z"
+  },
+  {
+    "illuminance": 640.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:42.347Z"
+  },
+  {
+    "illuminance": 731.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:47.485Z"
+  },
+  {
+    "illuminance": 733.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:52.613Z"
+  },
+  {
+    "illuminance": 735.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:04:57.733Z"
+  },
+  {
+    "illuminance": 739.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:02.856Z"
+  },
+  {
+    "illuminance": 742.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:07.994Z"
+  },
+  {
+    "illuminance": 747.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:13.116Z"
+  },
+  {
+    "illuminance": 753.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:18.234Z"
+  },
+  {
+    "illuminance": 768.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:23.362Z"
+  },
+  {
+    "illuminance": 869.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:28.494Z"
+  },
+  {
+    "illuminance": 880,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:33.620Z"
+  },
+  {
+    "illuminance": 1023.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:38.744Z"
+  },
+  {
+    "illuminance": 1102.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:43.878Z"
+  },
+  {
+    "illuminance": 1104.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:49.006Z"
+  },
+  {
+    "illuminance": 1104.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:54.128Z"
+  },
+  {
+    "illuminance": 1102.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:05:59.250Z"
+  },
+  {
+    "illuminance": 1105.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:04.388Z"
+  },
+  {
+    "illuminance": 958.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:09.510Z"
+  },
+  {
+    "illuminance": 944.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:14.631Z"
+  },
+  {
+    "illuminance": 940.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:19.753Z"
+  },
+  {
+    "illuminance": 940.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:24.898Z"
+  },
+  {
+    "illuminance": 937,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:30.013Z"
+  },
+  {
+    "illuminance": 937,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:35.136Z"
+  },
+  {
+    "illuminance": 937,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:40.258Z"
+  },
+  {
+    "illuminance": 934.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:45.398Z"
+  },
+  {
+    "illuminance": 934.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:50.522Z"
+  },
+  {
+    "illuminance": 933.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:06:55.643Z"
+  },
+  {
+    "illuminance": 931.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:00.778Z"
+  },
+  {
+    "illuminance": 928.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:05.907Z"
+  },
+  {
+    "illuminance": 921.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:11.029Z"
+  },
+  {
+    "illuminance": 917.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:16.150Z"
+  },
+  {
+    "illuminance": 912.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:21.289Z"
+  },
+  {
+    "illuminance": 910.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:26.414Z"
+  },
+  {
+    "illuminance": 912.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:31.534Z"
+  },
+  {
+    "illuminance": 912.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:36.672Z"
+  },
+  {
+    "illuminance": 910.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:41.796Z"
+  },
+  {
+    "illuminance": 910.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:46.918Z"
+  },
+  {
+    "illuminance": 903,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:52.039Z"
+  },
+  {
+    "illuminance": 893.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:07:57.179Z"
+  },
+  {
+    "illuminance": 883.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:02.298Z"
+  },
+  {
+    "illuminance": 883.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:07.434Z"
+  },
+  {
+    "illuminance": 889,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:12.547Z"
+  },
+  {
+    "illuminance": 887,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:17.684Z"
+  },
+  {
+    "illuminance": 883.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:22.807Z"
+  },
+  {
+    "illuminance": 880.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:27.932Z"
+  },
+  {
+    "illuminance": 879.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:33.052Z"
+  },
+  {
+    "illuminance": 876.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:38.191Z"
+  },
+  {
+    "illuminance": 880,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:43.315Z"
+  },
+  {
+    "illuminance": 879.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:48.436Z"
+  },
+  {
+    "illuminance": 874.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:53.574Z"
+  },
+  {
+    "illuminance": 868.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:08:58.698Z"
+  },
+  {
+    "illuminance": 864,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:03.820Z"
+  },
+  {
+    "illuminance": 855,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:08.943Z"
+  },
+  {
+    "illuminance": 850.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:14.079Z"
+  },
+  {
+    "illuminance": 851.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:19.199Z"
+  },
+  {
+    "illuminance": 839.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:24.327Z"
+  },
+  {
+    "illuminance": 830.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:29.450Z"
+  },
+  {
+    "illuminance": 830.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:34.586Z"
+  },
+  {
+    "illuminance": 825,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:39.705Z"
+  },
+  {
+    "illuminance": 816.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:44.832Z"
+  },
+  {
+    "illuminance": 812.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:49.968Z"
+  },
+  {
+    "illuminance": 795.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:09:55.091Z"
+  },
+  {
+    "illuminance": 794.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:00.213Z"
+  },
+  {
+    "illuminance": 766.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:05.339Z"
+  },
+  {
+    "illuminance": 691.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:10.472Z"
+  },
+  {
+    "illuminance": 609.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:15.598Z"
+  },
+  {
+    "illuminance": 613.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:20.720Z"
+  },
+  {
+    "illuminance": 635.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:25.858Z"
+  },
+  {
+    "illuminance": 683.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:30.984Z"
+  },
+  {
+    "illuminance": 759,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:36.109Z"
+  },
+  {
+    "illuminance": 794.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:41.228Z"
+  },
+  {
+    "illuminance": 773.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:46.365Z"
+  },
+  {
+    "illuminance": 601,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:51.491Z"
+  },
+  {
+    "illuminance": 579.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:10:56.609Z"
+  },
+  {
+    "illuminance": 575.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:01.730Z"
+  },
+  {
+    "illuminance": 571.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:06.876Z"
+  },
+  {
+    "illuminance": 569.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:11.994Z"
+  },
+  {
+    "illuminance": 568,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:17.116Z"
+  },
+  {
+    "illuminance": 566.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:22.240Z"
+  },
+  {
+    "illuminance": 562.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:27.375Z"
+  },
+  {
+    "illuminance": 546.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:32.501Z"
+  },
+  {
+    "illuminance": 654.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:37.621Z"
+  },
+  {
+    "illuminance": 575.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:42.760Z"
+  },
+  {
+    "illuminance": 551.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:47.882Z"
+  },
+  {
+    "illuminance": 532.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:53.004Z"
+  },
+  {
+    "illuminance": 528.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:11:58.127Z"
+  },
+  {
+    "illuminance": 525.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:03.267Z"
+  },
+  {
+    "illuminance": 523.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:08.390Z"
+  },
+  {
+    "illuminance": 503.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:13.513Z"
+  },
+  {
+    "illuminance": 496,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:18.635Z"
+  },
+  {
+    "illuminance": 494.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:23.774Z"
+  },
+  {
+    "illuminance": 486.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:28.898Z"
+  },
+  {
+    "illuminance": 455.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:34.018Z"
+  },
+  {
+    "illuminance": 451.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:39.160Z"
+  },
+  {
+    "illuminance": 450.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:44.283Z"
+  },
+  {
+    "illuminance": 452.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:49.402Z"
+  },
+  {
+    "illuminance": 452.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:54.538Z"
+  },
+  {
+    "illuminance": 448.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:12:59.662Z"
+  },
+  {
+    "illuminance": 444.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:04.781Z"
+  },
+  {
+    "illuminance": 443.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:09.909Z"
+  },
+  {
+    "illuminance": 441.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:15.033Z"
+  },
+  {
+    "illuminance": 442.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:20.169Z"
+  },
+  {
+    "illuminance": 443.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:25.291Z"
+  },
+  {
+    "illuminance": 444.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:30.416Z"
+  },
+  {
+    "illuminance": 445.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:35.553Z"
+  },
+  {
+    "illuminance": 473.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:40.675Z"
+  },
+  {
+    "illuminance": 527.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:45.799Z"
+  },
+  {
+    "illuminance": 616,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:50.921Z"
+  },
+  {
+    "illuminance": 617,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:13:56.045Z"
+  },
+  {
+    "illuminance": 614.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:01.182Z"
+  },
+  {
+    "illuminance": 611.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:06.306Z"
+  },
+  {
+    "illuminance": 615.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:11.426Z"
+  },
+  {
+    "illuminance": 588.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:16.564Z"
+  },
+  {
+    "illuminance": 582.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:21.690Z"
+  },
+  {
+    "illuminance": 584.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:26.810Z"
+  },
+  {
+    "illuminance": 585.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:31.929Z"
+  },
+  {
+    "illuminance": 584,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:37.058Z"
+  },
+  {
+    "illuminance": 581.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:42.191Z"
+  },
+  {
+    "illuminance": 586.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:47.314Z"
+  },
+  {
+    "illuminance": 590.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:52.458Z"
+  },
+  {
+    "illuminance": 590.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:14:57.575Z"
+  },
+  {
+    "illuminance": 600.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:02.697Z"
+  },
+  {
+    "illuminance": 590.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:07.822Z"
+  },
+  {
+    "illuminance": 598.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:12.962Z"
+  },
+  {
+    "illuminance": 601,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:18.084Z"
+  },
+  {
+    "illuminance": 610.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:23.206Z"
+  },
+  {
+    "illuminance": 606.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:28.329Z"
+  },
+  {
+    "illuminance": 605.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:33.463Z"
+  },
+  {
+    "illuminance": 597.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:38.590Z"
+  },
+  {
+    "illuminance": 601.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:43.712Z"
+  },
+  {
+    "illuminance": 594.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:48.851Z"
+  },
+  {
+    "illuminance": 597.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:53.975Z"
+  },
+  {
+    "illuminance": 613.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:15:59.095Z"
+  },
+  {
+    "illuminance": 601.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:04.217Z"
+  },
+  {
+    "illuminance": 617.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:09.357Z"
+  },
+  {
+    "illuminance": 629.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:14.481Z"
+  },
+  {
+    "illuminance": 636.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:19.601Z"
+  },
+  {
+    "illuminance": 619.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:24.725Z"
+  },
+  {
+    "illuminance": 612.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:29.864Z"
+  },
+  {
+    "illuminance": 600,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:34.982Z"
+  },
+  {
+    "illuminance": 618.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:40.108Z"
+  },
+  {
+    "illuminance": 624.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:45.248Z"
+  },
+  {
+    "illuminance": 629.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:50.368Z"
+  },
+  {
+    "illuminance": 627.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:16:55.493Z"
+  },
+  {
+    "illuminance": 613.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:00.614Z"
+  },
+  {
+    "illuminance": 598.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:05.748Z"
+  },
+  {
+    "illuminance": 598.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:10.875Z"
+  },
+  {
+    "illuminance": 591.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:15.999Z"
+  },
+  {
+    "illuminance": 589.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:21.119Z"
+  },
+  {
+    "illuminance": 584.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:26.257Z"
+  },
+  {
+    "illuminance": 572.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:31.383Z"
+  },
+  {
+    "illuminance": 575,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:36.498Z"
+  },
+  {
+    "illuminance": 574.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:41.642Z"
+  },
+  {
+    "illuminance": 574.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:46.763Z"
+  },
+  {
+    "illuminance": 574.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:51.889Z"
+  },
+  {
+    "illuminance": 577.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:17:57.009Z"
+  },
+  {
+    "illuminance": 570.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:02.148Z"
+  },
+  {
+    "illuminance": 567.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:07.273Z"
+  },
+  {
+    "illuminance": 567.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:12.393Z"
+  },
+  {
+    "illuminance": 575.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:17.517Z"
+  },
+  {
+    "illuminance": 570.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:22.654Z"
+  },
+  {
+    "illuminance": 569,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:27.776Z"
+  },
+  {
+    "illuminance": 581.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:32.901Z"
+  },
+  {
+    "illuminance": 583.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:38.039Z"
+  },
+  {
+    "illuminance": 580.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:43.158Z"
+  },
+  {
+    "illuminance": 586.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:48.283Z"
+  },
+  {
+    "illuminance": 579.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:53.402Z"
+  },
+  {
+    "illuminance": 466.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:18:58.543Z"
+  },
+  {
+    "illuminance": 592,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:03.665Z"
+  },
+  {
+    "illuminance": 595.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:08.790Z"
+  },
+  {
+    "illuminance": 600.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:13.911Z"
+  },
+  {
+    "illuminance": 598.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:19.049Z"
+  },
+  {
+    "illuminance": 575.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:24.177Z"
+  },
+  {
+    "illuminance": 599.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:29.294Z"
+  },
+  {
+    "illuminance": 604.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:34.432Z"
+  },
+  {
+    "illuminance": 605.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:39.557Z"
+  },
+  {
+    "illuminance": 557.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:44.678Z"
+  },
+  {
+    "illuminance": 550.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:49.801Z"
+  },
+  {
+    "illuminance": 550.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:19:54.940Z"
+  },
+  {
+    "illuminance": 551,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:00.060Z"
+  },
+  {
+    "illuminance": 550.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:05.186Z"
+  },
+  {
+    "illuminance": 549.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:10.308Z"
+  },
+  {
+    "illuminance": 548.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:15.447Z"
+  },
+  {
+    "illuminance": 548.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:20.567Z"
+  },
+  {
+    "illuminance": 545.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:25.692Z"
+  },
+  {
+    "illuminance": 544.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:30.829Z"
+  },
+  {
+    "illuminance": 541.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:35.953Z"
+  },
+  {
+    "illuminance": 542.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:41.074Z"
+  },
+  {
+    "illuminance": 541.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:46.197Z"
+  },
+  {
+    "illuminance": 536.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:51.332Z"
+  },
+  {
+    "illuminance": 519,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:20:56.457Z"
+  },
+  {
+    "illuminance": 510.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:01.582Z"
+  },
+  {
+    "illuminance": 412.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:06.701Z"
+  },
+  {
+    "illuminance": 423.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:11.842Z"
+  },
+  {
+    "illuminance": 396.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:16.966Z"
+  },
+  {
+    "illuminance": 449.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:22.085Z"
+  },
+  {
+    "illuminance": 467.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:27.220Z"
+  },
+  {
+    "illuminance": 512.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:32.346Z"
+  },
+  {
+    "illuminance": 466.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:37.469Z"
+  },
+  {
+    "illuminance": 355.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:42.596Z"
+  },
+  {
+    "illuminance": 343.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:47.728Z"
+  },
+  {
+    "illuminance": 346.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:52.852Z"
+  },
+  {
+    "illuminance": 394.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:21:57.982Z"
+  },
+  {
+    "illuminance": 473,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:03.099Z"
+  },
+  {
+    "illuminance": 424.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:08.236Z"
+  },
+  {
+    "illuminance": 335,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:13.359Z"
+  },
+  {
+    "illuminance": 325.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:18.482Z"
+  },
+  {
+    "illuminance": 321.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:23.603Z"
+  },
+  {
+    "illuminance": 318.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:28.738Z"
+  },
+  {
+    "illuminance": 315.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:33.865Z"
+  },
+  {
+    "illuminance": 312.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:38.985Z"
+  },
+  {
+    "illuminance": 310.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:44.126Z"
+  },
+  {
+    "illuminance": 310.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:49.248Z"
+  },
+  {
+    "illuminance": 358.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:54.374Z"
+  },
+  {
+    "illuminance": 360,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:22:59.491Z"
+  },
+  {
+    "illuminance": 359.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:04.632Z"
+  },
+  {
+    "illuminance": 361,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:09.764Z"
+  },
+  {
+    "illuminance": 365.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:14.917Z"
+  },
+  {
+    "illuminance": 368.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:20.002Z"
+  },
+  {
+    "illuminance": 368.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:25.139Z"
+  },
+  {
+    "illuminance": 373.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:30.263Z"
+  },
+  {
+    "illuminance": 372.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:35.385Z"
+  },
+  {
+    "illuminance": 377,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:40.522Z"
+  },
+  {
+    "illuminance": 388.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:45.645Z"
+  },
+  {
+    "illuminance": 432,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:50.768Z"
+  },
+  {
+    "illuminance": 419.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:23:55.889Z"
+  },
+  {
+    "illuminance": 435.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:01.028Z"
+  },
+  {
+    "illuminance": 442.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:06.151Z"
+  },
+  {
+    "illuminance": 370.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:11.274Z"
+  },
+  {
+    "illuminance": 365.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:16.396Z"
+  },
+  {
+    "illuminance": 357.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:21.538Z"
+  },
+  {
+    "illuminance": 355.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:26.654Z"
+  },
+  {
+    "illuminance": 354.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:31.779Z"
+  },
+  {
+    "illuminance": 353.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:36.917Z"
+  },
+  {
+    "illuminance": 351,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:42.040Z"
+  },
+  {
+    "illuminance": 348.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:47.165Z"
+  },
+  {
+    "illuminance": 340.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:52.285Z"
+  },
+  {
+    "illuminance": 339.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:24:57.422Z"
+  },
+  {
+    "illuminance": 339.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:02.546Z"
+  },
+  {
+    "illuminance": 338.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:07.666Z"
+  },
+  {
+    "illuminance": 339.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:12.795Z"
+  },
+  {
+    "illuminance": 334.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:17.929Z"
+  },
+  {
+    "illuminance": 335.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:23.052Z"
+  },
+  {
+    "illuminance": 336.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:28.173Z"
+  },
+  {
+    "illuminance": 336.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:33.313Z"
+  },
+  {
+    "illuminance": 337,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:38.436Z"
+  },
+  {
+    "illuminance": 337,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:43.557Z"
+  },
+  {
+    "illuminance": 336.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:48.682Z"
+  },
+  {
+    "illuminance": 336,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:53.804Z"
+  },
+  {
+    "illuminance": 336.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:25:58.942Z"
+  },
+  {
+    "illuminance": 335.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:04.066Z"
+  },
+  {
+    "illuminance": 334.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:09.186Z"
+  },
+  {
+    "illuminance": 333.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:14.325Z"
+  },
+  {
+    "illuminance": 332.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:19.448Z"
+  },
+  {
+    "illuminance": 331.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:24.570Z"
+  },
+  {
+    "illuminance": 330.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:29.708Z"
+  },
+  {
+    "illuminance": 330.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:34.833Z"
+  },
+  {
+    "illuminance": 330.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:39.959Z"
+  },
+  {
+    "illuminance": 331.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:45.078Z"
+  },
+  {
+    "illuminance": 332.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:50.214Z"
+  },
+  {
+    "illuminance": 333.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:26:55.337Z"
+  },
+  {
+    "illuminance": 335.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:00.460Z"
+  },
+  {
+    "illuminance": 336.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:05.581Z"
+  },
+  {
+    "illuminance": 338.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:10.721Z"
+  },
+  {
+    "illuminance": 342.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:15.844Z"
+  },
+  {
+    "illuminance": 343.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:20.965Z"
+  },
+  {
+    "illuminance": 346.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:26.101Z"
+  },
+  {
+    "illuminance": 347.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:31.224Z"
+  },
+  {
+    "illuminance": 352,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:36.349Z"
+  },
+  {
+    "illuminance": 356.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:41.485Z"
+  },
+  {
+    "illuminance": 361.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:46.608Z"
+  },
+  {
+    "illuminance": 368.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:51.732Z"
+  },
+  {
+    "illuminance": 371.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:27:56.856Z"
+  },
+  {
+    "illuminance": 370.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:01.979Z"
+  },
+  {
+    "illuminance": 378.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:07.115Z"
+  },
+  {
+    "illuminance": 379.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:12.238Z"
+  },
+  {
+    "illuminance": 406.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:17.358Z"
+  },
+  {
+    "illuminance": 386.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:22.501Z"
+  },
+  {
+    "illuminance": 388.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:27.625Z"
+  },
+  {
+    "illuminance": 386.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:32.739Z"
+  },
+  {
+    "illuminance": 390.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:37.869Z"
+  },
+  {
+    "illuminance": 389.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:43.005Z"
+  },
+  {
+    "illuminance": 409,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:48.129Z"
+  },
+  {
+    "illuminance": 432.3,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:53.251Z"
+  },
+  {
+    "illuminance": 419.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:28:58.377Z"
+  },
+  {
+    "illuminance": 461.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:03.510Z"
+  },
+  {
+    "illuminance": 506.9,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:08.640Z"
+  },
+  {
+    "illuminance": 508.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:13.756Z"
+  },
+  {
+    "illuminance": 513,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:18.877Z"
+  },
+  {
+    "illuminance": 550.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:24.019Z"
+  },
+  {
+    "illuminance": 527.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:29.144Z"
+  },
+  {
+    "illuminance": 565.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:34.264Z"
+  },
+  {
+    "illuminance": 565.1,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:39.401Z"
+  },
+  {
+    "illuminance": 494.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:44.525Z"
+  },
+  {
+    "illuminance": 430.4,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:49.647Z"
+  },
+  {
+    "illuminance": 414.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:54.770Z"
+  },
+  {
+    "illuminance": 389.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:29:59.907Z"
+  },
+  {
+    "illuminance": 391,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T13:30:05.030Z"
+  },
+  {
+    "illuminance": 468.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:22.884Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 470.7,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:27.955Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 466.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:33.089Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 450.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:38.219Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 457.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:43.342Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 397.8,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T14:12:48.461Z",
+    "room": "house1"
+  },
+  {
+    "illuminance": 272.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:34.115Z"
+  },
+  {
+    "illuminance": 273.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:39.177Z"
+  },
+  {
+    "illuminance": 274.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:44.306Z"
+  },
+  {
+    "illuminance": 273.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:49.432Z"
+  },
+  {
+    "illuminance": 278.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:54.567Z"
+  },
+  {
+    "illuminance": 277,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:16:59.689Z"
+  },
+  {
+    "illuminance": 240.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:17:04.808Z"
+  },
+  {
+    "illuminance": 28.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:27.287Z"
+  },
+  {
+    "illuminance": 29.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:32.400Z"
+  },
+  {
+    "illuminance": 29.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:37.510Z"
+  },
+  {
+    "illuminance": 29.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:42.644Z"
+  },
+  {
+    "illuminance": 29.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:47.776Z"
+  },
+  {
+    "illuminance": 29.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:52.896Z"
+  },
+  {
+    "illuminance": 29.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:46:58.013Z"
+  },
+  {
+    "illuminance": 29.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:03.161Z"
+  },
+  {
+    "illuminance": 30.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:08.273Z"
+  },
+  {
+    "illuminance": 31.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:13.406Z"
+  },
+  {
+    "illuminance": 31.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:18.518Z"
+  },
+  {
+    "illuminance": 30.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:23.666Z"
+  },
+  {
+    "illuminance": 30.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:28.787Z"
+  },
+  {
+    "illuminance": 31,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:33.914Z"
+  },
+  {
+    "illuminance": 30.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:39.044Z"
+  },
+  {
+    "illuminance": 29.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:44.174Z"
+  },
+  {
+    "illuminance": 29.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:49.289Z"
+  },
+  {
+    "illuminance": 29.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:54.411Z"
+  },
+  {
+    "illuminance": 30.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:47:59.552Z"
+  },
+  {
+    "illuminance": 31.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:04.672Z"
+  },
+  {
+    "illuminance": 31.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:09.805Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:14.923Z"
+  },
+  {
+    "illuminance": 30.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:20.058Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:25.180Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:30.305Z"
+  },
+  {
+    "illuminance": 29.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:35.448Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:40.564Z"
+  },
+  {
+    "illuminance": 30.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:45.689Z"
+  },
+  {
+    "illuminance": 30.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:50.810Z"
+  },
+  {
+    "illuminance": 30.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:48:55.945Z"
+  },
+  {
+    "illuminance": 30.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:01.068Z"
+  },
+  {
+    "illuminance": 30.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:06.198Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:11.315Z"
+  },
+  {
+    "illuminance": 30.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:16.452Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:21.577Z"
+  },
+  {
+    "illuminance": 30.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:26.702Z"
+  },
+  {
+    "illuminance": 30.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:31.819Z"
+  },
+  {
+    "illuminance": 31,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:36.961Z"
+  },
+  {
+    "illuminance": 31.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:42.090Z"
+  },
+  {
+    "illuminance": 31.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:47.203Z"
+  },
+  {
+    "illuminance": 31.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:52.343Z"
+  },
+  {
+    "illuminance": 31.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:49:57.465Z"
+  },
+  {
+    "illuminance": 31.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:02.587Z"
+  },
+  {
+    "illuminance": 31.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:07.719Z"
+  },
+  {
+    "illuminance": 31.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:12.849Z"
+  },
+  {
+    "illuminance": 32.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:17.972Z"
+  },
+  {
+    "illuminance": 32.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:23.102Z"
+  },
+  {
+    "illuminance": 32.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:28.218Z"
+  },
+  {
+    "illuminance": 32.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:33.356Z"
+  },
+  {
+    "illuminance": 32.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:38.480Z"
+  },
+  {
+    "illuminance": 33.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:43.606Z"
+  },
+  {
+    "illuminance": 33.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:48.744Z"
+  },
+  {
+    "illuminance": 33.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:53.860Z"
+  },
+  {
+    "illuminance": 33.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:50:58.994Z"
+  },
+  {
+    "illuminance": 33.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:51:04.104Z"
+  },
+  {
+    "illuminance": 33.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:04.529Z"
+  },
+  {
+    "illuminance": 33.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:09.644Z"
+  },
+  {
+    "illuminance": 33.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:14.768Z"
+  },
+  {
+    "illuminance": 33,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:19.889Z"
+  },
+  {
+    "illuminance": 32.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:25.033Z"
+  },
+  {
+    "illuminance": 32.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:30.154Z"
+  },
+  {
+    "illuminance": 32.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:35.272Z"
+  },
+  {
+    "illuminance": 31.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:40.413Z"
+  },
+  {
+    "illuminance": 31.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:45.540Z"
+  },
+  {
+    "illuminance": 31.6,
+    "id": "house1",
+    "timestamp": "2024-04-25T14:58:50.656Z"
+  },
+  {
+    "illuminance": 31.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:58:55.785Z"
+  },
+  {
+    "illuminance": 30.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:00.915Z"
+  },
+  {
+    "illuminance": 31,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:06.039Z"
+  },
+  {
+    "illuminance": 31,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:11.160Z"
+  },
+  {
+    "illuminance": 30.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:16.301Z"
+  },
+  {
+    "illuminance": 30.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:21.422Z"
+  },
+  {
+    "illuminance": 30,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:26.542Z"
+  },
+  {
+    "illuminance": 29,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:31.665Z"
+  },
+  {
+    "illuminance": 29.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:36.814Z"
+  },
+  {
+    "illuminance": 29.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:41.935Z"
+  },
+  {
+    "illuminance": 29,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:47.052Z"
+  },
+  {
+    "illuminance": 28.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:52.172Z"
+  },
+  {
+    "illuminance": 28.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T14:59:57.314Z"
+  },
+  {
+    "illuminance": 28,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:02.437Z"
+  },
+  {
+    "illuminance": 27.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:07.559Z"
+  },
+  {
+    "illuminance": 27.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:12.696Z"
+  },
+  {
+    "illuminance": 26.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:17.821Z"
+  },
+  {
+    "illuminance": 26.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:22.942Z"
+  },
+  {
+    "illuminance": 25.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:28.065Z"
+  },
+  {
+    "illuminance": 26.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:33.209Z"
+  },
+  {
+    "illuminance": 25.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:38.326Z"
+  },
+  {
+    "illuminance": 25.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:43.448Z"
+  },
+  {
+    "illuminance": 25.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:48.581Z"
+  },
+  {
+    "illuminance": 24.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:53.709Z"
+  },
+  {
+    "illuminance": 24.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:00:58.838Z"
+  },
+  {
+    "illuminance": 23.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:03.954Z"
+  },
+  {
+    "illuminance": 23.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:09.075Z"
+  },
+  {
+    "illuminance": 23.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:14.221Z"
+  },
+  {
+    "illuminance": 23.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:19.338Z"
+  },
+  {
+    "illuminance": 23.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:24.466Z"
+  },
+  {
+    "illuminance": 22.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:29.600Z"
+  },
+  {
+    "illuminance": 22.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:34.729Z"
+  },
+  {
+    "illuminance": 22.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:39.846Z"
+  },
+  {
+    "illuminance": 22.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:44.967Z"
+  },
+  {
+    "illuminance": 22.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:50.109Z"
+  },
+  {
+    "illuminance": 22,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:01:55.237Z"
+  },
+  {
+    "illuminance": 21.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:00.350Z"
+  },
+  {
+    "illuminance": 21.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:05.474Z"
+  },
+  {
+    "illuminance": 21.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:10.615Z"
+  },
+  {
+    "illuminance": 21.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:15.734Z"
+  },
+  {
+    "illuminance": 21.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:20.857Z"
+  },
+  {
+    "illuminance": 21.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:25.983Z"
+  },
+  {
+    "illuminance": 20.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:31.116Z"
+  },
+  {
+    "illuminance": 20.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:36.246Z"
+  },
+  {
+    "illuminance": 21.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:41.363Z"
+  },
+  {
+    "illuminance": 21.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:46.504Z"
+  },
+  {
+    "illuminance": 20.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:51.624Z"
+  },
+  {
+    "illuminance": 21.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:02:56.749Z"
+  },
+  {
+    "illuminance": 20.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:01.876Z"
+  },
+  {
+    "illuminance": 20.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:07.007Z"
+  },
+  {
+    "illuminance": 20.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:12.131Z"
+  },
+  {
+    "illuminance": 20.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:17.252Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:22.376Z"
+  },
+  {
+    "illuminance": 19.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:27.499Z"
+  },
+  {
+    "illuminance": 19.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:32.640Z"
+  },
+  {
+    "illuminance": 19.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:37.761Z"
+  },
+  {
+    "illuminance": 19.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:42.885Z"
+  },
+  {
+    "illuminance": 19.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:48.019Z"
+  },
+  {
+    "illuminance": 19.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:53.142Z"
+  },
+  {
+    "illuminance": 19.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:03:58.265Z"
+  },
+  {
+    "illuminance": 19.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:03.405Z"
+  },
+  {
+    "illuminance": 18.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:08.526Z"
+  },
+  {
+    "illuminance": 18.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:13.649Z"
+  },
+  {
+    "illuminance": 18.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:18.773Z"
+  },
+  {
+    "illuminance": 18.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:23.914Z"
+  },
+  {
+    "illuminance": 18.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:29.032Z"
+  },
+  {
+    "illuminance": 18.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:34.159Z"
+  },
+  {
+    "illuminance": 17.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:39.276Z"
+  },
+  {
+    "illuminance": 18.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:44.413Z"
+  },
+  {
+    "illuminance": 18,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:49.540Z"
+  },
+  {
+    "illuminance": 17.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:54.659Z"
+  },
+  {
+    "illuminance": 17.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:04:59.800Z"
+  },
+  {
+    "illuminance": 17.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:04.924Z"
+  },
+  {
+    "illuminance": 17.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:10.043Z"
+  },
+  {
+    "illuminance": 17.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:15.168Z"
+  },
+  {
+    "illuminance": 17.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:20.307Z"
+  },
+  {
+    "illuminance": 17.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:25.432Z"
+  },
+  {
+    "illuminance": 17.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:30.549Z"
+  },
+  {
+    "illuminance": 17.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:35.677Z"
+  },
+  {
+    "illuminance": 17.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:40.817Z"
+  },
+  {
+    "illuminance": 17,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:45.936Z"
+  },
+  {
+    "illuminance": 16.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:51.063Z"
+  },
+  {
+    "illuminance": 16.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:05:56.178Z"
+  },
+  {
+    "illuminance": 16.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:01.319Z"
+  },
+  {
+    "illuminance": 16.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:06.442Z"
+  },
+  {
+    "illuminance": 16.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:11.565Z"
+  },
+  {
+    "illuminance": 16.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:16.703Z"
+  },
+  {
+    "illuminance": 16.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:21.822Z"
+  },
+  {
+    "illuminance": 16.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:26.948Z"
+  },
+  {
+    "illuminance": 16.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:32.071Z"
+  },
+  {
+    "illuminance": 16.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:37.211Z"
+  },
+  {
+    "illuminance": 16.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:42.347Z"
+  },
+  {
+    "illuminance": 16.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:47.461Z"
+  },
+  {
+    "illuminance": 16.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:52.574Z"
+  },
+  {
+    "illuminance": 16.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:06:57.724Z"
+  },
+  {
+    "illuminance": 16.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:02.848Z"
+  },
+  {
+    "illuminance": 17.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:07.967Z"
+  },
+  {
+    "illuminance": 17.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:13.108Z"
+  },
+  {
+    "illuminance": 17.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:18.231Z"
+  },
+  {
+    "illuminance": 18,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:23.344Z"
+  },
+  {
+    "illuminance": 19.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:28.465Z"
+  },
+  {
+    "illuminance": 19.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:33.605Z"
+  },
+  {
+    "illuminance": 18.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:38.724Z"
+  },
+  {
+    "illuminance": 18.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:43.848Z"
+  },
+  {
+    "illuminance": 17.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:48.975Z"
+  },
+  {
+    "illuminance": 16.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:54.112Z"
+  },
+  {
+    "illuminance": 16.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:07:59.231Z"
+  },
+  {
+    "illuminance": 15.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:08:04.360Z"
+  },
+  {
+    "illuminance": 15.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:08:09.479Z"
+  },
+  {
+    "illuminance": 16.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:08:14.614Z"
+  },
+  {
+    "illuminance": 15.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:08:19.736Z"
+  },
+  {
+    "illuminance": 25.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:14:49.411Z"
+  },
+  {
+    "illuminance": 25.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:14:54.518Z"
+  },
+  {
+    "illuminance": 24.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:14:59.635Z"
+  },
+  {
+    "illuminance": 26,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:04.761Z"
+  },
+  {
+    "illuminance": 26,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:09.880Z"
+  },
+  {
+    "illuminance": 25.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:15.019Z"
+  },
+  {
+    "illuminance": 25.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:20.144Z"
+  },
+  {
+    "illuminance": 25.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:25.263Z"
+  },
+  {
+    "illuminance": 25.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:30.402Z"
+  },
+  {
+    "illuminance": 25.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:35.530Z"
+  },
+  {
+    "illuminance": 25.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:40.649Z"
+  },
+  {
+    "illuminance": 25.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:45.769Z"
+  },
+  {
+    "illuminance": 25.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:50.911Z"
+  },
+  {
+    "illuminance": 25.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:15:56.030Z"
+  },
+  {
+    "illuminance": 25.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:01.155Z"
+  },
+  {
+    "illuminance": 25.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:06.295Z"
+  },
+  {
+    "illuminance": 25.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:11.416Z"
+  },
+  {
+    "illuminance": 25.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:16.537Z"
+  },
+  {
+    "illuminance": 25.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:21.666Z"
+  },
+  {
+    "illuminance": 24.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:26.797Z"
+  },
+  {
+    "illuminance": 24.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:31.921Z"
+  },
+  {
+    "illuminance": 24.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:37.044Z"
+  },
+  {
+    "illuminance": 24.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:42.163Z"
+  },
+  {
+    "illuminance": 24.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:47.304Z"
+  },
+  {
+    "illuminance": 24.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:52.423Z"
+  },
+  {
+    "illuminance": 24.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:16:57.546Z"
+  },
+  {
+    "illuminance": 24.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:02.687Z"
+  },
+  {
+    "illuminance": 24.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:07.798Z"
+  },
+  {
+    "illuminance": 24.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:12.936Z"
+  },
+  {
+    "illuminance": 24.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:18.054Z"
+  },
+  {
+    "illuminance": 24.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:23.199Z"
+  },
+  {
+    "illuminance": 24.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:28.314Z"
+  },
+  {
+    "illuminance": 24,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:33.438Z"
+  },
+  {
+    "illuminance": 23.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:38.565Z"
+  },
+  {
+    "illuminance": 23.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:43.700Z"
+  },
+  {
+    "illuminance": 23.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:48.827Z"
+  },
+  {
+    "illuminance": 22.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:53.951Z"
+  },
+  {
+    "illuminance": 23.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:17:59.065Z"
+  },
+  {
+    "illuminance": 23.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:04.210Z"
+  },
+  {
+    "illuminance": 23.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:09.329Z"
+  },
+  {
+    "illuminance": 23.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:14.451Z"
+  },
+  {
+    "illuminance": 23.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:19.591Z"
+  },
+  {
+    "illuminance": 22.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:24.712Z"
+  },
+  {
+    "illuminance": 22.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:29.835Z"
+  },
+  {
+    "illuminance": 22.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:34.958Z"
+  },
+  {
+    "illuminance": 22.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:40.103Z"
+  },
+  {
+    "illuminance": 22.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:45.223Z"
+  },
+  {
+    "illuminance": 22.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:50.339Z"
+  },
+  {
+    "illuminance": 22.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:18:55.463Z"
+  },
+  {
+    "illuminance": 21.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:00.602Z"
+  },
+  {
+    "illuminance": 22.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:05.726Z"
+  },
+  {
+    "illuminance": 22,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:10.848Z"
+  },
+  {
+    "illuminance": 21.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:15.986Z"
+  },
+  {
+    "illuminance": 21.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:21.108Z"
+  },
+  {
+    "illuminance": 21.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:26.231Z"
+  },
+  {
+    "illuminance": 21.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:31.354Z"
+  },
+  {
+    "illuminance": 21.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:36.491Z"
+  },
+  {
+    "illuminance": 21.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:41.618Z"
+  },
+  {
+    "illuminance": 21.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:46.742Z"
+  },
+  {
+    "illuminance": 21.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:51.857Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:19:57.001Z"
+  },
+  {
+    "illuminance": 21,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:02.120Z"
+  },
+  {
+    "illuminance": 21.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:07.242Z"
+  },
+  {
+    "illuminance": 20.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:12.388Z"
+  },
+  {
+    "illuminance": 20.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:17.505Z"
+  },
+  {
+    "illuminance": 20.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:22.626Z"
+  },
+  {
+    "illuminance": 20.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:27.752Z"
+  },
+  {
+    "illuminance": 20.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:32.894Z"
+  },
+  {
+    "illuminance": 20.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:38.008Z"
+  },
+  {
+    "illuminance": 20.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:43.133Z"
+  },
+  {
+    "illuminance": 20.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:48.252Z"
+  },
+  {
+    "illuminance": 20.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:53.396Z"
+  },
+  {
+    "illuminance": 20.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:20:58.516Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:03.640Z"
+  },
+  {
+    "illuminance": 20.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:08.777Z"
+  },
+  {
+    "illuminance": 20.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:13.900Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:19.024Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:24.145Z"
+  },
+  {
+    "illuminance": 20,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:29.288Z"
+  },
+  {
+    "illuminance": 19.9,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:34.408Z"
+  },
+  {
+    "illuminance": 19.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:39.528Z"
+  },
+  {
+    "illuminance": 19.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:44.654Z"
+  },
+  {
+    "illuminance": 19.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:21:49.793Z"
+  },
+  {
+    "illuminance": 18.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:57:37.955Z"
+  },
+  {
+    "illuminance": 18.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:57:43.074Z"
+  },
+  {
+    "illuminance": 18.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:57:48.184Z"
+  },
+  {
+    "illuminance": 18.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:57:53.323Z"
+  },
+  {
+    "illuminance": 18.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:57:58.446Z"
+  },
+  {
+    "illuminance": 18.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:03.579Z"
+  },
+  {
+    "illuminance": 18.8,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:08.702Z"
+  },
+  {
+    "illuminance": 19.7,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:13.835Z"
+  },
+  {
+    "illuminance": 22.1,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:18.960Z"
+  },
+  {
+    "illuminance": 25.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:24.074Z"
+  },
+  {
+    "illuminance": 29.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:29.211Z"
+  },
+  {
+    "illuminance": 32.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:34.344Z"
+  },
+  {
+    "illuminance": 34.3,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:39.469Z"
+  },
+  {
+    "illuminance": 36.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:44.592Z"
+  },
+  {
+    "illuminance": 41,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:49.722Z"
+  },
+  {
+    "illuminance": 46.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:54.852Z"
+  },
+  {
+    "illuminance": 49.6,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:58:59.972Z"
+  },
+  {
+    "illuminance": 53.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:05.087Z"
+  },
+  {
+    "illuminance": 55.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:10.224Z"
+  },
+  {
+    "illuminance": 56.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:15.348Z"
+  },
+  {
+    "illuminance": 57,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:20.472Z"
+  },
+  {
+    "illuminance": 57.4,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:25.609Z"
+  },
+  {
+    "illuminance": 58.2,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:30.732Z"
+  },
+  {
+    "illuminance": 58.5,
+    "id": "bathroom",
+    "timestamp": "2024-04-25T15:59:35.852Z"
+  },
+  {
+    "illuminance": 58.8,
+    "id": "house4",
+    "timestamp": "2024-04-25T15:59:40.975Z"
+  },
+  {
+    "illuminance": 59.1,
+    "id": "house4",
+    "timestamp": "2024-04-25T15:59:46.114Z"
+  },
+  {
+    "illuminance": 59.2,
+    "id": "house4",
+    "timestamp": "2024-04-25T15:59:51.238Z"
+  },
+  {
+    "illuminance": 59.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T15:59:56.363Z"
+  },
+  {
+    "illuminance": 59.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:01.484Z"
+  },
+  {
+    "illuminance": 59,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:06.605Z"
+  },
+  {
+    "illuminance": 54.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:11.750Z"
+  },
+  {
+    "illuminance": 54.7,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:16.867Z"
+  },
+  {
+    "illuminance": 54.8,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:21.994Z"
+  },
+  {
+    "illuminance": 54.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:27.128Z"
+  },
+  {
+    "illuminance": 54.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:32.252Z"
+  },
+  {
+    "illuminance": 54.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:37.374Z"
+  },
+  {
+    "illuminance": 54.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:42.510Z"
+  },
+  {
+    "illuminance": 54,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:47.635Z"
+  },
+  {
+    "illuminance": 57.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:52.757Z"
+  },
+  {
+    "illuminance": 57.7,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:00:57.880Z"
+  },
+  {
+    "illuminance": 57.6,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:03.023Z"
+  },
+  {
+    "illuminance": 57.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:08.139Z"
+  },
+  {
+    "illuminance": 56.9,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:13.260Z"
+  },
+  {
+    "illuminance": 57.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:18.386Z"
+  },
+  {
+    "illuminance": 57.8,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:23.524Z"
+  },
+  {
+    "illuminance": 57.9,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:28.647Z"
+  },
+  {
+    "illuminance": 58,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:33.770Z"
+  },
+  {
+    "illuminance": 58.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:38.910Z"
+  },
+  {
+    "illuminance": 56.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:44.028Z"
+  },
+  {
+    "illuminance": 56.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:49.152Z"
+  },
+  {
+    "illuminance": 56.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:01:54.274Z"
+  },
+  {
+    "illuminance": 58.8,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:05:39.885Z"
+  },
+  {
+    "illuminance": 59.1,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:05:45.001Z"
+  },
+  {
+    "illuminance": 59.6,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:05:50.120Z"
+  },
+  {
+    "illuminance": 63.2,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T16:07:22.419Z"
+  },
+  {
+    "illuminance": 63.5,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T16:07:27.529Z"
+  },
+  {
+    "illuminance": 63.6,
+    "id": 94038500663588,
+    "timestamp": "2024-04-25T16:07:32.647Z"
+  },
+  {
+    "illuminance": 65.2,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:10:01.343Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:10:06.450Z"
+  },
+  {
+    "illuminance": 65.3,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:10:11.656Z"
+  },
+  {
+    "illuminance": 62.7,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:12:14.641Z"
+  },
+  {
+    "illuminance": 62.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:12:19.747Z"
+  },
+  {
+    "illuminance": 62.5,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:12:24.885Z"
+  },
+  {
+    "illuminance": 61,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:13:21.293Z"
+  },
+  {
+    "illuminance": 61.2,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:13:26.407Z"
+  },
+  {
+    "illuminance": 61.2,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:13:31.529Z"
+  },
+  {
+    "illuminance": 61,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:13:36.651Z"
+  },
+  {
+    "illuminance": 54.4,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:17:22.232Z"
+  },
+  {
+    "illuminance": 54.2,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:17:27.365Z"
+  },
+  {
+    "illuminance": 53.6,
+    "id": "house4",
+    "timestamp": "2024-04-25T16:17:32.490Z"
+  },
+  {
+    "illuminance": 53.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:17:37.610Z"
+  },
+  {
+    "illuminance": 53.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:17:42.750Z"
+  },
+  {
+    "illuminance": 53.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:17:47.870Z"
+  },
+  {
+    "illuminance": 53.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:17:53.001Z"
+  },
+  {
+    "illuminance": 53.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:17:58.115Z"
+  },
+  {
+    "illuminance": 53.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:03.253Z"
+  },
+  {
+    "illuminance": 52.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:08.376Z"
+  },
+  {
+    "illuminance": 52.7,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:13.504Z"
+  },
+  {
+    "illuminance": 52.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:18.632Z"
+  },
+  {
+    "illuminance": 52.2,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:23.773Z"
+  },
+  {
+    "illuminance": 51.8,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:28.891Z"
+  },
+  {
+    "illuminance": 49.3,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:18:34.017Z"
+  },
+  {
+    "illuminance": 20.1,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:19:50.924Z"
+  },
+  {
+    "illuminance": 19.5,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:19:56.042Z"
+  },
+  {
+    "illuminance": 19,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:20:01.165Z"
+  },
+  {
+    "illuminance": 18.9,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:20:06.287Z"
+  },
+  {
+    "illuminance": 19.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:20:11.432Z"
+  },
+  {
+    "illuminance": 21,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:20:16.552Z"
+  },
+  {
+    "illuminance": 23.4,
+    "id": "house1",
+    "timestamp": "2024-04-25T16:20:21.677Z"
   }
 ]

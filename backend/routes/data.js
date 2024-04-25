@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
+const Utils = require('../utils');
 
 // Path to the data file
 const dataFilePath = './data/data.json';
+const idListFilePath = './data/idList.json'; // Path to the ID list file
 
 // Route to receive data from the Hardwario card
 router.post('/', (req, res) => {
@@ -13,6 +15,8 @@ router.post('/', (req, res) => {
     // Add the timestamp of data reception
     data.timestamp = new Date();
 
+    // Add the original ID to the ID list
+    addToIdList(data.id);
     // Save the data to the data.json file
     saveData(data);
 
@@ -37,6 +41,21 @@ function saveData(data) {
         // Load the current data from the data.json file
         let currentData = loadCurrentData();
 
+        // Load the mapping of room names to IDs from the config file
+        const roomConfig = Utils.loadRoomConfig();
+
+        // Retrieve the room name corresponding to the ID
+        const room = Utils.findRoomNameById(data.id);
+
+        // Check if the room name exists in the config file
+        if (!roomConfig[room]) {
+            console.error('Error saving data to data.json: Room name does not exist in the config file');
+            return;
+        }
+
+        // Assign the retrieved room name as the ID
+        data.id = room;
+
         // Add the new data to the array
         currentData.push(data);
 
@@ -48,18 +67,6 @@ function saveData(data) {
     }
 }
 
-// Route to load data from data.json
-router.get('/', (req, res) => {
-    try {
-        // Load data from the data.json file
-        const data = loadCurrentData();
-        res.status(200).json(data);
-    } catch (error) {
-        console.error('Error loading data from data.json:', error.toString());
-        res.status(500).send('Error loading data from data.json');
-    }
-});
-
 // Function to load current data from the data.json file
 function loadCurrentData() {
     try {
@@ -68,6 +75,31 @@ function loadCurrentData() {
     } catch (error) {
         // If the file doesn't exist or is empty, return an empty array
         return [];
+    }
+}
+
+// Function to load the list of IDs from idList.json file
+function loadIdList() {
+    try {
+        const data = fs.readFileSync(idListFilePath);
+        return JSON.parse(data);
+    } catch (error) {
+        // If the file doesn't exist or is empty, return an empty array
+        return [];
+    }
+}
+
+// Function to add the original ID to the ID list
+function addToIdList(id) {
+    try {
+        let idList = loadIdList();
+        if (!idList.includes(id)) {
+            idList.push(id);
+            fs.writeFileSync(idListFilePath, JSON.stringify(idList, null, 2));
+            console.log('ID added to the ID list:', id);
+        }
+    } catch (error) {
+        console.error('Error adding ID to the ID list:', error.toString());
     }
 }
 
