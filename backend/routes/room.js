@@ -119,6 +119,34 @@ router.put('/:room', (req, res) => {
     res.status(200).send(`Configuration de la pièce ${room} mise à jour avec succès`);
 });
 
+// Route pour supprimer une pièce de la configuration
+router.delete('/:room', (req, res) => {
+    const room = req.params.room;
+    console.log(`Suppression de la pièce : ${room}`);
+
+    // Charger la configuration actuelle depuis le fichier config.json
+    let configData = loadConfiguration();
+
+    if (!configData) {
+        // Impossible de charger la configuration actuelle, arrêter le traitement
+        return res.status(500).send('Impossible de charger la configuration actuelle');
+    }
+
+    // Vérifier si la pièce existe déjà dans la configuration
+    if (!configData[room]) {
+        return res.status(404).send(`La pièce ${room} n'existe pas dans la configuration`);
+    }
+
+    // Supprimer la pièce de la configuration
+    delete configData[room];
+
+    // Enregistrer la nouvelle configuration dans le fichier config.json
+    saveConfiguration(configData);
+
+    // Envoyer une réponse indiquant que la pièce a été supprimée avec succès
+    res.status(200).send(`Pièce ${room} supprimée avec succès`);
+});
+
 // Route pour charger toute la configuration
 router.get('/', (req, res) => {
     const configData = loadConfiguration();
