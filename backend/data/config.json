@@ -1,26 +1,31 @@
 {
-  "house1": {
-    "id": 94038500663588,
-    "luminositeMax": 2000,
-    "luminositeMin": 0,
-    "automatique": true,
-    "blinds": 98.37100000000001
-  },
-  "bathroom": {
+  "Kitchen": {
     "id": 0,
-    "luminositeMax": 2000,
+    "name": "Kitchen",
+    "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 97.3365
+    "blinds": 98.4
   },
-  "house4": {
-    "id": 0,
-    "luminositeMax": 2000,
+  "Bathroom": {
+    "id": 1,
+    "name": "Bathroom",
+    "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 97.248
+    "blinds": 97.3
   },
-  "house5": {
+  "Bedroom": {
+    "id": 2,
+    "name": "Bedroom",
+    "luminositeMax": 100,
+    "luminositeMin": 0,
+    "automatique": true,
+    "blinds": 97.2
+  },
+  "Test": {
+    "id": 3,
+    "name": "Test",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,

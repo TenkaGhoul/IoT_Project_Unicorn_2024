@@ -66,8 +66,8 @@ async function DELETERoutines(url) {
 
 // fetch all rooms from the server
 async function fetchRooms() {
-    const data = await fetchRoutines("rooms");
-    return data;
+    const data = await fetchRoutines('rooms');
+    return data || [];
 }
 
 // fetch all data from the server
@@ -84,7 +84,7 @@ async function fetchID() {
 
 // create a new room
 async function createRoom(room) {
-    const data = await POSTRoutines("rooms/", room);
+    const data = await POSTRoutines("rooms/"+ room);
     return data;
 }
 

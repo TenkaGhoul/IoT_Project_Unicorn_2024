@@ -1,0 +1,87 @@
+.dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.dashboard-title {
+    color: #333;
+    text-align: center;
+}
+
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(49% - 50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.room:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.room-name {
+    color: #333;
+}
+
+.room-divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+
+.room-delete-button {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.room-delete-button:hover {
+    background: #d32f2f;
+}
+
+.dashboard-divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.room-add-form {
+    margin-top: 20px;
+}
+
+.room-name-input {
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.room-add-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.room-add-button:hover {
+    background: #388e3c;
+}
