@@ -4,7 +4,7 @@
     "luminositeMax": 2000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 98.37100000000001
+    "blinds": 96.7555
   },
   "bathroom": {
     "id": 0,
@@ -21,6 +21,7 @@
     "blinds": 97.248
   },
   "house5": {
+    "id": 0,
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,

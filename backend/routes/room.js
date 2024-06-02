@@ -41,6 +41,7 @@ router.post('/:room', (req, res) => {
 
     // Créer une nouvelle configuration de base pour la pièce
     currentConfiguration[room] = {
+        id: 0,
         luminositeMax: 100,
         luminositeMin: 0,
         automatique: true,

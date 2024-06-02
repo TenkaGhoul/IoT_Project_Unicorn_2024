@@ -20614,5 +20614,590 @@
     "illuminance": 23.4,
     "id": "house1",
     "timestamp": "2024-04-25T16:20:21.677Z"
+  },
+  {
+    "illuminance": 27,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:19.410Z"
+  },
+  {
+    "illuminance": 26.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:24.505Z"
+  },
+  {
+    "illuminance": 11.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:29.648Z"
+  },
+  {
+    "illuminance": 25.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:34.771Z"
+  },
+  {
+    "illuminance": 27,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:39.888Z"
+  },
+  {
+    "illuminance": 64,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:45.014Z"
+  },
+  {
+    "illuminance": 78.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:50.149Z"
+  },
+  {
+    "illuminance": 81.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:43:55.273Z"
+  },
+  {
+    "illuminance": 81.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:00.398Z"
+  },
+  {
+    "illuminance": 81.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:05.521Z"
+  },
+  {
+    "illuminance": 81.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:10.656Z"
+  },
+  {
+    "illuminance": 81.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:15.780Z"
+  },
+  {
+    "illuminance": 81.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:20.902Z"
+  },
+  {
+    "illuminance": 81.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:26.025Z"
+  },
+  {
+    "illuminance": 81.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:31.162Z"
+  },
+  {
+    "illuminance": 81.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:36.286Z"
+  },
+  {
+    "illuminance": 79.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:41.412Z"
+  },
+  {
+    "illuminance": 78.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:46.531Z"
+  },
+  {
+    "illuminance": 78.7,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:51.668Z"
+  },
+  {
+    "illuminance": 79,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:44:56.794Z"
+  },
+  {
+    "illuminance": 78.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:01.916Z"
+  },
+  {
+    "illuminance": 78.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:07.052Z"
+  },
+  {
+    "illuminance": 60.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:12.177Z"
+  },
+  {
+    "illuminance": 60.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:17.296Z"
+  },
+  {
+    "illuminance": 61.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:22.418Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:27.558Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:32.686Z"
+  },
+  {
+    "illuminance": 62.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:37.804Z"
+  },
+  {
+    "illuminance": 62.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:42.926Z"
+  },
+  {
+    "illuminance": 62.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:48.064Z"
+  },
+  {
+    "illuminance": 62.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:53.186Z"
+  },
+  {
+    "illuminance": 62.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:45:58.310Z"
+  },
+  {
+    "illuminance": 62.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:03.449Z"
+  },
+  {
+    "illuminance": 62.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:08.566Z"
+  },
+  {
+    "illuminance": 62.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:13.688Z"
+  },
+  {
+    "illuminance": 62.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:18.826Z"
+  },
+  {
+    "illuminance": 61.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:23.949Z"
+  },
+  {
+    "illuminance": 62.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:29.074Z"
+  },
+  {
+    "illuminance": 60.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:34.198Z"
+  },
+  {
+    "illuminance": 61.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:39.333Z"
+  },
+  {
+    "illuminance": 60.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:44.458Z"
+  },
+  {
+    "illuminance": 60.7,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:49.577Z"
+  },
+  {
+    "illuminance": 60.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:54.715Z"
+  },
+  {
+    "illuminance": 60.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:46:59.837Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:04.963Z"
+  },
+  {
+    "illuminance": 60.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:10.085Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:15.225Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:20.350Z"
+  },
+  {
+    "illuminance": 62.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:25.467Z"
+  },
+  {
+    "illuminance": 62.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:30.605Z"
+  },
+  {
+    "illuminance": 62.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:35.733Z"
+  },
+  {
+    "illuminance": 62.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:40.851Z"
+  },
+  {
+    "illuminance": 63,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:45.976Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:51.111Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:47:56.233Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:01.355Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:06.483Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:11.621Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:16.741Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:21.867Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:26.983Z"
+  },
+  {
+    "illuminance": 62,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:32.122Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:37.248Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:42.368Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:47.506Z"
+  },
+  {
+    "illuminance": 61.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:52.628Z"
+  },
+  {
+    "illuminance": 62.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:48:57.755Z"
+  },
+  {
+    "illuminance": 62.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:02.875Z"
+  },
+  {
+    "illuminance": 67.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:08.015Z"
+  },
+  {
+    "illuminance": 67.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:13.137Z"
+  },
+  {
+    "illuminance": 67.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:18.259Z"
+  },
+  {
+    "illuminance": 58.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:23.394Z"
+  },
+  {
+    "illuminance": 63.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:28.518Z"
+  },
+  {
+    "illuminance": 63.7,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:33.643Z"
+  },
+  {
+    "illuminance": 63.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:38.765Z"
+  },
+  {
+    "illuminance": 63.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:43.901Z"
+  },
+  {
+    "illuminance": 63.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:49.027Z"
+  },
+  {
+    "illuminance": 64.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:54.150Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:49:59.269Z"
+  },
+  {
+    "illuminance": 64.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:04.408Z"
+  },
+  {
+    "illuminance": 63.5,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:09.529Z"
+  },
+  {
+    "illuminance": 64.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:14.655Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:19.775Z"
+  },
+  {
+    "illuminance": 63.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:24.913Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:30.036Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:35.157Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:40.297Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:45.422Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:50.543Z"
+  },
+  {
+    "illuminance": 63.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:50:55.665Z"
+  },
+  {
+    "illuminance": 63.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:00.803Z"
+  },
+  {
+    "illuminance": 63,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:05.925Z"
+  },
+  {
+    "illuminance": 64.8,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:11.048Z"
+  },
+  {
+    "illuminance": 65.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:16.186Z"
+  },
+  {
+    "illuminance": 64.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:21.309Z"
+  },
+  {
+    "illuminance": 64.3,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:26.430Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:31.555Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:36.678Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:41.813Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:46.937Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:52.066Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:51:57.199Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:02.323Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:07.444Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:12.566Z"
+  },
+  {
+    "illuminance": 64.6,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:17.707Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:22.831Z"
+  },
+  {
+    "illuminance": 65,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:27.948Z"
+  },
+  {
+    "illuminance": 64.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:33.088Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:38.227Z"
+  },
+  {
+    "illuminance": 65.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:43.336Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:48.475Z"
+  },
+  {
+    "illuminance": 65.2,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:53.594Z"
+  },
+  {
+    "illuminance": 64.9,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:52:58.749Z"
+  },
+  {
+    "illuminance": 65.1,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:53:03.841Z"
+  },
+  {
+    "illuminance": 64.4,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:53:08.979Z"
+  },
+  {
+    "illuminance": 64.7,
+    "id": "house1",
+    "timestamp": "2024-06-02T14:53:14.099Z"
   }
 ]
