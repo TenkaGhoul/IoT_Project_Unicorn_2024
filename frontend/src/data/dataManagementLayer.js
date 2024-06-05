@@ -1,5 +1,5 @@
 // fetch initial data from the server
-const baseUrl = 'http://localhost:3001/';
+const baseUrl = 'http://localhost:3002/';
 
 // fetch (get) data from the server
 async function fetchRoutines(url) {
@@ -100,6 +100,13 @@ async function modifyID(id) {
     return data;
 }
 
+// update the name of a room
+// http://localhost:3002/rooms/?id=xxx/?name=yyy
+async function modifyName(roomId, newName) {
+    const data = await PUTRoutines("rooms/" + roomId + "/" + newName);
+    return data;
+}
+
 // Change the configuration of a room (configuration/modify-room)
 async function modifyRoom(room) {
     const data = await PUTRoutines("rooms/configuration/", room);
@@ -121,5 +128,6 @@ module.exports.fetchID = fetchID;
 module.exports.createRoom = createRoom;
 module.exports.deleteRoom = deleteRoom;
 module.exports.modifyID = modifyID;
+module.exports.modifyName = modifyName;
 module.exports.modifyRoom = modifyRoom;
 module.exports.modifyBlinds = modifyBlinds;

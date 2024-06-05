@@ -8,7 +8,7 @@ const configFilePath = './data/config.json';
 function updateState() {
     // Check if the cron task is already running
     if (isUpdating) {
-        console.log("\x1b[33m%s\x1b[0m",'Updating room states is already in progress...');
+        console.log("\x1b[33m%s\x1b[0m",'[Info] Update already in progress...');
         return;
     }
 
@@ -16,13 +16,13 @@ function updateState() {
     isUpdating = true;
 
     cron.schedule('*/1 * * * *', () => {
-        console.log("\x1b[31m%s\x1b[0m",'Updating room states...');
+        console.log("\x1b[33m%s\x1b[0m",'[Info] Updating room states...');
 
         // Load configuration data from config.json file
         const configData = loadConfiguration(configFilePath);
 
         if (!configData) {
-            console.error('Unable to load room configuration');
+            console.error('[Error] Unable to load configuration data');
             // Reset the variable to allow a new update attempt
             isUpdating = false;
             return;
@@ -39,7 +39,7 @@ function updateState() {
                 const data = loadData(dataFilePath);
 
                 if (!data) {
-                    console.error('Unable to load light data');
+                    console.error('[Error] Unable to load data');
                     continue; // Continue to the next room
                 }
 
@@ -47,7 +47,7 @@ function updateState() {
                 const medianLight = calculateAverageLight(data, room);
 
                 if (medianLight === null) {
-                    console.error('Unable to calculate median light');
+                    console.error('[Error] Unable to calculate median light for room:', room);
                     continue; // Continue to the next room
                 }
 
@@ -77,7 +77,7 @@ function loadConfiguration(configFilePath) {
         const data = fs.readFileSync(configFilePath);
         return JSON.parse(data);
     } catch (error) {
-        console.error('Error loading configuration:', error.toString());
+        console.error('[Error] loading configuration:', error.toString());
         return null;
     }
 }
@@ -87,17 +87,17 @@ function loadData(dataFilePath) {
         const data = fs.readFileSync(dataFilePath);
         return JSON.parse(data);
     } catch (error) {
-        console.error('Error loading data:', error.toString());
+        console.error('[Error] loading data:', error.toString());
         return null;
     }
 }
 
 function calculateAverageLight(data, roomId) {
-    // Filtrer les données pour la pièce spécifiée
+    // Filter data points for the specific room and within the last 2 minutes
     const roomData = data.filter(entry => entry.id === roomId && (Date.now() - new Date(entry.timestamp).getTime()) < 120000);
 
     if (roomData.length < 10) {
-        console.error('Il n\'y a pas assez de données pour calculer la moyenne pour la pièce', roomId);
+        console.error('[Error] Not enough data points for room:', roomId);
         return null;
     }
 
@@ -105,31 +105,31 @@ function calculateAverageLight(data, roomId) {
     console.log(lastTenLightValues)
     const sum = lastTenLightValues.reduce((acc, curr) => acc + curr.illuminance, 0);
     const average = sum / lastTenLightValues.length;
-    console.log("\x1b[33m%s\x1b[0m", average)
+    console.log("\x1b[33m%s\x1b[0m",'[Info] Calculated average light for room:', roomId, ":", average);
     return average;
 }
 
 
 function updateBlindsState(room, blindOpeningPercentage, configData) {
-    // Vérifie si le pourcentage d'ouverture des stores est valide
+    // Check if the blind opening percentage is valid
     if (!isNaN(blindOpeningPercentage) && blindOpeningPercentage >= 0 && blindOpeningPercentage <= 100) {
-        // Met à jour les données pour la pièce spécifique
+        // Update the blinds state for the specific room
         configData[room].blinds = blindOpeningPercentage;
 
-        console.log('Données mises à jour pour la pièce', room, ':', configData);
+        console.log('[Info] Updating blinds state for room:', room, 'to', blindOpeningPercentage);
 
-        // Écrire les données mises à jour dans le fichier config.json
+        // Write the updated configuration to the config.json file
         try {
             fs.writeFileSync(configFilePath, JSON.stringify(configData, null, 2));
-            console.log('Blinds state updated successfully for room:', room);
+            console.log('[Info] Blinds state updated successfully for room:', room);
 
-            // Appeler la fonction d'envoi de messages Azure IoT Hub
+            // Send message to Azure IoT Hub
             azureManagementLayer.sendMessageToAzure(room, blindOpeningPercentage);
         } catch (error) {
-            console.error('Error updating blinds state:', error.toString());
+            console.error('[Error] Updating blinds state:', error.toString());
         }
     } else {
-        console.error('Invalid blind opening percentage:', blindOpeningPercentage);
+        console.error('[Error] Invalid blind opening percentage : ', blindOpeningPercentage);
     }
 }
 

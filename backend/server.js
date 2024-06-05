@@ -8,7 +8,7 @@ const updateState = require('./data/dataManagementLayer');
 
 // Create the express app
 const app = express();
-const port = 3001;
+const port = 3002;
 
 // Middleware to parse the body of the request
 app.use(bodyParser.json());
@@ -48,5 +48,5 @@ updateState();
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
+    console.log(`---Server is listening on port ${port}---`);
 });

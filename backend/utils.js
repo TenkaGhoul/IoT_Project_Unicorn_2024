@@ -7,7 +7,7 @@ function loadRoomConfig() {
         const data = fs.readFileSync(configFilePath);
         return JSON.parse(data);
     } catch (error) {
-        console.error('Error loading room configuration:', error.toString());
+        console.error('[Error] loading room configuration:', error.toString());
         return {};
     }
 }
@@ -30,7 +30,7 @@ function findRoomNameById(id) {
         // If no match is found, return "none"
         return "none";
     } catch (error) {
-        console.error('Error finding room name by ID:', error.toString());
+        console.error('[Error] finding room name by ID:', error.toString());
         return "error";
     }
 }

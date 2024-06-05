@@ -15,7 +15,7 @@ const Header = () => {
       <h1 className="header-title">SmartShade</h1>
       <div className="header-settings">
         <button onClick={toggleSettings} className="header-settings-button">
-          <img src="" alt="Settings" />
+          <img src="https://github.com/CalValmar/KanbanFlow/blob/main/src/settings.png?raw=true" alt="Settings" />
         </button>
         {showSettings && (
           <nav className="header-nav">

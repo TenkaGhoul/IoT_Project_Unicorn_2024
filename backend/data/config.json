@@ -1,34 +1,34 @@
-{
-  "Kitchen": {
-    "id": 0,
+[
+  {
+    "id": 1,
     "name": "Kitchen",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
     "blinds": 98.4
   },
-  "Bathroom": {
-    "id": 1,
+  {
+    "id": 2,
     "name": "Bathroom",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
     "blinds": 97.3
   },
-  "Bedroom": {
-    "id": 2,
+  {
+    "id": 3,
     "name": "Bedroom",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
     "blinds": 97.2
   },
-  "Test": {
-    "id": 3,
-    "name": "Test",
+  {
+    "id": 4,
+    "name": "TESTs",
     "luminositeMax": 100,
     "luminositeMin": 0,
-    "automatique": true,
+    "automatique": false,
     "blinds": 0
   }
-}
+]

@@ -53,6 +53,31 @@
     background: #d32f2f;
 }
 
+.room-edit-button {
+    background: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 10px;
+}
+
+.room-edit-button:hover {
+    background: #303f9f;
+}
+
+.room-actions {
+    display: flex;
+    align-items: center;
+}
+
+.room-name-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 .dashboard-divider {
     border: 0;
     height: 1px;
@@ -66,14 +91,14 @@
 
 .room-name-input {
     padding: 10px 20px;
-    margin: 10px 0 10px 0;
-    border-radius: 5px;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
 
 .room-add-button {
     padding: 10px 20px;
     margin: 10px 0;
+    margin-left: 10px;
     border-radius: 5px;
     background: #4caf50;
     color: #fff;
@@ -84,4 +109,14 @@
 
 .room-add-button:hover {
     background: #388e3c;
+}
+
+.error-message {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
