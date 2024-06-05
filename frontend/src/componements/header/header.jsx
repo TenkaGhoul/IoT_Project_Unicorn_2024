@@ -15,7 +15,7 @@ const Header = () => {
       <h1 className="header-title">SmartShade</h1>
       <div className="header-settings">
         <button onClick={toggleSettings} className="header-settings-button">
-          <img src="https://cdn.discordapp.com/attachments/1024213058370945044/1235518697926299701/3524623.png?ex=6634a9f4&is=66335874&hm=d6355183ad79c763ea95a7057d6980a1336b7d279651fbeb4e44450abac696cf&" alt="Settings" />
+          <img src="" alt="Settings" />
         </button>
         {showSettings && (
           <nav className="header-nav">
