@@ -18,11 +18,11 @@ router.post('/modify-id', (req, res) => {
         const existingRoom = findRoomNameById(newId);
         if (existingRoom !== "none") {
             // If the new ID is already assigned, update the existing room's ID to 0
-            roomConfig[existingRoom].id = 0;
+            roomConfig[existingRoom].id_sensor = 0;
         }
 
         // Update the ID of the specified room
-        roomConfig[room].id = newId;
+        roomConfig[room].id_sensor = newId;
 
         // Write the updated room configurations back to config.json
         const configFilePath = './data/config.json';

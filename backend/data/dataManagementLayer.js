@@ -124,7 +124,8 @@ function updateBlindsState(room, blindOpeningPercentage, configData) {
             console.log('[Info] Blinds state updated successfully for room:', room);
 
             // Send message to Azure IoT Hub
-            azureManagementLayer.sendMessageToAzure(room, blindOpeningPercentage);
+            //azureManagementLayer.sendMessageToAzure(room, blindOpeningPercentage);
+            azureManagementLayer.sendMessageToAzure();
         } catch (error) {
             console.error('[Error] Updating blinds state:', error.toString());
         }

@@ -30,6 +30,12 @@
 
 .room-name {
     color: #333;
+    margin: 0;
+}
+
+.room-id {
+    color: #666;
+    margin: 5px 0;
 }
 
 .room-divider {
@@ -119,4 +125,15 @@
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.room-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simulation-link {
+    height: 28px;
+    width: 28px;
 }

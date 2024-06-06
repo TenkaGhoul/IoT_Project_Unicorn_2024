@@ -1,21 +1,24 @@
 {
   "Kitchen": {
+    "id_sensor": 94038500663588,
     "id": 1,
     "name": "Kitchen",
-    "luminositeMax": 100,
+    "luminositeMax": 1000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 98.4
+    "blinds": 77.721
   },
   "Bathroom": {
+    "id_sensor": 0,
     "id": 2,
     "name": "Bathroom",
-    "luminositeMax": 34567890,
-    "luminositeMin": 45678,
+    "luminositeMax": 100,
+    "luminositeMin": 0,
     "automatique": true,
     "blinds": 97.3
   },
   "Bedroom": {
+    "id_sensor": 0,
     "id": 3,
     "name": "Bedroom",
     "luminositeMax": 100,
@@ -23,9 +26,10 @@
     "automatique": true,
     "blinds": 97.2
   },
-  "TESTs": {
+  "TEST": {
+    "id_sensor": 0,
     "id": 4,
-    "name": "TESTs",
+    "name": "TEST",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": false,

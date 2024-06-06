@@ -114,8 +114,8 @@ async function modifyRoom(room) {
 
 // Modify the state of blinders
 // http://localhost:3001/rooms/house1/blinds
-async function modifyBlinds(room) {
-    const data = await PUTRoutines("rooms/" + room + "/blinds", room);
+async function modifyBlinds(roomId, newBlinds) {
+    const data = await PUTRoutines("rooms/" + roomId + "/blinds", newBlinds);
     return data;
 }
 

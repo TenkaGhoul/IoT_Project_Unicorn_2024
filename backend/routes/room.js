@@ -63,9 +63,13 @@ router.post('/:room', (req, res) => {
 });
 
 // Route to modify the blinds percentage of a room
+// async function modifyBlinds(room, newBlinds) {
+//  const data = await PUTRoutines("rooms/" + room + "/blinds", newBlinds);
+//  return data;
+//}
 router.post('/:room/blinds', (req, res) => {
     const room = req.params.room;
-    const { blinds } = req.body;
+    const blinds = req.body.blinds;
 
     // Check if the blinds percentage is a valid number between 0 and 100  
     if (typeof blinds !== 'number' || blinds < 0 || blinds > 100) {

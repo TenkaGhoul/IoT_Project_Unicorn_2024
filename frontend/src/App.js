@@ -3,6 +3,7 @@ import Dashboard from './componements/dashboard/dashboard';
 import Settings from './componements/settings/settings';
 import NotFound from './componements/notFound/notFound';
 import Simulation from './componements/simulation/simulation';
+import StoreControl from './componements/storeControl/storeControl';
 
 import './App.css';
 
@@ -12,6 +13,7 @@ function Main() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/storeControl" element={<StoreControl />} />
         <Route path="/simulation" element={<Simulation min={0} max={1000} step={1} onChange={() => {}} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
