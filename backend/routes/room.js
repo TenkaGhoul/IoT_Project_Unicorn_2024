@@ -1,163 +1,187 @@
+const { log } = require('console');
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
+const { config } = require('process');
 
-// Chemin du fichier de configuration
+// Path to the configuration file
 const configFilePath = './data/config.json';
 
-// Fonction pour charger la configuration depuis le fichier config.json
+// Function to load the configuration from the config.json file
 function loadConfiguration() {
-    try {
-        const data = fs.readFileSync(configFilePath);
-        return JSON.parse(data);
-    } catch (error) {
-        console.error('Erreur lors du chargement de la configuration :', error.toString());
-        return null;
-    }
+  try {
+      const data = fs.readFileSync(configFilePath, 'utf8');
+      console.log(data);
+      return JSON.parse(data)
+  } catch (error) {
+      console.error('[Error] loading configuration:', error.toString());
+      return [];
+  }
 }
 
-// Fonction pour écrire la configuration dans le fichier config.json
+// Function to write the configuration to the config.json file
 function saveConfiguration(configuration) {
-    try {
-        fs.writeFileSync(configFilePath, JSON.stringify(configuration, null, 2));
-        console.log('Configuration mise à jour avec succès');
-    } catch (error) {
-        console.error('Erreur lors de la mise à jour de la configuration :', error.toString());
-    }
+  try {
+      fs.writeFileSync(configFilePath, JSON.stringify(configuration, null, 2));
+      console.log('[Info] Configuration updated successfully');
+  } catch (error) {
+      console.error('[Error] saving configuration:', error.toString());
+  }
 }
 
-// Route pour créer une nouvelle pièce avec une configuration de base
+// Route to create a new room
 router.post('/:room', (req, res) => {
+  try {
     const room = req.params.room;
-    console.log(`Création d'une nouvelle pièce : ${room}`);
+    console.log(`Creation of a new room: ${room}`);
 
-    // Charger la configuration actuelle ou créer un objet vide si le fichier n'existe pas
-    let currentConfiguration = loadConfiguration() || {};
+    let currentConfiguration = loadConfiguration();
 
-    // Vérifier si la pièce existe déjà dans la configuration
-    if (room in currentConfiguration) {
-        return res.status(400).send(`La pièce ${room} existe déjà`);
+    if (currentConfiguration[room]) {
+      return res.status(400).json({ message: `The room ${room} already exists` });
     }
 
-    // Créer une nouvelle configuration de base pour la pièce
-    currentConfiguration[room] = {
-        id: 0,
-        luminositeMax: 100,
-        luminositeMin: 0,
-        automatique: true,
-        blinds: 0 // Ajouter la propriété des stores avec une valeur par défaut
+    const existedRooms = Object.keys(currentConfiguration);
+    const newRoom = {
+      id: existedRooms.length + 1,
+      id_sensor: 0,
+      name: room,
+      luminositeMax: 100,
+      luminositeMin: 0,
+      automatique: true,
+      blinds: 0 
     };
 
-    // Enregistrer la nouvelle configuration dans le fichier config.json
-    saveConfiguration(currentConfiguration);
+    currentConfiguration[room] = newRoom;
+    saveConfiguration(currentConfiguration); // Save the updated configuration
 
-    // Envoyer une réponse indiquant que la pièce a été créée avec succès
-    res.status(201).send(`Nouvelle pièce ${room} créée avec succès`);
+    console.log(`New room ${room} created successfully`);
+    res.status(201).json({ message: `New room ${room} created successfully` });
+  } catch (error) {
+    console.error('Error creating room:', error);
+    res.status(500).json({ message: 'Error creating room', error: error.toString() });
+  }
 });
 
-// Route pour modifier le pourcentage d'ouverture des stores d'une pièce existante
+// Route to modify the blinds percentage of a room
 router.post('/:room/blinds', (req, res) => {
     const room = req.params.room;
     const { blinds } = req.body;
 
-    // Vérifier si le pourcentage d'ouverture est valide (entre 0 et 100)
+    // Check if the blinds percentage is a valid number between 0 and 100  
     if (typeof blinds !== 'number' || blinds < 0 || blinds > 100) {
-        return res.status(400).send('Le pourcentage d\'ouverture doit être compris entre 0 et 100');
+        return res.status(400).send('[Error] Invalid blinds percentage, must be a number between 0 and 100');
     }
 
-    // Charger la configuration actuelle depuis le fichier config.json
+    // Load the current configuration from the config.json file
     let configData = loadConfiguration();
 
     if (!configData) {
-        // Impossible de charger la configuration actuelle, arrêter le traitement
-        return res.status(500).send('Impossible de charger la configuration actuelle');
+        // Impossible to load the current configuration, stop the process
+        return res.status(500).send('[Error] Impossible to load the current configuration');
     }
 
-    // Vérifier si la pièce existe déjà dans la configuration
+    // Check if the room exists in the configuration
     if (!configData[room]) {
-        return res.status(404).send(`La pièce ${room} n'existe pas dans la configuration`);
+        return res.status(404).send(`[Error] The room ${room} does not exist in the configuration`);
     }
 
-    // Modifier le pourcentage d'ouverture des stores de la pièce
+    // Modify the blinds percentage of the room
     configData[room].blinds = blinds;
 
-    // Enregistrer la nouvelle configuration dans le fichier config.json
+    // Save the new configuration to the config.json file
     saveConfiguration(configData);
 
-    // Envoyer une réponse indiquant que la configuration a été mise à jour avec succès
-    res.status(200).send(`Pourcentage d'ouverture des stores de la pièce ${room} mis à jour avec succès`);
+    // Send a response indicating that the blinds percentage has been successfully updated
+    res.status(200).send(`[Info] Blinds percentage of room ${room} updated successfully`);
 });
 
-// Route pour modifier la configuration d'une pièce existante (sans les stores)
+// Route to modify the configuration of a room (without modifying the blinds and the name)
+// http://localhost:3001/rooms/xxx
 router.put('/:room', (req, res) => {
-    const room = req.params.room;
+    const roomName = req.params.room;
     const newConfig = req.body;
 
-    // Charger la configuration actuelle depuis le fichier config.json
     let configData = loadConfiguration();
 
-    if (!configData) {
-        // Impossible de charger la configuration actuelle, arrêter le traitement
-        return res.status(500).send('Impossible de charger la configuration actuelle');
+    const roomIndex = configData.findIndex(room => room.name === roomName);
+
+    if (roomIndex === -1) {
+        return res.status(404).send(`[Error] The room ${roomName} does not exist in the configuration`);
     }
 
-    // Vérifier si la pièce existe déjà dans la configuration
-    if (!configData[room]) {
-        return res.status(404).send(`La pièce ${room} n'existe pas dans la configuration`);
-    }
-
-    // Mettre à jour la configuration de la pièce (sans modifier les stores)
-    configData[room] = {
-        ...configData[room],
+    // Update the configuration of the room
+    configData[roomIndex] = {
+        ...configData[roomIndex],
         ...newConfig,
-        blinds: configData[room].blinds // Conserver la valeur des stores
+        blinds: configData[roomIndex].blinds, // Keep the current blinds value
+        name: configData[roomIndex].name // Keep the current name value
     };
 
-    // Enregistrer la nouvelle configuration dans le fichier config.json
     saveConfiguration(configData);
 
-    // Envoyer une réponse indiquant que la configuration a été mise à jour avec succès
-    res.status(200).send(`Configuration de la pièce ${room} mise à jour avec succès`);
+    // Send a response indicating that the configuration has been successfully updated
+    res.status(200).send(`[Info] Configuration of room ${roomName} updated successfully`);
 });
 
-// Route pour supprimer une pièce de la configuration
-router.delete('/:room', (req, res) => {
-    const room = req.params.room;
-    console.log(`Suppression de la pièce : ${room}`);
+// Route to modify the name of a room
+router.put('/:roomId/:name', (req, res) => {
+  const roomId = req.params.roomId;
+  const newName = req.params.name;
 
-    // Charger la configuration actuelle depuis le fichier config.json
+  let configData = loadConfiguration();
+
+  const roomIndex = Object.keys(configData).find(room => configData[room].id === Number(roomId));
+
+  if (!roomIndex) {
+    return res.status(404).json({ message: 'Room not found' });
+  }
+
+  // Update the name of the room
+  configData[roomIndex] = {
+    ...configData[roomIndex],
+    name: newName || configData[roomIndex].name
+  };
+
+  saveConfiguration(configData);
+
+  // Send a response indicating that the name has been successfully updated
+  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName}`);
+});
+
+// Route to delete a room from the configuration
+router.delete('/:room', (req, res) => {
+  try {
+    const roomId = req.params.room;
+
     let configData = loadConfiguration();
 
-    if (!configData) {
-        // Impossible de charger la configuration actuelle, arrêter le traitement
-        return res.status(500).send('Impossible de charger la configuration actuelle');
+    const roomIndex = Object.keys(configData).find(room => configData[room].id === Number(roomId));
+
+    if (!roomIndex) {
+      return res.status(404).json({ message: 'Room not found' });
     }
 
-    // Vérifier si la pièce existe déjà dans la configuration
-    if (!configData[room]) {
-        return res.status(404).send(`La pièce ${room} n'existe pas dans la configuration`);
-    }
-
-    // Supprimer la pièce de la configuration
-    delete configData[room];
-
-    // Enregistrer la nouvelle configuration dans le fichier config.json
+    delete configData[roomIndex];
     saveConfiguration(configData);
-
-    // Envoyer une réponse indiquant que la pièce a été supprimée avec succès
-    res.status(200).send(`Pièce ${room} supprimée avec succès`);
+    console.log(`Room with id ${roomId} deleted successfully`);
+    res.status(200).json({ message: `Room with id ${roomId} deleted successfully` });
+  } catch (error) {
+    console.error('Error deleting room:', error);
+    res.status(500).json({ message: 'Error deleting room', error: error.toString() });
+  }
 });
 
-// Route pour charger toute la configuration
+// Route to load all the rooms configuration
 router.get('/', (req, res) => {
     const configData = loadConfiguration();
 
     if (!configData) {
-        // Impossible de charger la configuration actuelle, arrêter le traitement
-        return res.status(500).send('Impossible de charger la configuration actuelle');
+      // Impossible to load the current configuration, stop the process
+      return res.status(500).send('Impossible to load the current configuration');
     }
 
-    // Envoyer la configuration chargée
+    // Send the configuration data as a response
     res.status(200).json(configData);
 });
 

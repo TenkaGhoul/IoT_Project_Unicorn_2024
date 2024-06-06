@@ -1,5 +1,5 @@
 // fetch initial data from the server
-const baseUrl = 'http://localhost:3001/';
+const baseUrl = 'http://localhost:3002/';
 
 // fetch (get) data from the server
 async function fetchRoutines(url) {
@@ -66,8 +66,8 @@ async function DELETERoutines(url) {
 
 // fetch all rooms from the server
 async function fetchRooms() {
-    const data = await fetchRoutines("rooms");
-    return data;
+    const data = await fetchRoutines('rooms');
+    return data || [];
 }
 
 // fetch all data from the server
@@ -84,7 +84,7 @@ async function fetchID() {
 
 // create a new room
 async function createRoom(room) {
-    const data = await POSTRoutines("rooms/", room);
+    const data = await POSTRoutines("rooms/"+ room);
     return data;
 }
 
@@ -97,6 +97,13 @@ async function deleteRoom(room) {
 // modify room ID (ID/modify-id)
 async function modifyID(id) {
     const data = await PUTRoutines("rooms/ID/modify-id", id);
+    return data;
+}
+
+// update the name of a room
+// http://localhost:3002/rooms/?id=xxx/?name=yyy
+async function modifyName(roomId, newName) {
+    const data = await PUTRoutines("rooms/" + roomId + "/" + newName);
     return data;
 }
 
@@ -121,5 +128,6 @@ module.exports.fetchID = fetchID;
 module.exports.createRoom = createRoom;
 module.exports.deleteRoom = deleteRoom;
 module.exports.modifyID = modifyID;
+module.exports.modifyName = modifyName;
 module.exports.modifyRoom = modifyRoom;
 module.exports.modifyBlinds = modifyBlinds;

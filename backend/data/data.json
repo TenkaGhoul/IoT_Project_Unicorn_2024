@@ -20616,588 +20616,3098 @@
     "timestamp": "2024-04-25T16:20:21.677Z"
   },
   {
-    "illuminance": 27,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:19.410Z"
+    "illuminance": 239.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:20.556Z"
   },
   {
-    "illuminance": 26.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:24.505Z"
+    "illuminance": 241.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:25.656Z"
   },
   {
-    "illuminance": 11.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:29.648Z"
+    "illuminance": 237.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:30.779Z"
   },
   {
-    "illuminance": 25.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:34.771Z"
+    "illuminance": 239,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:35.918Z"
   },
   {
-    "illuminance": 27,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:39.888Z"
+    "illuminance": 257.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:41.037Z"
   },
   {
-    "illuminance": 64,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:45.014Z"
+    "illuminance": 267.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:46.164Z"
   },
   {
-    "illuminance": 78.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:50.149Z"
+    "illuminance": 261.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:51.287Z"
   },
   {
-    "illuminance": 81.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:43:55.273Z"
+    "illuminance": 257.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:13:56.423Z"
   },
   {
-    "illuminance": 81.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:00.398Z"
+    "illuminance": 263.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:01.548Z"
   },
   {
-    "illuminance": 81.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:05.521Z"
+    "illuminance": 263,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:06.671Z"
   },
   {
-    "illuminance": 81.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:10.656Z"
+    "illuminance": 267,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:11.791Z"
   },
   {
-    "illuminance": 81.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:15.780Z"
+    "illuminance": 265.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:16.930Z"
   },
   {
-    "illuminance": 81.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:20.902Z"
+    "illuminance": 264,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:22.052Z"
   },
   {
-    "illuminance": 81.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:26.025Z"
+    "illuminance": 256.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:27.175Z"
   },
   {
-    "illuminance": 81.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:31.162Z"
+    "illuminance": 260,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:32.305Z"
   },
   {
-    "illuminance": 81.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:36.286Z"
+    "illuminance": 261.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:37.436Z"
   },
   {
-    "illuminance": 79.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:41.412Z"
+    "illuminance": 263.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:42.559Z"
   },
   {
-    "illuminance": 78.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:46.531Z"
+    "illuminance": 258.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:47.685Z"
   },
   {
-    "illuminance": 78.7,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:51.668Z"
+    "illuminance": 260.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:52.821Z"
   },
   {
-    "illuminance": 79,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:44:56.794Z"
+    "illuminance": 261.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:14:57.941Z"
   },
   {
-    "illuminance": 78.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:01.916Z"
+    "illuminance": 261.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:03.069Z"
   },
   {
-    "illuminance": 78.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:07.052Z"
+    "illuminance": 260,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:08.190Z"
   },
   {
-    "illuminance": 60.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:12.177Z"
+    "illuminance": 259.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:13.322Z"
   },
   {
-    "illuminance": 60.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:17.296Z"
+    "illuminance": 258.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:18.449Z"
   },
   {
-    "illuminance": 61.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:22.418Z"
+    "illuminance": 261.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:23.572Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:27.558Z"
+    "illuminance": 263.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:28.690Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:32.686Z"
+    "illuminance": 262.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:33.831Z"
   },
   {
-    "illuminance": 62.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:37.804Z"
+    "illuminance": 263.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:38.959Z"
   },
   {
-    "illuminance": 62.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:42.926Z"
+    "illuminance": 265.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:44.081Z"
   },
   {
-    "illuminance": 62.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:48.064Z"
+    "illuminance": 264.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:49.214Z"
   },
   {
-    "illuminance": 62.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:53.186Z"
+    "illuminance": 265.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:54.364Z"
   },
   {
-    "illuminance": 62.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:45:58.310Z"
+    "illuminance": 262.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:15:59.461Z"
   },
   {
-    "illuminance": 62.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:03.449Z"
+    "illuminance": 257.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:04.588Z"
   },
   {
-    "illuminance": 62.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:08.566Z"
+    "illuminance": 255.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:09.723Z"
   },
   {
-    "illuminance": 62.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:13.688Z"
+    "illuminance": 256.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:14.842Z"
   },
   {
-    "illuminance": 62.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:18.826Z"
+    "illuminance": 253.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:19.968Z"
   },
   {
-    "illuminance": 61.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:23.949Z"
+    "illuminance": 250.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:25.099Z"
   },
   {
-    "illuminance": 62.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:29.074Z"
+    "illuminance": 252.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:30.230Z"
   },
   {
-    "illuminance": 60.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:34.198Z"
+    "illuminance": 228,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:35.351Z"
   },
   {
-    "illuminance": 61.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:39.333Z"
+    "illuminance": 233.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:40.792Z"
   },
   {
-    "illuminance": 60.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:44.458Z"
+    "illuminance": 248.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:45.618Z"
   },
   {
-    "illuminance": 60.7,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:49.577Z"
+    "illuminance": 245.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:50.735Z"
   },
   {
-    "illuminance": 60.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:54.715Z"
+    "illuminance": 244.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:16:55.856Z"
   },
   {
-    "illuminance": 60.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:46:59.837Z"
+    "illuminance": 249,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:00.981Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:04.963Z"
+    "illuminance": 252.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:06.116Z"
   },
   {
-    "illuminance": 60.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:10.085Z"
+    "illuminance": 259.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:11.241Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:15.225Z"
+    "illuminance": 261.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:16.366Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:20.350Z"
+    "illuminance": 267.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:21.490Z"
   },
   {
-    "illuminance": 62.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:25.467Z"
+    "illuminance": 267.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:26.623Z"
   },
   {
-    "illuminance": 62.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:30.605Z"
+    "illuminance": 267.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:31.741Z"
   },
   {
-    "illuminance": 62.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:35.733Z"
+    "illuminance": 269,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:36.870Z"
   },
   {
-    "illuminance": 62.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:40.851Z"
+    "illuminance": 272.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:42.011Z"
   },
   {
-    "illuminance": 63,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:45.976Z"
+    "illuminance": 6732.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:47.132Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:51.111Z"
+    "illuminance": 15866.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:52.253Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:47:56.233Z"
+    "illuminance": 11279.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:17:57.376Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:01.355Z"
+    "illuminance": 271.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:02.511Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:06.483Z"
+    "illuminance": 239.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:07.637Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:11.621Z"
+    "illuminance": 1087.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:12.765Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:16.741Z"
+    "illuminance": 1091.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:17.882Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:21.867Z"
+    "illuminance": 1031,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:23.017Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:26.983Z"
+    "illuminance": 217.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:28.143Z"
   },
   {
-    "illuminance": 62,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:32.122Z"
+    "illuminance": 353.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:33.264Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:37.248Z"
+    "illuminance": 287.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:38.390Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:42.368Z"
+    "illuminance": 259.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:43.527Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:47.506Z"
+    "illuminance": 325.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:48.646Z"
   },
   {
-    "illuminance": 61.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:52.628Z"
+    "illuminance": 325.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:53.773Z"
   },
   {
-    "illuminance": 62.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:48:57.755Z"
+    "illuminance": 390.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:18:58.910Z"
   },
   {
-    "illuminance": 62.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:02.875Z"
+    "illuminance": 380.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:04.034Z"
   },
   {
-    "illuminance": 67.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:08.015Z"
+    "illuminance": 378.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:09.162Z"
   },
   {
-    "illuminance": 67.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:13.137Z"
+    "illuminance": 344.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:14.280Z"
   },
   {
-    "illuminance": 67.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:18.259Z"
+    "illuminance": 409.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:19.421Z"
   },
   {
-    "illuminance": 58.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:23.394Z"
+    "illuminance": 379.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:24.538Z"
   },
   {
-    "illuminance": 63.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:28.518Z"
+    "illuminance": 355.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:29.662Z"
   },
   {
-    "illuminance": 63.7,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:33.643Z"
+    "illuminance": 315.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:34.785Z"
   },
   {
-    "illuminance": 63.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:38.765Z"
+    "illuminance": 325.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:39.919Z"
   },
   {
-    "illuminance": 63.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:43.901Z"
+    "illuminance": 294.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:45.044Z"
   },
   {
-    "illuminance": 63.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:49.027Z"
+    "illuminance": 302.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:50.163Z"
   },
   {
-    "illuminance": 64.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:54.150Z"
+    "illuminance": 280.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:19:55.306Z"
   },
   {
-    "illuminance": 65.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:49:59.269Z"
+    "illuminance": 254.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:00.432Z"
   },
   {
-    "illuminance": 64.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:04.408Z"
+    "illuminance": 293.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:05.551Z"
   },
   {
-    "illuminance": 63.5,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:09.529Z"
+    "illuminance": 242.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:10.674Z"
   },
   {
-    "illuminance": 64.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:14.655Z"
+    "illuminance": 320.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:15.816Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:19.775Z"
+    "illuminance": 326.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:20.939Z"
   },
   {
-    "illuminance": 63.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:24.913Z"
+    "illuminance": 301.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:26.063Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:30.036Z"
+    "illuminance": 301.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:31.181Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:35.157Z"
+    "illuminance": 222.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:36.319Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:40.297Z"
+    "illuminance": 170.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:41.445Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:45.422Z"
+    "illuminance": 270.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:46.560Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:50.543Z"
+    "illuminance": 207.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:51.721Z"
   },
   {
-    "illuminance": 63.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:50:55.665Z"
+    "illuminance": 324.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:20:56.833Z"
   },
   {
-    "illuminance": 63.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:00.803Z"
+    "illuminance": 324.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:01.949Z"
   },
   {
-    "illuminance": 63,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:05.925Z"
+    "illuminance": 325.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:07.071Z"
   },
   {
-    "illuminance": 64.8,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:11.048Z"
+    "illuminance": 331.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:12.205Z"
   },
   {
-    "illuminance": 65.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:16.186Z"
+    "illuminance": 367.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:17.330Z"
   },
   {
-    "illuminance": 64.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:21.309Z"
+    "illuminance": 345.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:22.454Z"
   },
   {
-    "illuminance": 64.3,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:26.430Z"
+    "illuminance": 416.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:27.580Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:31.555Z"
+    "illuminance": 445.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:32.712Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:36.678Z"
+    "illuminance": 363.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:37.835Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:41.813Z"
+    "illuminance": 428.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:42.959Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:46.937Z"
+    "illuminance": 381.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:48.082Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:52.066Z"
+    "illuminance": 438.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:53.237Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:51:57.199Z"
+    "illuminance": 442.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:21:58.345Z"
   },
   {
-    "illuminance": 65.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:02.323Z"
+    "illuminance": 427.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:03.490Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:07.444Z"
+    "illuminance": 432.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:08.604Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:12.566Z"
+    "illuminance": 436.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:13.730Z"
   },
   {
-    "illuminance": 64.6,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:17.707Z"
+    "illuminance": 441,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:18.848Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:22.831Z"
+    "illuminance": 439,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:23.970Z"
   },
   {
-    "illuminance": 65,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:27.948Z"
+    "illuminance": 446.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:29.110Z"
   },
   {
-    "illuminance": 64.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:33.088Z"
+    "illuminance": 455.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:34.231Z"
   },
   {
-    "illuminance": 65.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:38.227Z"
+    "illuminance": 450.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:39.355Z"
   },
   {
-    "illuminance": 65.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:43.336Z"
+    "illuminance": 442.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:44.480Z"
   },
   {
-    "illuminance": 65.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:48.475Z"
+    "illuminance": 453.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:49.619Z"
   },
   {
-    "illuminance": 65.2,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:53.594Z"
+    "illuminance": 457.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:54.739Z"
   },
   {
-    "illuminance": 64.9,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:52:58.749Z"
+    "illuminance": 461.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:22:59.863Z"
   },
   {
-    "illuminance": 65.1,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:53:03.841Z"
+    "illuminance": 470.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:05.003Z"
   },
   {
-    "illuminance": 64.4,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:53:08.979Z"
+    "illuminance": 357.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:10.124Z"
   },
   {
-    "illuminance": 64.7,
-    "id": "house1",
-    "timestamp": "2024-06-02T14:53:14.099Z"
+    "illuminance": 428.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:15.242Z"
+  },
+  {
+    "illuminance": 407,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:20.366Z"
+  },
+  {
+    "illuminance": 345.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:25.505Z"
+  },
+  {
+    "illuminance": 410.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:30.643Z"
+  },
+  {
+    "illuminance": 401.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:35.752Z"
+  },
+  {
+    "illuminance": 443.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:40.880Z"
+  },
+  {
+    "illuminance": 482.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:46.011Z"
+  },
+  {
+    "illuminance": 482.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:51.136Z"
+  },
+  {
+    "illuminance": 445.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:23:56.263Z"
+  },
+  {
+    "illuminance": 425.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:01.397Z"
+  },
+  {
+    "illuminance": 371.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:06.516Z"
+  },
+  {
+    "illuminance": 444.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:11.646Z"
+  },
+  {
+    "illuminance": 348.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:16.759Z"
+  },
+  {
+    "illuminance": 334.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:21.899Z"
+  },
+  {
+    "illuminance": 296.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:27.027Z"
+  },
+  {
+    "illuminance": 371.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:32.143Z"
+  },
+  {
+    "illuminance": 351.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:37.269Z"
+  },
+  {
+    "illuminance": 316.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:42.406Z"
+  },
+  {
+    "illuminance": 355.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:47.530Z"
+  },
+  {
+    "illuminance": 441.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:52.653Z"
+  },
+  {
+    "illuminance": 430.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:24:57.793Z"
+  },
+  {
+    "illuminance": 401.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:02.913Z"
+  },
+  {
+    "illuminance": 413.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:08.035Z"
+  },
+  {
+    "illuminance": 354.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:13.161Z"
+  },
+  {
+    "illuminance": 353.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:18.292Z"
+  },
+  {
+    "illuminance": 356.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:23.426Z"
+  },
+  {
+    "illuminance": 352.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:28.540Z"
+  },
+  {
+    "illuminance": 339.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:33.665Z"
+  },
+  {
+    "illuminance": 346.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:38.800Z"
+  },
+  {
+    "illuminance": 339.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:43.941Z"
+  },
+  {
+    "illuminance": 269.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:49.056Z"
+  },
+  {
+    "illuminance": 264.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:54.200Z"
+  },
+  {
+    "illuminance": 317.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:25:59.310Z"
+  },
+  {
+    "illuminance": 335.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:04.451Z"
+  },
+  {
+    "illuminance": 444.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:09.551Z"
+  },
+  {
+    "illuminance": 463.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:14.688Z"
+  },
+  {
+    "illuminance": 459.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:19.824Z"
+  },
+  {
+    "illuminance": 434.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:24.936Z"
+  },
+  {
+    "illuminance": 425,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:30.057Z"
+  },
+  {
+    "illuminance": 494.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:35.199Z"
+  },
+  {
+    "illuminance": 522.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:40.322Z"
+  },
+  {
+    "illuminance": 491.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:45.446Z"
+  },
+  {
+    "illuminance": 500.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:50.574Z"
+  },
+  {
+    "illuminance": 494.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:26:55.708Z"
+  },
+  {
+    "illuminance": 468.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:00.825Z"
+  },
+  {
+    "illuminance": 523.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:05.951Z"
+  },
+  {
+    "illuminance": 511,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:11.088Z"
+  },
+  {
+    "illuminance": 466.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:16.209Z"
+  },
+  {
+    "illuminance": 433.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:21.340Z"
+  },
+  {
+    "illuminance": 481.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:26.454Z"
+  },
+  {
+    "illuminance": 487.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:31.594Z"
+  },
+  {
+    "illuminance": 485.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:36.720Z"
+  },
+  {
+    "illuminance": 496.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:41.853Z"
+  },
+  {
+    "illuminance": 463.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:46.982Z"
+  },
+  {
+    "illuminance": 424.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:52.097Z"
+  },
+  {
+    "illuminance": 491.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:27:57.221Z"
+  },
+  {
+    "illuminance": 493.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:02.344Z"
+  },
+  {
+    "illuminance": 496.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:07.483Z"
+  },
+  {
+    "illuminance": 508.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:12.608Z"
+  },
+  {
+    "illuminance": 487.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:17.727Z"
+  },
+  {
+    "illuminance": 497.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:22.850Z"
+  },
+  {
+    "illuminance": 475.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:27.992Z"
+  },
+  {
+    "illuminance": 449.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:33.112Z"
+  },
+  {
+    "illuminance": 460.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:38.232Z"
+  },
+  {
+    "illuminance": 481.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:43.359Z"
+  },
+  {
+    "illuminance": 510.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:48.497Z"
+  },
+  {
+    "illuminance": 497.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:53.616Z"
+  },
+  {
+    "illuminance": 497,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:28:58.742Z"
+  },
+  {
+    "illuminance": 464,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:03.861Z"
+  },
+  {
+    "illuminance": 433.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:09.006Z"
+  },
+  {
+    "illuminance": 409,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:14.132Z"
+  },
+  {
+    "illuminance": 397.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:19.248Z"
+  },
+  {
+    "illuminance": 467.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:24.387Z"
+  },
+  {
+    "illuminance": 509.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:34.658Z"
+  },
+  {
+    "illuminance": 512,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:39.753Z"
+  },
+  {
+    "illuminance": 504.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:44.892Z"
+  },
+  {
+    "illuminance": 503.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:50.016Z"
+  },
+  {
+    "illuminance": 503.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:29:55.152Z"
+  },
+  {
+    "illuminance": 485.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:00.403Z"
+  },
+  {
+    "illuminance": 484.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:05.403Z"
+  },
+  {
+    "illuminance": 470.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:10.520Z"
+  },
+  {
+    "illuminance": 486.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:15.641Z"
+  },
+  {
+    "illuminance": 435.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:20.783Z"
+  },
+  {
+    "illuminance": 480,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:25.903Z"
+  },
+  {
+    "illuminance": 418.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:31.028Z"
+  },
+  {
+    "illuminance": 346.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:36.152Z"
+  },
+  {
+    "illuminance": 354.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:41.286Z"
+  },
+  {
+    "illuminance": 448,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:46.410Z"
+  },
+  {
+    "illuminance": 409.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:51.532Z"
+  },
+  {
+    "illuminance": 509.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:30:56.672Z"
+  },
+  {
+    "illuminance": 498.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:01.793Z"
+  },
+  {
+    "illuminance": 453.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:06.913Z"
+  },
+  {
+    "illuminance": 446.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:12.038Z"
+  },
+  {
+    "illuminance": 448.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:17.183Z"
+  },
+  {
+    "illuminance": 472.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:22.305Z"
+  },
+  {
+    "illuminance": 473,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:32.568Z"
+  },
+  {
+    "illuminance": 480.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:37.685Z"
+  },
+  {
+    "illuminance": 435.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:42.807Z"
+  },
+  {
+    "illuminance": 395.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:47.926Z"
+  },
+  {
+    "illuminance": 426.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:53.065Z"
+  },
+  {
+    "illuminance": 410.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:31:58.192Z"
+  },
+  {
+    "illuminance": 448.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:03.310Z"
+  },
+  {
+    "illuminance": 440,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:08.431Z"
+  },
+  {
+    "illuminance": 408,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:13.555Z"
+  },
+  {
+    "illuminance": 472.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:18.699Z"
+  },
+  {
+    "illuminance": 465.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:23.817Z"
+  },
+  {
+    "illuminance": 425.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:28.939Z"
+  },
+  {
+    "illuminance": 495.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:34.083Z"
+  },
+  {
+    "illuminance": 499.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:39.198Z"
+  },
+  {
+    "illuminance": 513.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:44.323Z"
+  },
+  {
+    "illuminance": 519.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:49.444Z"
+  },
+  {
+    "illuminance": 511.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:54.596Z"
+  },
+  {
+    "illuminance": 477.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:32:59.706Z"
+  },
+  {
+    "illuminance": 474.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:04.835Z"
+  },
+  {
+    "illuminance": 439.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:09.969Z"
+  },
+  {
+    "illuminance": 413.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:15.088Z"
+  },
+  {
+    "illuminance": 374.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:20.215Z"
+  },
+  {
+    "illuminance": 343.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:25.336Z"
+  },
+  {
+    "illuminance": 408.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:30.474Z"
+  },
+  {
+    "illuminance": 363.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:35.598Z"
+  },
+  {
+    "illuminance": 391.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:40.718Z"
+  },
+  {
+    "illuminance": 423.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:45.839Z"
+  },
+  {
+    "illuminance": 401.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:50.987Z"
+  },
+  {
+    "illuminance": 387.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:33:56.107Z"
+  },
+  {
+    "illuminance": 387.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:01.226Z"
+  },
+  {
+    "illuminance": 344,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:06.348Z"
+  },
+  {
+    "illuminance": 341.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:11.487Z"
+  },
+  {
+    "illuminance": 362.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:16.607Z"
+  },
+  {
+    "illuminance": 382.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:21.742Z"
+  },
+  {
+    "illuminance": 366.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:26.870Z"
+  },
+  {
+    "illuminance": 365.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:31.991Z"
+  },
+  {
+    "illuminance": 439,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:37.115Z"
+  },
+  {
+    "illuminance": 478.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:42.242Z"
+  },
+  {
+    "illuminance": 450.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:47.375Z"
+  },
+  {
+    "illuminance": 433.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:52.497Z"
+  },
+  {
+    "illuminance": 458.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:34:57.619Z"
+  },
+  {
+    "illuminance": 460.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:02.743Z"
+  },
+  {
+    "illuminance": 460.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:07.880Z"
+  },
+  {
+    "illuminance": 453.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:13.010Z"
+  },
+  {
+    "illuminance": 388.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:18.128Z"
+  },
+  {
+    "illuminance": 442.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:23.265Z"
+  },
+  {
+    "illuminance": 423.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:28.389Z"
+  },
+  {
+    "illuminance": 394.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:33.507Z"
+  },
+  {
+    "illuminance": 283.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:38.634Z"
+  },
+  {
+    "illuminance": 234.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:43.761Z"
+  },
+  {
+    "illuminance": 299.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:48.898Z"
+  },
+  {
+    "illuminance": 287.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:54.022Z"
+  },
+  {
+    "illuminance": 290.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:35:59.143Z"
+  },
+  {
+    "illuminance": 338.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:04.266Z"
+  },
+  {
+    "illuminance": 390.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:09.403Z"
+  },
+  {
+    "illuminance": 389.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:14.527Z"
+  },
+  {
+    "illuminance": 438.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:19.654Z"
+  },
+  {
+    "illuminance": 416.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:24.776Z"
+  },
+  {
+    "illuminance": 429.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:29.912Z"
+  },
+  {
+    "illuminance": 500.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:35.036Z"
+  },
+  {
+    "illuminance": 473.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:40.159Z"
+  },
+  {
+    "illuminance": 471.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:45.310Z"
+  },
+  {
+    "illuminance": 469.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:50.419Z"
+  },
+  {
+    "illuminance": 475.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:36:55.543Z"
+  },
+  {
+    "illuminance": 460.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:00.662Z"
+  },
+  {
+    "illuminance": 423,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:05.800Z"
+  },
+  {
+    "illuminance": 360.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:10.928Z"
+  },
+  {
+    "illuminance": 330.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:16.046Z"
+  },
+  {
+    "illuminance": 352,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:21.170Z"
+  },
+  {
+    "illuminance": 492.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:26.309Z"
+  },
+  {
+    "illuminance": 369,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:31.432Z"
+  },
+  {
+    "illuminance": 387.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:36.554Z"
+  },
+  {
+    "illuminance": 437.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:41.692Z"
+  },
+  {
+    "illuminance": 408,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:46.812Z"
+  },
+  {
+    "illuminance": 400,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:52.008Z"
+  },
+  {
+    "illuminance": 451.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:37:57.057Z"
+  },
+  {
+    "illuminance": 439,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:02.197Z"
+  },
+  {
+    "illuminance": 449.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:07.320Z"
+  },
+  {
+    "illuminance": 359,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:12.443Z"
+  },
+  {
+    "illuminance": 406.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:17.564Z"
+  },
+  {
+    "illuminance": 379.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:22.705Z"
+  },
+  {
+    "illuminance": 379.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:27.827Z"
+  },
+  {
+    "illuminance": 380.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:32.951Z"
+  },
+  {
+    "illuminance": 445.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:38.090Z"
+  },
+  {
+    "illuminance": 429.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:43.213Z"
+  },
+  {
+    "illuminance": 359.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:48.337Z"
+  },
+  {
+    "illuminance": 338.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:53.453Z"
+  },
+  {
+    "illuminance": 337.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:38:58.593Z"
+  },
+  {
+    "illuminance": 457,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:03.724Z"
+  },
+  {
+    "illuminance": 485.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:08.839Z"
+  },
+  {
+    "illuminance": 490.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:13.961Z"
+  },
+  {
+    "illuminance": 489.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:19.101Z"
+  },
+  {
+    "illuminance": 369.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:24.222Z"
+  },
+  {
+    "illuminance": 332.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:29.346Z"
+  },
+  {
+    "illuminance": 332.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:34.470Z"
+  },
+  {
+    "illuminance": 344.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:39.604Z"
+  },
+  {
+    "illuminance": 321,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:44.727Z"
+  },
+  {
+    "illuminance": 320.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:49.868Z"
+  },
+  {
+    "illuminance": 320.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:39:54.990Z"
+  },
+  {
+    "illuminance": 317.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:00.110Z"
+  },
+  {
+    "illuminance": 313.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:05.248Z"
+  },
+  {
+    "illuminance": 255.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:10.368Z"
+  },
+  {
+    "illuminance": 310.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:15.500Z"
+  },
+  {
+    "illuminance": 266.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:20.620Z"
+  },
+  {
+    "illuminance": 304.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:25.739Z"
+  },
+  {
+    "illuminance": 301.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:30.878Z"
+  },
+  {
+    "illuminance": 321.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:36.006Z"
+  },
+  {
+    "illuminance": 322.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:41.121Z"
+  },
+  {
+    "illuminance": 313.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:46.243Z"
+  },
+  {
+    "illuminance": 316.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:51.387Z"
+  },
+  {
+    "illuminance": 310.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:40:56.505Z"
+  },
+  {
+    "illuminance": 309.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:01.630Z"
+  },
+  {
+    "illuminance": 324.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:06.764Z"
+  },
+  {
+    "illuminance": 325.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:11.892Z"
+  },
+  {
+    "illuminance": 316.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:17.015Z"
+  },
+  {
+    "illuminance": 353.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:22.136Z"
+  },
+  {
+    "illuminance": 348.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:27.260Z"
+  },
+  {
+    "illuminance": 393,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:32.400Z"
+  },
+  {
+    "illuminance": 409.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:37.520Z"
+  },
+  {
+    "illuminance": 261.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:42.643Z"
+  },
+  {
+    "illuminance": 451.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:52.934Z"
+  },
+  {
+    "illuminance": 390.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:41:58.055Z"
+  },
+  {
+    "illuminance": 313.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:03.162Z"
+  },
+  {
+    "illuminance": 360,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:08.277Z"
+  },
+  {
+    "illuminance": 217.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:13.413Z"
+  },
+  {
+    "illuminance": 310.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:18.532Z"
+  },
+  {
+    "illuminance": 265.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:23.654Z"
+  },
+  {
+    "illuminance": 388.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:28.810Z"
+  },
+  {
+    "illuminance": 416.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:33.915Z"
+  },
+  {
+    "illuminance": 358.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:39.039Z"
+  },
+  {
+    "illuminance": 315.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:44.183Z"
+  },
+  {
+    "illuminance": 264.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:49.303Z"
+  },
+  {
+    "illuminance": 355.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:54.424Z"
+  },
+  {
+    "illuminance": 283.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:42:59.546Z"
+  },
+  {
+    "illuminance": 389.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:04.685Z"
+  },
+  {
+    "illuminance": 383.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:09.805Z"
+  },
+  {
+    "illuminance": 376.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:14.927Z"
+  },
+  {
+    "illuminance": 412.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:20.051Z"
+  },
+  {
+    "illuminance": 345.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:25.191Z"
+  },
+  {
+    "illuminance": 385,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:30.312Z"
+  },
+  {
+    "illuminance": 486.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:35.437Z"
+  },
+  {
+    "illuminance": 563.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:40.556Z"
+  },
+  {
+    "illuminance": 604.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:45.697Z"
+  },
+  {
+    "illuminance": 457.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:50.822Z"
+  },
+  {
+    "illuminance": 512.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:43:55.940Z"
+  },
+  {
+    "illuminance": 471.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:01.082Z"
+  },
+  {
+    "illuminance": 572.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:06.204Z"
+  },
+  {
+    "illuminance": 480.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:11.326Z"
+  },
+  {
+    "illuminance": 411.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:16.445Z"
+  },
+  {
+    "illuminance": 503,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:21.588Z"
+  },
+  {
+    "illuminance": 513.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:26.722Z"
+  },
+  {
+    "illuminance": 520.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:31.831Z"
+  },
+  {
+    "illuminance": 361,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:36.953Z"
+  },
+  {
+    "illuminance": 356.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:42.091Z"
+  },
+  {
+    "illuminance": 459.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:47.212Z"
+  },
+  {
+    "illuminance": 508.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:52.336Z"
+  },
+  {
+    "illuminance": 526.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:44:57.476Z"
+  },
+  {
+    "illuminance": 519,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:02.595Z"
+  },
+  {
+    "illuminance": 518.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:07.740Z"
+  },
+  {
+    "illuminance": 521.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:12.842Z"
+  },
+  {
+    "illuminance": 532.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:17.981Z"
+  },
+  {
+    "illuminance": 528,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:23.104Z"
+  },
+  {
+    "illuminance": 543.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:28.230Z"
+  },
+  {
+    "illuminance": 469.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:33.347Z"
+  },
+  {
+    "illuminance": 526.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:38.489Z"
+  },
+  {
+    "illuminance": 527,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:43.611Z"
+  },
+  {
+    "illuminance": 498.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:48.734Z"
+  },
+  {
+    "illuminance": 515.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:53.855Z"
+  },
+  {
+    "illuminance": 516.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:45:58.996Z"
+  },
+  {
+    "illuminance": 505.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:04.115Z"
+  },
+  {
+    "illuminance": 462.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:09.245Z"
+  },
+  {
+    "illuminance": 486.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:14.381Z"
+  },
+  {
+    "illuminance": 393,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:19.499Z"
+  },
+  {
+    "illuminance": 397.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:24.621Z"
+  },
+  {
+    "illuminance": 394.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:29.745Z"
+  },
+  {
+    "illuminance": 384.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:34.898Z"
+  },
+  {
+    "illuminance": 390.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:40.005Z"
+  },
+  {
+    "illuminance": 374.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:45.135Z"
+  },
+  {
+    "illuminance": 350.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:50.255Z"
+  },
+  {
+    "illuminance": 372.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:46:55.402Z"
+  },
+  {
+    "illuminance": 410.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:00.514Z"
+  },
+  {
+    "illuminance": 431,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:05.636Z"
+  },
+  {
+    "illuminance": 370.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:10.775Z"
+  },
+  {
+    "illuminance": 395.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:15.902Z"
+  },
+  {
+    "illuminance": 376,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:21.017Z"
+  },
+  {
+    "illuminance": 384.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:26.138Z"
+  },
+  {
+    "illuminance": 401.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:31.281Z"
+  },
+  {
+    "illuminance": 376.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:36.404Z"
+  },
+  {
+    "illuminance": 382.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:41.524Z"
+  },
+  {
+    "illuminance": 416,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:46.646Z"
+  },
+  {
+    "illuminance": 449.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:51.787Z"
+  },
+  {
+    "illuminance": 380.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:47:56.948Z"
+  },
+  {
+    "illuminance": 414.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:02.030Z"
+  },
+  {
+    "illuminance": 460.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:07.152Z"
+  },
+  {
+    "illuminance": 430.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:12.398Z"
+  },
+  {
+    "illuminance": 408.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:17.435Z"
+  },
+  {
+    "illuminance": 396.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:22.549Z"
+  },
+  {
+    "illuminance": 521.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:27.678Z"
+  },
+  {
+    "illuminance": 446.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:32.802Z"
+  },
+  {
+    "illuminance": 413.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:37.922Z"
+  },
+  {
+    "illuminance": 397.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:43.042Z"
+  },
+  {
+    "illuminance": 407.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:48.186Z"
+  },
+  {
+    "illuminance": 430.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:53.304Z"
+  },
+  {
+    "illuminance": 468.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:48:58.428Z"
+  },
+  {
+    "illuminance": 463.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:03.552Z"
+  },
+  {
+    "illuminance": 540.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:08.691Z"
+  },
+  {
+    "illuminance": 489.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:13.812Z"
+  },
+  {
+    "illuminance": 551,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:18.974Z"
+  },
+  {
+    "illuminance": 581.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:24.058Z"
+  },
+  {
+    "illuminance": 577.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:29.200Z"
+  },
+  {
+    "illuminance": 333.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:34.329Z"
+  },
+  {
+    "illuminance": 397.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:39.442Z"
+  },
+  {
+    "illuminance": 385.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:44.583Z"
+  },
+  {
+    "illuminance": 375.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:49.703Z"
+  },
+  {
+    "illuminance": 367,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:54.826Z"
+  },
+  {
+    "illuminance": 391.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:49:59.949Z"
+  },
+  {
+    "illuminance": 444.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:05.084Z"
+  },
+  {
+    "illuminance": 391,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:10.208Z"
+  },
+  {
+    "illuminance": 471,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:15.329Z"
+  },
+  {
+    "illuminance": 536.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:20.452Z"
+  },
+  {
+    "illuminance": 468.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:25.598Z"
+  },
+  {
+    "illuminance": 510.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:30.711Z"
+  },
+  {
+    "illuminance": 489.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:35.836Z"
+  },
+  {
+    "illuminance": 538.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:40.976Z"
+  },
+  {
+    "illuminance": 521.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:46.099Z"
+  },
+  {
+    "illuminance": 501.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:51.219Z"
+  },
+  {
+    "illuminance": 493.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:50:56.349Z"
+  },
+  {
+    "illuminance": 535.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:01.484Z"
+  },
+  {
+    "illuminance": 529.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:06.614Z"
+  },
+  {
+    "illuminance": 518.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:11.726Z"
+  },
+  {
+    "illuminance": 512.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:16.847Z"
+  },
+  {
+    "illuminance": 468.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:21.986Z"
+  },
+  {
+    "illuminance": 483.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:27.136Z"
+  },
+  {
+    "illuminance": 494.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:32.231Z"
+  },
+  {
+    "illuminance": 562.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:37.356Z"
+  },
+  {
+    "illuminance": 557.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:42.493Z"
+  },
+  {
+    "illuminance": 525.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:47.614Z"
+  },
+  {
+    "illuminance": 570.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:52.738Z"
+  },
+  {
+    "illuminance": 521.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:51:57.888Z"
+  },
+  {
+    "illuminance": 498.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:03.012Z"
+  },
+  {
+    "illuminance": 515.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:08.129Z"
+  },
+  {
+    "illuminance": 496,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:13.245Z"
+  },
+  {
+    "illuminance": 508.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:18.391Z"
+  },
+  {
+    "illuminance": 516.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:23.509Z"
+  },
+  {
+    "illuminance": 494.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:28.629Z"
+  },
+  {
+    "illuminance": 481.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:33.768Z"
+  },
+  {
+    "illuminance": 487.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:38.888Z"
+  },
+  {
+    "illuminance": 521.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:44.013Z"
+  },
+  {
+    "illuminance": 466.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:49.132Z"
+  },
+  {
+    "illuminance": 504,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:54.256Z"
+  },
+  {
+    "illuminance": 489.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:52:59.418Z"
+  },
+  {
+    "illuminance": 440.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:04.523Z"
+  },
+  {
+    "illuminance": 482.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:09.638Z"
+  },
+  {
+    "illuminance": 493.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:14.785Z"
+  },
+  {
+    "illuminance": 542.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:19.901Z"
+  },
+  {
+    "illuminance": 506.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:25.025Z"
+  },
+  {
+    "illuminance": 514.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:30.149Z"
+  },
+  {
+    "illuminance": 542.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:35.284Z"
+  },
+  {
+    "illuminance": 528.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:40.408Z"
+  },
+  {
+    "illuminance": 553.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:45.537Z"
+  },
+  {
+    "illuminance": 503,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:50.670Z"
+  },
+  {
+    "illuminance": 533.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:53:55.790Z"
+  },
+  {
+    "illuminance": 544.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:00.913Z"
+  },
+  {
+    "illuminance": 515.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:06.036Z"
+  },
+  {
+    "illuminance": 380.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:11.179Z"
+  },
+  {
+    "illuminance": 386.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:16.321Z"
+  },
+  {
+    "illuminance": 389.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:21.419Z"
+  },
+  {
+    "illuminance": 379.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:26.545Z"
+  },
+  {
+    "illuminance": 378.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:31.688Z"
+  },
+  {
+    "illuminance": 377,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:36.804Z"
+  },
+  {
+    "illuminance": 307.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:41.937Z"
+  },
+  {
+    "illuminance": 378.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:47.068Z"
+  },
+  {
+    "illuminance": 392.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:52.186Z"
+  },
+  {
+    "illuminance": 367,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:54:57.310Z"
+  },
+  {
+    "illuminance": 467.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:02.437Z"
+  },
+  {
+    "illuminance": 478.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:07.569Z"
+  },
+  {
+    "illuminance": 498.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:12.693Z"
+  },
+  {
+    "illuminance": 499.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:17.821Z"
+  },
+  {
+    "illuminance": 554.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:22.939Z"
+  },
+  {
+    "illuminance": 569.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:28.076Z"
+  },
+  {
+    "illuminance": 518.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:33.201Z"
+  },
+  {
+    "illuminance": 533.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:38.323Z"
+  },
+  {
+    "illuminance": 563.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:43.443Z"
+  },
+  {
+    "illuminance": 543.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:48.583Z"
+  },
+  {
+    "illuminance": 557.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:53.707Z"
+  },
+  {
+    "illuminance": 528,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:55:58.827Z"
+  },
+  {
+    "illuminance": 532.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:03.951Z"
+  },
+  {
+    "illuminance": 526.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:09.089Z"
+  },
+  {
+    "illuminance": 528.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:14.213Z"
+  },
+  {
+    "illuminance": 526.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:19.341Z"
+  },
+  {
+    "illuminance": 443.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:24.471Z"
+  },
+  {
+    "illuminance": 420.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:29.603Z"
+  },
+  {
+    "illuminance": 506.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:34.717Z"
+  },
+  {
+    "illuminance": 518.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:39.845Z"
+  },
+  {
+    "illuminance": 524.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:44.979Z"
+  },
+  {
+    "illuminance": 494.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:50.101Z"
+  },
+  {
+    "illuminance": 472.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:56:55.226Z"
+  },
+  {
+    "illuminance": 499.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:00.378Z"
+  },
+  {
+    "illuminance": 507.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:05.490Z"
+  },
+  {
+    "illuminance": 493.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:10.610Z"
+  },
+  {
+    "illuminance": 519.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:15.729Z"
+  },
+  {
+    "illuminance": 445.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:20.868Z"
+  },
+  {
+    "illuminance": 431.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:25.991Z"
+  },
+  {
+    "illuminance": 433,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:31.117Z"
+  },
+  {
+    "illuminance": 413.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:36.240Z"
+  },
+  {
+    "illuminance": 485.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:41.378Z"
+  },
+  {
+    "illuminance": 501.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:46.500Z"
+  },
+  {
+    "illuminance": 454.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:51.620Z"
+  },
+  {
+    "illuminance": 455,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:57:56.748Z"
+  },
+  {
+    "illuminance": 372.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:01.874Z"
+  },
+  {
+    "illuminance": 475.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:07.010Z"
+  },
+  {
+    "illuminance": 444.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:12.130Z"
+  },
+  {
+    "illuminance": 431.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:17.255Z"
+  },
+  {
+    "illuminance": 330.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:22.391Z"
+  },
+  {
+    "illuminance": 368,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:27.498Z"
+  },
+  {
+    "illuminance": 469.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:32.640Z"
+  },
+  {
+    "illuminance": 402.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:37.760Z"
+  },
+  {
+    "illuminance": 446.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:42.899Z"
+  },
+  {
+    "illuminance": 336,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:48.024Z"
+  },
+  {
+    "illuminance": 352.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:53.145Z"
+  },
+  {
+    "illuminance": 360.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:58:58.265Z"
+  },
+  {
+    "illuminance": 341.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:03.408Z"
+  },
+  {
+    "illuminance": 328.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:08.530Z"
+  },
+  {
+    "illuminance": 339.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:13.651Z"
+  },
+  {
+    "illuminance": 330.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:18.775Z"
+  },
+  {
+    "illuminance": 335.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:23.913Z"
+  },
+  {
+    "illuminance": 324.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:29.060Z"
+  },
+  {
+    "illuminance": 310.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:34.168Z"
+  },
+  {
+    "illuminance": 279.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:39.299Z"
+  },
+  {
+    "illuminance": 288.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:44.419Z"
+  },
+  {
+    "illuminance": 289.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:49.542Z"
+  },
+  {
+    "illuminance": 314.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:54.671Z"
+  },
+  {
+    "illuminance": 313,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T09:59:59.805Z"
+  },
+  {
+    "illuminance": 401.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:04.928Z"
+  },
+  {
+    "illuminance": 370.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:10.053Z"
+  },
+  {
+    "illuminance": 378.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:15.175Z"
+  },
+  {
+    "illuminance": 376.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:20.311Z"
+  },
+  {
+    "illuminance": 391.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:25.441Z"
+  },
+  {
+    "illuminance": 367,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:30.555Z"
+  },
+  {
+    "illuminance": 376.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:35.704Z"
+  },
+  {
+    "illuminance": 376,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:40.814Z"
+  },
+  {
+    "illuminance": 325.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:00:45.935Z"
+  },
+  {
+    "illuminance": 243.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:07.892Z"
+  },
+  {
+    "illuminance": 242.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:12.937Z"
+  },
+  {
+    "illuminance": 245.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:18.068Z"
+  },
+  {
+    "illuminance": 239.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:23.197Z"
+  },
+  {
+    "illuminance": 243.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:28.320Z"
+  },
+  {
+    "illuminance": 223.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:33.454Z"
+  },
+  {
+    "illuminance": 180,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:38.582Z"
+  },
+  {
+    "illuminance": 190.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:43.703Z"
+  },
+  {
+    "illuminance": 189.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:48.823Z"
+  },
+  {
+    "illuminance": 182.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:53.964Z"
+  },
+  {
+    "illuminance": 176.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:12:59.083Z"
+  },
+  {
+    "illuminance": 175,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:04.206Z"
+  },
+  {
+    "illuminance": 179.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:09.333Z"
+  },
+  {
+    "illuminance": 174,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:14.450Z"
+  },
+  {
+    "illuminance": 171,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:19.588Z"
+  },
+  {
+    "illuminance": 169.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:24.716Z"
+  },
+  {
+    "illuminance": 174.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:29.833Z"
+  },
+  {
+    "illuminance": 159.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:34.975Z"
+  },
+  {
+    "illuminance": 164,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:40.099Z"
+  },
+  {
+    "illuminance": 135.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:45.218Z"
+  },
+  {
+    "illuminance": 209.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:50.354Z"
+  },
+  {
+    "illuminance": 197.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:13:55.484Z"
+  },
+  {
+    "illuminance": 205.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:00.601Z"
+  },
+  {
+    "illuminance": 203,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:05.723Z"
+  },
+  {
+    "illuminance": 198.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:10.984Z"
+  },
+  {
+    "illuminance": 198.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:16.026Z"
+  },
+  {
+    "illuminance": 193.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:21.110Z"
+  },
+  {
+    "illuminance": 186.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:26.230Z"
+  },
+  {
+    "illuminance": 206.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:31.372Z"
+  },
+  {
+    "illuminance": 199.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:36.490Z"
+  },
+  {
+    "illuminance": 176.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:41.619Z"
+  },
+  {
+    "illuminance": 195.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:46.743Z"
+  },
+  {
+    "illuminance": 203.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:51.873Z"
+  },
+  {
+    "illuminance": 205.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:14:56.997Z"
+  },
+  {
+    "illuminance": 204.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:02.128Z"
+  },
+  {
+    "illuminance": 208.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:07.261Z"
+  },
+  {
+    "illuminance": 216.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:12.383Z"
+  },
+  {
+    "illuminance": 221.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:17.518Z"
+  },
+  {
+    "illuminance": 277,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:22.629Z"
+  },
+  {
+    "illuminance": 282.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:27.763Z"
+  },
+  {
+    "illuminance": 278.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:32.890Z"
+  },
+  {
+    "illuminance": 275.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:38.009Z"
+  },
+  {
+    "illuminance": 287,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:43.134Z"
+  },
+  {
+    "illuminance": 284,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:48.257Z"
+  },
+  {
+    "illuminance": 286.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:53.390Z"
+  },
+  {
+    "illuminance": 289.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:15:58.518Z"
+  },
+  {
+    "illuminance": 262.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:03.652Z"
+  },
+  {
+    "illuminance": 202.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:08.782Z"
+  },
+  {
+    "illuminance": 198.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:13.899Z"
+  },
+  {
+    "illuminance": 194.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:19.021Z"
+  },
+  {
+    "illuminance": 234.7,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:24.159Z"
+  },
+  {
+    "illuminance": 232,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:29.282Z"
+  },
+  {
+    "illuminance": 235.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:34.411Z"
+  },
+  {
+    "illuminance": 236.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:39.529Z"
+  },
+  {
+    "illuminance": 225.9,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:44.672Z"
+  },
+  {
+    "illuminance": 219.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:49.790Z"
+  },
+  {
+    "illuminance": 224.5,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:16:54.926Z"
+  },
+  {
+    "illuminance": 225.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:00.050Z"
+  },
+  {
+    "illuminance": 247.8,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:05.170Z"
+  },
+  {
+    "illuminance": 253.1,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:10.296Z"
+  },
+  {
+    "illuminance": 255.2,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:15.416Z"
+  },
+  {
+    "illuminance": 247.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:20.555Z"
+  },
+  {
+    "illuminance": 250.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:25.678Z"
+  },
+  {
+    "illuminance": 255.4,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:30.805Z"
+  },
+  {
+    "illuminance": 257.3,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:35.925Z"
+  },
+  {
+    "illuminance": 225.6,
+    "id": "Kitchen",
+    "timestamp": "2024-06-06T10:17:41.066Z"
   }
 ]

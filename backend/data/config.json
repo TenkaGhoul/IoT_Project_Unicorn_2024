@@ -1,30 +1,38 @@
 {
-  "house1": {
-    "id": 94038500663588,
-    "luminositeMax": 2000,
+  "Kitchen": {
+    "id_sensor": 94038500663588,
+    "id": 1,
+    "name": "Kitchen",
+    "luminositeMax": 1000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 96.7555
+    "blinds": 77.721
   },
-  "bathroom": {
-    "id": 0,
-    "luminositeMax": 2000,
-    "luminositeMin": 0,
-    "automatique": true,
-    "blinds": 97.3365
-  },
-  "house4": {
-    "id": 0,
-    "luminositeMax": 2000,
-    "luminositeMin": 0,
-    "automatique": true,
-    "blinds": 97.248
-  },
-  "house5": {
-    "id": 0,
+  "Bathroom": {
+    "id_sensor": 0,
+    "id": 2,
+    "name": "Bathroom",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
+    "blinds": 97.3
+  },
+  "Bedroom": {
+    "id_sensor": 0,
+    "id": 3,
+    "name": "Bedroom",
+    "luminositeMax": 100,
+    "luminositeMin": 0,
+    "automatique": true,
+    "blinds": 97.2
+  },
+  "TESTs": {
+    "id_sensor": 0,
+    "id": 4,
+    "name": "TEST",
+    "luminositeMax": 100,
+    "luminositeMin": 0,
+    "automatique": false,
     "blinds": 0
   }
 }

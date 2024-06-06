@@ -8,7 +8,7 @@ const updateState = require('./data/dataManagementLayer');
 
 // Create the express app
 const app = express();
-const port = 3001;
+const port = 3002;
 
 // Middleware to parse the body of the request
 app.use(bodyParser.json());
@@ -29,6 +29,14 @@ app.get('/status', (req, res) => {
     `);
 });
 
+// CROS (Cross-Origin Resource Sharing) middleware
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+});
+
 // Routes
 app.use('/data', dataRoutes);
 app.use('/configuration', configRoutes);
@@ -40,5 +48,5 @@ updateState();
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
+    console.log(`---Server is listening on port ${port}---`);
 });

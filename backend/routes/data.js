@@ -30,7 +30,7 @@ router.get('/', (req, res) => {
         const data = loadCurrentData();
         res.status(200).json(data);
     } catch (error) {
-        console.error('Error loading data from data.json:', error.toString());
+        console.error('[Error] loading data from data.json:', error.toString());
         res.status(500).send('Error loading data from data.json');
     }
 });
@@ -49,7 +49,7 @@ function saveData(data) {
 
         // Check if the room name exists in the config file
         if (!roomConfig[room]) {
-            console.error('Error saving data to data.json: Room name does not exist in the config file');
+            console.error('[Error] Room name not found in the configuration:', room);
             return;
         }
 
@@ -61,9 +61,9 @@ function saveData(data) {
 
         // Write the updated data to the data.json file
         fs.writeFileSync(dataFilePath, JSON.stringify(currentData, null, 2));
-        console.log('Data saved successfully to data.json');
+        console.log(' [Info] Data saved successfully:', data);
     } catch (error) {
-        console.error('Error saving data to data.json:', error.toString());
+        console.error('[Error] saving data to data.json:', error.toString());
     }
 }
 
@@ -96,10 +96,10 @@ function addToIdList(id) {
         if (!idList.includes(id)) {
             idList.push(id);
             fs.writeFileSync(idListFilePath, JSON.stringify(idList, null, 2));
-            console.log('ID added to the ID list:', id);
+            console.log(' [Info] ID added to the ID list:', id);
         }
     } catch (error) {
-        console.error('Error adding ID to the ID list:', error.toString());
+        console.error('[Error] adding ID to the ID list:', error.toString());
     }
 }
 

@@ -9,7 +9,7 @@ const configFilePath = './data/config.json';
 router.post('/:room', (req, res) => {
     const room = req.params.room;
     const newConfiguration = req.body;
-    console.log(`Modifying configuration for room ${room}:`, newConfiguration);
+    console.log(`[Info] Updating configuration for room ${room}:`, newConfiguration);
 
     let currentConfiguration = loadConfiguration();
 
@@ -33,7 +33,7 @@ function loadConfiguration() {
         const data = fs.readFileSync(configFilePath);
         return JSON.parse(data);
     } catch (error) {
-        console.error('Error loading configuration:', error.toString());
+        console.error('[Error] loading configuration:', error.toString());
         return null;
     }
 }
@@ -42,9 +42,9 @@ function loadConfiguration() {
 function saveConfiguration(configuration) {
     try {
         fs.writeFileSync(configFilePath, JSON.stringify(configuration, null, 2));
-        console.log('Configuration successfully updated');
+        console.log('[Info] Configuration updated successfully');
     } catch (error) {
-        console.error('Error updating configuration:', error.toString());
+        console.error('[Error] saving configuration:', error.toString());
     }
 }
 
