@@ -99,11 +99,10 @@ async function modifyID(id) {
     const data = await PUTRoutines("rooms/ID/modify-id", id);
     return data;
 }
-
-// update the name of a room
-// http://localhost:3002/rooms/?id=xxx/?name=yyy
-async function modifyName(roomId, newName) {
-    const data = await PUTRoutines("rooms/" + roomId + "/" + newName);
+// http://localhost:3002/rooms/?id=1&name=room1&luminositeMin=0&luminositeMax=100
+async function modifyName(roomId, newName, luminositeMin, luminositeMax) {
+    // /:roomId/:name/:luminositeMin/:luminositeMax
+    const data = await PUTRoutines("rooms/" + roomId + "/" + newName + "/" + luminositeMin + "/" + luminositeMax);
     return data;
 }
 

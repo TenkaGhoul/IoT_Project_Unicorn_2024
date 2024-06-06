@@ -103,7 +103,7 @@ router.put('/:room', (req, res) => {
 
     let configData = loadConfiguration();
 
-    const roomIndex = configData.findIndex(room => room.name === roomName);
+    const roomIndex = Object.keys(configData).find(room => configData[room].name === roomName);
 
     if (roomIndex === -1) {
         return res.status(404).send(`[Error] The room ${roomName} does not exist in the configuration`);
@@ -124,9 +124,11 @@ router.put('/:room', (req, res) => {
 });
 
 // Route to modify the name of a room
-router.put('/:roomId/:name', (req, res) => {
+router.put('/:roomId/:name/:luminositeMin/:luminositeMax', (req, res) => {
   const roomId = req.params.roomId;
   const newName = req.params.name;
+  const newLuminositeMin = req.params.luminositeMin;
+  const newLuminositeMax = req.params.luminositeMax;
 
   let configData = loadConfiguration();
 
@@ -139,13 +141,14 @@ router.put('/:roomId/:name', (req, res) => {
   // Update the name of the room
   configData[roomIndex] = {
     ...configData[roomIndex],
-    name: newName || configData[roomIndex].name
+    name: newName || configData[roomIndex].name,
+    luminositeMin: newLuminositeMin || configData[roomIndex].luminositeMin,
+    luminositeMax: newLuminositeMax || configData[roomIndex].luminositeMax
   };
 
+  // Save the updated configuration
   saveConfiguration(configData);
-
-  // Send a response indicating that the name has been successfully updated
-  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName}`);
+  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName} and luminositeMin to ${newLuminositeMin} and luminositeMax to ${newLuminositeMax}`);
 });
 
 // Route to delete a room from the configuration

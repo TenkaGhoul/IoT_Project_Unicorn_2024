@@ -10,8 +10,8 @@
   "Bathroom": {
     "id": 2,
     "name": "Bathroom",
-    "luminositeMax": 100,
-    "luminositeMin": 0,
+    "luminositeMax": 34567890,
+    "luminositeMin": 45678,
     "automatique": true,
     "blinds": 97.3
   },
@@ -25,7 +25,7 @@
   },
   "TESTs": {
     "id": 4,
-    "name": "TEST",
+    "name": "TESTs",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": false,

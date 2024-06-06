@@ -9,6 +9,8 @@ const Dashboard = () => {
   const [newRoomName, setNewRoomName] = useState('');
   const [editRoomName, setEditRoomName] = useState('');
   const [roomBeingEdited, setRoomBeingEdited] = useState(null);
+  const [editLuminosityMin, setEditLuminosityMin] = useState('');
+  const [editLuminosityMax, setEditLuminosityMax] = useState('');
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -45,18 +47,18 @@ const Dashboard = () => {
     }
   };
 
-const handleModifyRoomName = async (roomId, newName) => {
+const handleModification = async (roomId, newName, luminositeMin, luminositeMax) => {
   try {
-    await modifyName(roomId, newName);
+    await modifyName(roomId, newName, luminositeMin, luminositeMax);
     setRooms(prevRooms => prevRooms.map(room => {
       if (room.id === roomId) {
-        return { ...room, name: newName };
+        return { ...room, name: newName, luminositeMin: editLuminosityMin, luminositeMax: editLuminosityMax };
       }
       return room;
     }));
     setRoomBeingEdited(null); // Reset the room being edited
   } catch (error) {
-    console.error('Error modifying room name:', error);
+    console.error('Error modifying room :', error);
     setError(error.toString());
   }
 };
@@ -88,8 +90,12 @@ const handleModifyRoomName = async (roomId, newName) => {
               <h2 className="room-name">Room : {room.name}</h2>
               <p className="room-id">ID: {room.id}</p>
               <hr className="room-divider" />
-              <p className="room-luminosity-max">Luminosity Max: {room.luminositeMax}</p>
-              <p className="room-luminosity-min">Luminosity Min: {room.luminositeMin}</p>
+              {room.automatique && (
+                <>
+                  <p className="room-luminosity-max">Luminosity Max: {room.luminositeMax}</p>
+                  <p className="room-luminosity-min">Luminosity Min: {room.luminositeMin}</p>
+                </>
+              )}
               <p className="room-automatic">Automatic: {room.automatique ? 'True' : 'False'}</p>
               <p className="room-blinds">Blinds: {room.blinds}</p>
               <hr className="room-divider" />
@@ -102,7 +108,7 @@ const handleModifyRoomName = async (roomId, newName) => {
                 {roomBeingEdited === room.id && (
                   <form onSubmit={(e) => {
                     e.preventDefault();
-                    handleModifyRoomName(room.id, editRoomName);
+                    handleModification(room.id, editRoomName, editLuminosityMin, editLuminosityMax);
                   }}>
                     <input
                     className="room-name-input"
@@ -110,6 +116,22 @@ const handleModifyRoomName = async (roomId, newName) => {
                       value={editRoomName}
                       onChange={(e) => setEditRoomName(e.target.value)}
                       placeholder="Enter new room name"
+                      required
+                    />
+                    <input
+                    className="room-luminosity-input"
+                    type="number"
+                    value={editLuminosityMin}
+                    onChange={(e) => setEditLuminosityMin(e.target.value)}
+                    placeholder="Enter new min luminosity"
+                    required
+                    />
+                    <input
+                      className="room-luminosity-input"
+                      type="number"
+                      value={editLuminosityMax}
+                      onChange={(e) => setEditLuminosityMax(e.target.value)}
+                      placeholder="Enter new max luminosity"
                       required
                     />
                     <button type="submit" className="room-edit-button">Save</button>
