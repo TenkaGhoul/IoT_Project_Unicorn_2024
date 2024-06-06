@@ -1,0 +1,51 @@
+.store-control {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+.color-display {
+    width: 100%;
+    height: 200px; /* Hauteur à ajuster selon vos besoins */
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.black-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    transition: height 0.3s ease-in-out;
+}
+
+.brightness-display {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}

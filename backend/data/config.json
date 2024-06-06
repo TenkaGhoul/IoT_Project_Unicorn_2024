@@ -6,7 +6,7 @@
     "luminositeMax": 1000,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 77.721
+    "blinds": 86.80499999999999
   },
   "Bathroom": {
     "id_sensor": 0,
@@ -26,13 +26,22 @@
     "automatique": true,
     "blinds": 97.2
   },
-  "TESTs": {
+  "TEST": {
     "id_sensor": 0,
     "id": 4,
     "name": "TEST",
-    "luminositeMax": 100,
-    "luminositeMin": 0,
+    "luminositeMax": 1500,
+    "luminositeMin": 1200,
     "automatique": false,
+    "blinds": 42
+  },
+  "Youpi": {
+    "id": 5,
+    "id_sensor": 0,
+    "name": "Youpi",
+    "luminositeMax": 900,
+    "luminositeMin": 600,
+    "automatique": true,
     "blinds": 0
   }
 }

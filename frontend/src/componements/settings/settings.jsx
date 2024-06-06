@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../header/header';
+import './settings.css';
 
 const UserSettings = () => {
+  const defaultProfilePicture = 'https://github.com/TenkaGhoul/IoT_Project_Unicorn_2024/blob/frontend-paul/src/default.jpg?raw=true';
   const [name, setName] = useState(localStorage.getItem('name') || '');
-  const [profilePicture, setProfilePicture] = useState(localStorage.getItem('profilePicture') || '');
+  const [profilePicture, setProfilePicture] = useState(defaultProfilePicture);
   const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {
     localStorage.setItem('name', name);
-    localStorage.setItem('profilePicture', profilePicture);
-  }, [name, profilePicture]);
+  }, [name]);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -28,29 +29,33 @@ const UserSettings = () => {
   };
 
   return (
-    <div className="user-settings">
+    <>
       <Header />
-      <h1 className="user-settings-title">User Settings</h1>
-      {isEditing ? (
-        <form className="user-settings-form">
-          <label className="user-settings-label">
-            Name:
-            <input type="text" value={name} onChange={handleNameChange} className="user-settings-input" />
-          </label>
-          <label className="user-settings-label">
-            Profile Picture:
-            <input type="file" onChange={handleProfilePictureChange} className="user-settings-input" />
-          </label>
-          <button onClick={handleSaveClick}>Save</button>
-        </form>
-      ) : (
-        <div>
-          <h2>{name}</h2>
-          {profilePicture && <img src={profilePicture} alt="Profile" className="user-settings-profile-picture" />}
-          <button onClick={handleEditClick}>Edit</button>
+      <div className="settings-container">
+        <div className="content-area">
+          <h1 className="settings-title">User Settings</h1>
+          {isEditing ? (
+            <form className="settings-form">
+              <label className="settings-label">
+                Name:
+                <input type="text" value={name} onChange={handleNameChange} className="settings-input name-input" />
+              </label>
+              <label className="settings-label">
+                Profile Picture:
+                <input type="file" onChange={handleProfilePictureChange} className="settings-input profile-picture-input" />
+              </label>
+              <button onClick={handleSaveClick} className="settings-button save-button">Save</button>
+            </form>
+          ) : (
+            <div>
+              <h2>{name}</h2>
+              <img src={profilePicture} alt="Profile" className="profile-picture" />
+              <button onClick={handleEditClick} className="settings-button edit-button">Edit</button>
+            </div>
+          )}
         </div>
-      )}
-    </div>
+      </div>
+    </>
   );
 }
 

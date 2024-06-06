@@ -44,7 +44,7 @@ router.post('/:room', (req, res) => {
     const existedRooms = Object.keys(currentConfiguration);
     const newRoom = {
       id: existedRooms.length + 1,
-      id_sensor: 0,
+      id_sensor : 0,
       name: room,
       luminositeMax: 100,
       luminositeMin: 0,
@@ -64,13 +64,17 @@ router.post('/:room', (req, res) => {
 });
 
 // Route to modify the blinds percentage of a room
+// async function modifyBlinds(room, newBlinds) {
+//  const data = await PUTRoutines("rooms/" + room + "/blinds", newBlinds);
+//  return data;
+//}
 router.post('/:room/blinds', (req, res) => {
     const room = req.params.room;
-    const { blinds } = req.body;
+    const blinds = req.body.blinds;
 
-    // Check if the blinds percentage is a valid number between 0 and 100  
+    // Check if the blinds percentage is a valid number between 0 and 100
     if (typeof blinds !== 'number' || blinds < 0 || blinds > 100) {
-        return res.status(400).send('[Error] Invalid blinds percentage, must be a number between 0 and 100');
+        return res.status(400).json({ error: 'Invalid blinds percentage, must be a number between 0 and 100' });
     }
 
     // Load the current configuration from the config.json file
@@ -78,12 +82,12 @@ router.post('/:room/blinds', (req, res) => {
 
     if (!configData) {
         // Impossible to load the current configuration, stop the process
-        return res.status(500).send('[Error] Impossible to load the current configuration');
+        return res.status(500).json({ error: 'Impossible to load the current configuration' });
     }
 
     // Check if the room exists in the configuration
     if (!configData[room]) {
-        return res.status(404).send(`[Error] The room ${room} does not exist in the configuration`);
+        return res.status(404).json({ error: `The room ${room} does not exist in the configuration` });
     }
 
     // Modify the blinds percentage of the room
@@ -93,7 +97,7 @@ router.post('/:room/blinds', (req, res) => {
     saveConfiguration(configData);
 
     // Send a response indicating that the blinds percentage has been successfully updated
-    res.status(200).send(`[Info] Blinds percentage of room ${room} updated successfully`);
+    res.status(200).json({ message: `Blinds percentage of room ${room} updated successfully` });
 });
 
 // Route to modify the configuration of a room (without modifying the blinds and the name)
@@ -104,7 +108,7 @@ router.put('/:room', (req, res) => {
 
     let configData = loadConfiguration();
 
-    const roomIndex = configData.findIndex(room => room.name === roomName);
+    const roomIndex = Object.keys(configData).find(room => configData[room].name === roomName);
 
     if (roomIndex === -1) {
         return res.status(404).send(`[Error] The room ${roomName} does not exist in the configuration`);
@@ -125,9 +129,11 @@ router.put('/:room', (req, res) => {
 });
 
 // Route to modify the name of a room
-router.put('/:roomId/:name', (req, res) => {
+router.put('/:roomId/:name/:luminositeMin/:luminositeMax', (req, res) => {
   const roomId = req.params.roomId;
   const newName = req.params.name;
+  const newLuminositeMin = req.params.luminositeMin;
+  const newLuminositeMax = req.params.luminositeMax;
 
   let configData = loadConfiguration();
 
@@ -140,13 +146,14 @@ router.put('/:roomId/:name', (req, res) => {
   // Update the name of the room
   configData[roomIndex] = {
     ...configData[roomIndex],
-    name: newName || configData[roomIndex].name
+    name: newName || configData[roomIndex].name,
+    luminositeMin: newLuminositeMin || configData[roomIndex].luminositeMin,
+    luminositeMax: newLuminositeMax || configData[roomIndex].luminositeMax
   };
 
+  // Save the updated configuration
   saveConfiguration(configData);
-
-  // Send a response indicating that the name has been successfully updated
-  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName}`);
+  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName} and luminositeMin to ${newLuminositeMin} and luminositeMax to ${newLuminositeMax}`);
 });
 
 // Route to delete a room from the configuration
@@ -170,6 +177,41 @@ router.delete('/:room', (req, res) => {
     console.error('Error deleting room:', error);
     res.status(500).json({ message: 'Error deleting room', error: error.toString() });
   }
+});
+
+
+router.put('/:room/luminosity', (req, res) => {
+    const room = req.params.room;
+    const { minLuminosity, maxLuminosity } = req.body;
+
+    // Vérifier si la luminosité minimale et maximale sont des nombres valides
+    if (typeof minLuminosity !== 'number' || typeof maxLuminosity !== 'number') {
+        return res.status(400).send('[Error] Invalid luminosity values, must be numbers');
+    }
+
+    // Charger le fichier de configuration JSON
+    let configData = loadConfiguration();
+
+    // Vérifier si la configuration a été chargée avec succès
+    if (!configData) {
+        // Impossible de charger la configuration, arrêter le processus
+        return res.status(500).send('[Error] Impossible to load the current configuration');
+    }
+
+    // Vérifier si la salle existe dans la configuration
+    if (!configData[room]) {
+        return res.status(404).send(`[Error] The room ${room} does not exist in the configuration`);
+    }
+
+    // Modifier les valeurs de luminosité pour la salle spécifiée
+    configData[room].luminositeMin = minLuminosity;
+    configData[room].luminositeMax = maxLuminosity;
+
+    // Enregistrer les modifications dans le fichier JSON
+    saveConfiguration(configData);
+
+    // Réponse de succès
+    res.status(200).send(`[Info] Luminosity for room ${room} changed successfully`);
 });
 
 // Route to load all the rooms configuration

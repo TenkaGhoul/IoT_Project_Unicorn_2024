@@ -99,11 +99,10 @@ async function modifyID(id) {
     const data = await PUTRoutines("rooms/ID/modify-id", id);
     return data;
 }
-
-// update the name of a room
-// http://localhost:3002/rooms/?id=xxx/?name=yyy
-async function modifyName(roomId, newName) {
-    const data = await PUTRoutines("rooms/" + roomId + "/" + newName);
+// http://localhost:3002/rooms/?id=1&name=room1&luminositeMin=0&luminositeMax=100
+async function modifyName(roomId, newName, luminositeMin, luminositeMax) {
+    // /:roomId/:name/:luminositeMin/:luminositeMax
+    const data = await PUTRoutines("rooms/" + roomId + "/" + newName + "/" + luminositeMin + "/" + luminositeMax);
     return data;
 }
 
@@ -114,11 +113,52 @@ async function modifyRoom(room) {
 }
 
 // Modify the state of blinders
-// http://localhost:3001/rooms/house1/blinds
-async function modifyBlinds(room) {
-    const data = await PUTRoutines("rooms/" + room + "/blinds", room);
-    return data;
+// http://localhost:3002/rooms/house1/blinds
+async function modifyBlinds(roomId, newBlinds) {
+    try {
+        console.log(`Sending request to modify blinds for room ${roomId} with value ${newBlinds}`);
+        const response = await fetch(`http://localhost:3002/rooms/${roomId}/blinds`, { // Utiliser une URL absolue
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ blinds: newBlinds }), // Envoyer les données sous forme d'objet JSON
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`HTTP error! status: ${response.status}, message: ${errorText}`);
+        }
+
+        const data = await response.json();
+        console.log('Response from server:', data);
+        return data;
+    } catch (error) {
+        console.error('Error in modifyBlinds:', error);
+        throw error;
+    }
 }
+
+const modifyLuminosity = async (roomId, minLuminosity, maxLuminosity) => {
+    try {
+        const response = await fetch(`http://localhost:3002/rooms/${roomId}/luminosity`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ minLuminosity, maxLuminosity })
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}, message: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        console.log('Response from modifyLuminosity:', data);
+    } catch (error) {
+        console.error('Error modifying room luminosity:', error);
+    }
+};
 
 
 // export the functions
@@ -131,3 +171,4 @@ module.exports.modifyID = modifyID;
 module.exports.modifyName = modifyName;
 module.exports.modifyRoom = modifyRoom;
 module.exports.modifyBlinds = modifyBlinds;
+module.exports.modifyLuminosity = modifyLuminosity;
