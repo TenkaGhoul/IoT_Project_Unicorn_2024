@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Kitchen": {
     "id": 1,
     "name": "Kitchen",
     "luminositeMax": 100,
@@ -7,7 +7,7 @@
     "automatique": true,
     "blinds": 98.4
   },
-  {
+  "Bathroom": {
     "id": 2,
     "name": "Bathroom",
     "luminositeMax": 100,
@@ -15,7 +15,7 @@
     "automatique": true,
     "blinds": 97.3
   },
-  {
+  "Bedroom": {
     "id": 3,
     "name": "Bedroom",
     "luminositeMax": 100,
@@ -23,12 +23,12 @@
     "automatique": true,
     "blinds": 97.2
   },
-  {
+  "TESTs": {
     "id": 4,
-    "name": "TESTs",
+    "name": "TEST",
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": false,
     "blinds": 0
   }
-]
+}
