@@ -1,8 +1,8 @@
-![/src/smartshade-banner.png](Banner)
+![smartshade-banner](/src/smartshade-banner.png)
 
 # SmartShade - IoT Project Unicorn 2024
 
-SmartShade is a web application that allows users to manage and monitor the status of their blinds in real-time. It is built using the Hardwario Core Module and Climate Module, and features a backend server built with Node.js and Express, and a frontend client built with React.
+SmartShade is a real-time web application for managing and monitoring the status of blinds. It's built with the Hardwario Core Module and Climate Module, featuring a backend server developed with Node.js and Express, and a frontend client created with React.
 
 This project is develloped in the context of the IoT course at [Unicorn University](https://unicornuniversity.net/en/) for my internationnal semester.
 
