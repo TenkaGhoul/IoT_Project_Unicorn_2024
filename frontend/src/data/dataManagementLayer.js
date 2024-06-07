@@ -111,12 +111,54 @@ async function modifyRoom(room) {
     return data;
 }
 
+
 // Modify the state of blinders
 // http://localhost:3002/rooms/house1/blinds
 async function modifyBlinds(roomId, newBlinds) {
-    const data = await PUTRoutines("rooms/" + roomId + "/blinds", newBlinds);
-    return data;
+    try {
+        console.log(`Sending request to modify blinds for room ${roomId} with value ${newBlinds}`);
+        const response = await fetch(`http://localhost:3002/rooms/${roomId}/blinds`, { // Utiliser une URL absolue
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ blinds: newBlinds }), // Envoyer les données sous forme d'objet JSON
+        });
+
+        if (!response.ok) {
+            const errorText = await response.text();
+            throw new Error(`HTTP error! status: ${response.status}, message: ${errorText}`);
+        }
+
+        const data = await response.json();
+        console.log('Response from server:', data);
+        return data;
+    } catch (error) {
+        console.error('Error in modifyBlinds:', error);
+        throw error;
+    }
 }
+
+const modifyLuminosity = async (roomId, minLuminosity, maxLuminosity) => {
+    try {
+        const response = await fetch(`http://localhost:3002/rooms/${roomId}/luminosity`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ minLuminosity, maxLuminosity })
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}, message: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        console.log('Response from modifyLuminosity:', data);
+    } catch (error) {
+        console.error('Error modifying room luminosity:', error);
+    }
+};
 
 
 // export the functions
@@ -129,3 +171,4 @@ module.exports.modifyID = modifyID;
 module.exports.modifyName = modifyName;
 module.exports.modifyRoom = modifyRoom;
 module.exports.modifyBlinds = modifyBlinds;
+module.exports.modifyLuminosity = modifyLuminosity;

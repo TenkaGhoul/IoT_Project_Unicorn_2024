@@ -140,7 +140,7 @@
 }
 
 .room-luminosity-input {
-    width: 25%;
+    width: 20%;
     padding: 5px;
     margin: 5px 0;
     margin-left: 5px;
@@ -153,9 +153,94 @@
 .room-automatique-input {
     padding: 5px;
     margin: 5px 0;
-    margin-left: 10px;
+    margin-left: 5px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none; 
+    color: black; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 14px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    background-color: transparent;
+}
+
+#btn:hover {
+    background-color: #ddd;
+}
+
+#btn-evening {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none; 
+    color: black; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 14px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    background-color: transparent;
+}
+
+#btn-evening:hover {
+    background-color: #ddd;
+}
+
+#img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+}
+
+#img-evening {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+}
+
+p {
+    font-size: 16x;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.luminosity-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.blinds-control {
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-between;
+}
+
+#btn-save {
+    background: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0 0px;
+}
+
+#btn-save:hover {
+    background: #303f9f;
 }

@@ -3,10 +3,10 @@
     "id_sensor": 94038500663588,
     "id": 1,
     "name": "Kitchen",
-    "luminositeMax": "100",
-    "luminositeMin": "10",
+    "luminositeMax": 1000,
+    "luminositeMin": 750,
     "automatique": true,
-    "blinds": 77.721
+    "blinds": 86.80499999999999
   },
   "Bathroom": {
     "id_sensor": 0,
@@ -24,15 +24,15 @@
     "luminositeMax": "100",
     "luminositeMin": "0",
     "automatique": false,
-    "blinds": 97.2
+    "blinds": 0
   },
   "TEST": {
     "id_sensor": 0,
     "id": 4,
     "name": "TEST",
-    "luminositeMax": 100,
-    "luminositeMin": 0,
+    "luminositeMax": 1500,
+    "luminositeMin": 1200,
     "automatique": false,
-    "blinds": 0
+    "blinds": 40
   }
 }

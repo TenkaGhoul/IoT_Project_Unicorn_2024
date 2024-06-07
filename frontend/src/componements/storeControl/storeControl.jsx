@@ -1,21 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import './storeControl.css';
 
-const StoreControl = ({ onChange }) => {
+const StoreControl = ({ room, onChange }) => {
     const [brightness, setBrightness] = useState(() => {
-        // Get the initial value from localStorage if it exists, otherwise use 0
-        const savedBlinds = localStorage.getItem('blinds');
-        return savedBlinds !== null ? Number(savedBlinds) : 0;
+        const savedBrightness = localStorage.getItem(`brightness-${room}`);
+        return savedBrightness !== null ? Number(savedBrightness) : 0;
+    });
+
+    const [blinds, setBlinds] = useState(() => {
+        const savedBlinds = localStorage.getItem(`blinds-${room}`);
+        return savedBlinds !== null ? JSON.parse(savedBlinds) : {};
     });
 
     useEffect(() => {
-        localStorage.setItem('blinds', brightness);
-    }, [brightness]);
+        localStorage.setItem(`brightness-${room}`, brightness);
+        localStorage.setItem(`blinds-${room}`, JSON.stringify(blinds));
+    }, [brightness, blinds, room]);
 
     const handleBrightnessChange = (event) => {
         const newBrightness = parseInt(event.target.value);
         setBrightness(newBrightness);
         onChange(newBrightness);
+    };
+
+    const handleBlindsChange = (event) => {
+        const newBlinds = event.target.value;
+        setBlinds(newBlinds);
+        // Call your onChange handler here if you have one for blinds
     };
 
     const getBlackLayerStyle = () => {
