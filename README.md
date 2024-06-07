@@ -1,10 +1,10 @@
-[Banner](/src/smartshade-banner.png)
+[/src/smartshade-banner.png](Banner)
 
 # SmartShade - IoT Project Unicorn 2024
 
 SmartShade is a web application that allows users to manage and monitor the status of their blinds in real-time. It is built using the Hardwario Core Module and Climate Module, and features a backend server built with Node.js and Express, and a frontend client built with React.
 
-This project is develloped in the context of the IoT course at [https://unicornuniversity.net/en/](Unicorn University) for my internationnal semester.
+This project is develloped in the context of the IoT course at [Unicorn University](https://unicornuniversity.net/en/) for my internationnal semester.
 
 ## Architecture
 
@@ -37,23 +37,26 @@ It will open a new tab in your browser with the application running.
 
 ## Screenshots
 
-Dashboard : ![alt text](/src/image-1.png)
+![alt text](/src/image-1.png)
+
 ![alt text](/src/image-4.png)
-User settings : ![alt text](/src/image-2.png)
-Simulation : ![alt text](/src/image-3.png)
+
+![alt text](/src/image-2.png)
+
+![alt text](/src/image-3.png)
 
 ## Hardwario Modules
-- [https://www.hardwario.com/](Hardwario)
-- [https://shop.hardwario.com/core-module/](Core Module)
-- [https://shop.hardwario.com/climate-module/](Climate Module)
+
+- [Hardwario](https://www.hardwario.com/)
+- [Hardwario Core Module](https://shop.hardwario.com/core-module/)
+- [Hardwario Climate Module](https://shop.hardwario.com/climate-module/)
 
 ## Contributions
 
-- [https://github.com/Choupakabra](Choupakabra)
-- [https://github.com/CalValmar](CalValmar)
-- [https://github.com/TenkaGhoul](TenkaGhoul)
+- [Choupakabra](https://github.com/Choupakabra)
+- [CalValmar](https://github.com/CalValmar)
+- [TenkaGhoul](https://github.com/TenkaGhoul)
 
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more information.
-```
