@@ -1,3 +1,4 @@
+// settings.jsx
 import React, { useState, useEffect } from 'react';
 import Header from '../header/header';
 import './settings.css';
@@ -31,29 +32,31 @@ const UserSettings = () => {
   return (
     <>
       <Header />
-      <div className="settings-container">
-        <div className="content-area">
-          <h1 className="settings-title">User Settings</h1>
-          {isEditing ? (
-            <form className="settings-form">
-              <label className="settings-label">
-                Name:
-                <input type="text" value={name} onChange={handleNameChange} className="settings-input name-input" />
-              </label>
-              <label className="settings-label">
-                Profile Picture:
-                <input type="file" onChange={handleProfilePictureChange} className="settings-input profile-picture-input" />
-              </label>
-              <button onClick={handleSaveClick} className="settings-button save-button">Save</button>
-            </form>
-          ) : (
-            <div>
-              <h2>{name}</h2>
-              <img src={profilePicture} alt="Profile" className="profile-picture" />
-              <button onClick={handleEditClick} className="settings-button edit-button">Edit</button>
-            </div>
-          )}
+      <div className="settings">
+        <div className="settings-header">
+          <h1 className="settings-title">Welcome {name} on your settings page</h1>
         </div>
+        {isEditing ? (
+          <form className="settings-form">
+            <label className="settings-label">
+              Name:
+              <input type="text" value={name} onChange={handleNameChange} className="settings-input settings-name-input" />
+            </label>
+            <label className="settings-label">
+              Profile Picture:
+              <input type="file" onChange={handleProfilePictureChange} className="settings-input settings-avatar-input" />
+            </label>
+            <button type="button" onClick={handleSaveClick} className="settings-button">Save</button>
+          </form>
+        ) : (
+          <div className="settings-profile">
+            <div className="settings-profile-info">
+              <img src={profilePicture} alt="Profile" className="settings-avatar" />
+              <h2 className="settings-username">{name}</h2>
+            </div>
+            <button type="button" onClick={handleEditClick} className="settings-button">Edit</button>
+          </div>
+        )}
       </div>
     </>
   );

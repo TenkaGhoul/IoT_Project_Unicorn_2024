@@ -244,3 +244,19 @@ p {
 #btn-save:hover {
     background: #303f9f;
 }
+
+#btn-preset {
+    background: #f0ad4e;
+    color: #000; /* Black text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 0 0px;
+    margin-left: 10px;
+}
+
+#btn-preset:hover {
+    background: #ec971f;
+}

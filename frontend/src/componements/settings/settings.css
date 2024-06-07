@@ -1,32 +1,38 @@
-.settings-container {
+.settings {
     font-family: Arial, sans-serif;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background: #fff;
 }
 
-.settings-title {
+.settings:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.settings-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
     color: #333;
     text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 20px;
 }
 
 .settings-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 500px;
+    margin-top: 20px;
 }
 
 .settings-label {
     color: #333;
     margin: 10px 0;
-    margin-bottom: 10px;
     width: 100%;
     font-size: 1.2em;
     display: block;
@@ -40,30 +46,12 @@
     margin-right: 0px;
     width: 100%;
     font-size: 1.2em;
+    transition: border-color 0.3s ease;
 }
 
-.name-input {
-    border: 2px solid #4caf50;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.profile-picture-input {
-    border: 2px solid #4caf50;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.profile-picture {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
+.settings-input:hover,
+.settings-input:focus {
+    border-color: #4caf50;
 }
 
 .settings-button {
@@ -83,44 +71,52 @@
     background: #388e3c;
 }
 
-.save-button {
-    background: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
+.settings-divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+
+.settings-link {
+    height: 28px;
+    width: 28px;
+}
+
+.settings-error-message {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.settings-avatar {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.settings-avatar-input,
+.settings-name-input {
+    border: 2px solid #4caf50;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    width: 100%;
+    padding: 10px;
     font-size: 1.2em;
-}
-
-.save-button:hover {
-    background: #388e3c;
-}
-
-.edit-button {
-    background: #f0ad4e;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
     width: 100%;
-    font-size: 1.2em;
+    max-width: 300px;  /* Adjust as needed */
 }
 
-.edit-button:hover {
-    background: #ec971f;
-}
-
-.content-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
+.settings-avatar-input:hover,
+.settings-avatar-input:focus,
+.settings-name-input:hover,
+.settings-name-input:focus {
+    border-color: #388e3c;
 }

@@ -182,7 +182,7 @@ const Dashboard = () => {
                   setEditLuminosityMin(room.luminositeMin);
                   setEditLuminosityMax(room.luminositeMax);
                   setEditAutomatique(room.automatique.toString());
-                }}>Edit</button>                
+                }}>Edit</button>            
                 {roomBeingEdited === room.id && (
                   <form onSubmit={(e) => {
                     e.preventDefault();
@@ -224,7 +224,11 @@ const Dashboard = () => {
                     <button type="submit" className="room-edit-button">Save</button>
                   </form>
                 )}
-            </div>
+                <div className="room-preset"></div>
+                  <button id="btn-preset" onClick={() => handleBlindsChange(room.name, 100)}>Open</button>
+                  <button id="btn-preset" onClick={() => handleBlindsChange(room.name, 0)}>Close</button>
+                  <button id="btn-preset" onClick={() => handleBlindsChange(room.name, 50)}>Mid-opening</button>
+                </div>
             {room.automatique && (
               <div>
                 <hr className="room-divider" />
@@ -264,7 +268,7 @@ const Dashboard = () => {
           />
           <button type="submit" className="room-add-button">Add Room</button>
         </form>
-      </div>
+        </div>
       {error && <div className="error-message">Error: {error}</div>}
     </div>
   );

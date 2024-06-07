@@ -6,7 +6,7 @@
     "luminositeMax": 1000,
     "luminositeMin": 750,
     "automatique": true,
-    "blinds": 86.80499999999999
+    "blinds": 50
   },
   "Bathroom": {
     "id_sensor": 0,
@@ -15,7 +15,7 @@
     "luminositeMax": 100,
     "luminositeMin": 0,
     "automatique": true,
-    "blinds": 97.3
+    "blinds": 50
   },
   "Bedroom": {
     "id_sensor": 0,
@@ -24,7 +24,7 @@
     "luminositeMax": "100",
     "luminositeMin": "0",
     "automatique": false,
-    "blinds": 0
+    "blinds": 50
   },
   "TEST": {
     "id_sensor": 0,
@@ -33,6 +33,6 @@
     "luminositeMax": 1500,
     "luminositeMin": 1200,
     "automatique": false,
-    "blinds": 40
+    "blinds": 100
   }
 }
