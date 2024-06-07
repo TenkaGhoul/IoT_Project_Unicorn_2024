@@ -25,14 +25,5 @@
     "luminositeMin": "0",
     "automatique": false,
     "blinds": 50
-  },
-  "TEST": {
-    "id_sensor": 0,
-    "id": 4,
-    "name": "TEST",
-    "luminositeMax": 1500,
-    "luminositeMin": 1200,
-    "automatique": false,
-    "blinds": 100
   }
 }

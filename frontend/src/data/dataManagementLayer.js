@@ -159,6 +159,16 @@ const modifyLuminosity = async (roomId, minLuminosity, maxLuminosity) => {
         console.error('Error modifying room luminosity:', error);
     }
 };
+// router.get('/latest/:room', (req, res) => {
+async function getLatestDataForRoom(data, room) {
+    try {
+        const data = await fetchRoutines(`/data/latest/${room}`);
+        return data;
+    } catch (error) {
+        console.error('Error fetching latest data for room:', error);
+        throw error;
+    }
+}
 
 
 // export the functions

@@ -103,4 +103,39 @@ function addToIdList(id) {
     }
 }
 
+// Route to get the latest data for a specific room
+router.get('/latest/:room', (req, res) => {
+    const room = req.params.room;
+    try {
+        // Load data from the data.json file
+        const data = loadCurrentData();
+        // Get the latest data for the specified room
+        const latestDataForRoom = getLatestDataForRoom(data, room);
+        if (latestDataForRoom) {
+            res.status(200).json(latestDataForRoom);
+        } else {
+            res.status(404).send('Room not found');
+        }
+    } catch (error) {
+        console.error('[Error] loading latest data for room:', error.toString());
+        res.status(500).send('Error loading latest data for room');
+    }
+});
+
+// Function to get the latest data for a specific room
+function getLatestDataForRoom(data, room) {
+    let latestEntry = null;
+    data.forEach(entry => {
+        if (entry.id === room) {
+            if (!latestEntry || new Date(entry.timestamp) > new Date(latestEntry.timestamp)) {
+                latestEntry = {
+                    illuminance: entry.illuminance,
+                    timestamp: entry.timestamp
+                };
+            }
+        }
+    });
+    return latestEntry;
+}
+
 module.exports = router;
