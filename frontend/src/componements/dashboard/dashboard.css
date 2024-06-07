@@ -80,8 +80,14 @@
 }
 
 .room-name-input {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    margin-left: 0px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
 }
 
 .dashboard-divider {
@@ -95,11 +101,6 @@
     margin-top: 20px;
 }
 
-.room-name-input {
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 0px;
-}
 
 .room-add-button {
     padding: 10px 20px;
@@ -136,4 +137,25 @@
 .simulation-link {
     height: 28px;
     width: 28px;
+}
+
+.room-luminosity-input {
+    width: 25%;
+    padding: 5px;
+    margin: 5px 0;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.room-automatique-input {
+    padding: 5px;
+    margin: 5px 0;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
 }

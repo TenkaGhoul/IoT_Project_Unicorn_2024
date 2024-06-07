@@ -11,8 +11,9 @@ const Dashboard = () => {
   const [newRoomName, setNewRoomName] = useState('');
   const [editRoomName, setEditRoomName] = useState('');
   const [roomBeingEdited, setRoomBeingEdited] = useState(null);
-  const [editLuminosityMin, setEditLuminosityMin] = useState('');
-  const [editLuminosityMax, setEditLuminosityMax] = useState('');
+  const [editLuminosityMin, setEditLuminosityMin] = useState(0);
+  const [editLuminosityMax, setEditLuminosityMax] = useState(1000);
+  const [editAutomatique, setEditAutomatique] = useState('');
   const [error, setError] = useState(null);
   const [blinds, setBlinds] = useState(() => {
     // Get the initial value from localStorage if it exists, otherwise use 100
@@ -73,12 +74,13 @@ const Dashboard = () => {
     }
   };
 
-  const handleModification = async (roomId, newName, luminositeMin, luminositeMax) => {
+  const handleModification = async (roomId, newName, luminositeMin, luminositeMax, automatique) => {
     try {
-      await modifyName(roomId, newName, luminositeMin, luminositeMax);
+      const automatiqueBool = automatique === 'true' ? true : false;
+      await modifyName(roomId, newName, luminositeMin, luminositeMax, automatiqueBool);
       setRooms(prevRooms => prevRooms.map(room => {
         if (room.id === roomId) {
-          return { ...room, name: newName, luminositeMin: editLuminosityMin, luminositeMax: editLuminosityMax };
+          return { ...room, name: newName, luminositeMin: editLuminosityMin, luminositeMax: editLuminosityMax, automatique: automatiqueBool };
         }
         return room;
       }));
@@ -147,11 +149,14 @@ const Dashboard = () => {
                 <button className="room-edit-button" onClick={() => {
                   setRoomBeingEdited(room.id);
                   setEditRoomName(room.name);
+                  setEditLuminosityMin(room.luminositeMin);
+                  setEditLuminosityMax(room.luminositeMax);
+                  setEditAutomatique(room.automatique.toString());
                 }}>Edit</button>                
                 {roomBeingEdited === room.id && (
                   <form onSubmit={(e) => {
                     e.preventDefault();
-                    handleModification(room.id, editRoomName, editLuminosityMin, editLuminosityMax);
+                    handleModification(room.id, editRoomName, editLuminosityMin, editLuminosityMax, editAutomatique === 'true' ? 'true' : 'false');
                   }}>
                     <input
                     className="room-name-input"
@@ -159,24 +164,33 @@ const Dashboard = () => {
                       value={editRoomName}
                       onChange={(e) => setEditRoomName(e.target.value)}
                       placeholder="Enter new room name"
-                      required
                     />
-                    <input
-                    className="room-luminosity-input"
-                    type="number"
-                    value={editLuminosityMin}
-                    onChange={(e) => setEditLuminosityMin(e.target.value)}
-                    placeholder="Enter new min luminosity"
-                    required
-                    />
-                    <input
-                      className="room-luminosity-input"
-                      type="number"
-                      value={editLuminosityMax}
-                      onChange={(e) => setEditLuminosityMax(e.target.value)}
-                      placeholder="Enter new max luminosity"
-                      required
-                    />
+                    <select
+                      className="room-automatique-input"
+                      value={editAutomatique}
+                      onChange={(e) => setEditAutomatique(e.target.value)}
+                    >
+                      <option value="true">True</option>
+                      <option value="false">False</option>
+                    </select>
+                      {room.automatique && (
+                      <>
+                        <input
+                          className="room-luminosity-input"
+                          type="number"
+                          value={editLuminosityMin}
+                          onChange={(e) => setEditLuminosityMin(e.target.value)}
+                          placeholder="Min luminosity"
+                        />
+                        <input
+                          className="room-luminosity-input"
+                          type="number"
+                          value={editLuminosityMax}
+                          onChange={(e) => setEditLuminosityMax(e.target.value)}
+                          placeholder="Max luminosity"
+                        />
+                      </>
+                    )}
                     <button type="submit" className="room-edit-button">Save</button>
                   </form>
                 )}

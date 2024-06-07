@@ -44,6 +44,7 @@ router.post('/:room', (req, res) => {
     const existedRooms = Object.keys(currentConfiguration);
     const newRoom = {
       id: existedRooms.length + 1,
+      id_sensor: 0,
       name: room,
       luminositeMax: 100,
       luminositeMin: 0,
@@ -127,13 +128,13 @@ router.put('/:room', (req, res) => {
     res.status(200).send(`[Info] Configuration of room ${roomName} updated successfully`);
 });
 
-// Route to modify the name of a room
-router.put('/:roomId/:name/:luminositeMin/:luminositeMax', (req, res) => {
+// Route to modify a room
+router.put('/:roomId/:name/:luminositeMin/:luminositeMax/:automatique', (req, res) => {
   const roomId = req.params.roomId;
   const newName = req.params.name;
   const newLuminositeMin = req.params.luminositeMin;
   const newLuminositeMax = req.params.luminositeMax;
-
+  const newAutomatique = req.params.automatique === 'true';
   let configData = loadConfiguration();
 
   const roomIndex = Object.keys(configData).find(room => configData[room].id === Number(roomId));
@@ -147,12 +148,13 @@ router.put('/:roomId/:name/:luminositeMin/:luminositeMax', (req, res) => {
     ...configData[roomIndex],
     name: newName || configData[roomIndex].name,
     luminositeMin: newLuminositeMin || configData[roomIndex].luminositeMin,
-    luminositeMax: newLuminositeMax || configData[roomIndex].luminositeMax
+    luminositeMax: newLuminositeMax || configData[roomIndex].luminositeMax,
+    automatique: newAutomatique !== undefined ? newAutomatique : configData[roomIndex].automatique
   };
 
   // Save the updated configuration
   saveConfiguration(configData);
-  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName} and luminositeMin to ${newLuminositeMin} and luminositeMax to ${newLuminositeMax}`);
+  res.status(200).send(`[Info] Name of room with id ${roomId} updated successfully to ${newName}, luminositeMin to ${newLuminositeMin}, luminositeMax to ${newLuminositeMax}, and automatique to ${newAutomatique}`);
 });
 
 // Route to delete a room from the configuration

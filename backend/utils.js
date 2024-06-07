@@ -21,7 +21,7 @@ function findRoomNameById(id) {
         // Iterate through each room in the configurations
         for (const room in roomConfig) {
             // Check if the ID matches the ID of the current room
-            if (roomConfig[room].id === id) {
+            if (roomConfig[room].id_sensor === id) {
                 // If a match is found, return the room name
                 return room;
             }

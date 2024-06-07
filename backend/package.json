@@ -1,5 +1,6 @@
 {
   "name": "backend-iot",
+  "proxy": "http://localhost:3002",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {

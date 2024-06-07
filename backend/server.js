@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     res.send(`
     <h1>Welcome to the SmartShade API</h1>
-    <h2>Please use <a href="http://localhost:3001/status">/status</a> to verify the connection to the API</h2>
+    <h2>Please use <a href="http://localhost:3002/status">/status</a> to verify the connection to the API</h2>
     `);
 });
   
@@ -32,8 +32,8 @@ app.get('/status', (req, res) => {
 // CROS (Cross-Origin Resource Sharing) middleware
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type', 'Authorization', 'Origin', 'X-Requested-With');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     next();
 });
 

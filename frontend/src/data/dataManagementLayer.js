@@ -99,10 +99,9 @@ async function modifyID(id) {
     const data = await PUTRoutines("rooms/ID/modify-id", id);
     return data;
 }
-// http://localhost:3002/rooms/?id=1&name=room1&luminositeMin=0&luminositeMax=100
-async function modifyName(roomId, newName, luminositeMin, luminositeMax) {
-    // /:roomId/:name/:luminositeMin/:luminositeMax
-    const data = await PUTRoutines("rooms/" + roomId + "/" + newName + "/" + luminositeMin + "/" + luminositeMax);
+// http://localhost:3002/rooms/?id=1&name=room1&luminositeMin=0&luminositeMax=100&automatique=true
+async function modifyName(roomId, newName, luminositeMin, luminositeMax, automatique) {
+    const data = await PUTRoutines("rooms/" + roomId + "/" + newName + "/" + luminositeMin + "/" + luminositeMax + "/" + automatique);
     return data;
 }
 
@@ -113,7 +112,7 @@ async function modifyRoom(room) {
 }
 
 // Modify the state of blinders
-// http://localhost:3001/rooms/house1/blinds
+// http://localhost:3002/rooms/house1/blinds
 async function modifyBlinds(roomId, newBlinds) {
     const data = await PUTRoutines("rooms/" + roomId + "/blinds", newBlinds);
     return data;

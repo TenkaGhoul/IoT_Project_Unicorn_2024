@@ -3,8 +3,8 @@
     "id_sensor": 94038500663588,
     "id": 1,
     "name": "Kitchen",
-    "luminositeMax": 1000,
-    "luminositeMin": 0,
+    "luminositeMax": "100",
+    "luminositeMin": "10",
     "automatique": true,
     "blinds": 77.721
   },
@@ -21,9 +21,9 @@
     "id_sensor": 0,
     "id": 3,
     "name": "Bedroom",
-    "luminositeMax": 100,
-    "luminositeMin": 0,
-    "automatique": true,
+    "luminositeMax": "100",
+    "luminositeMin": "0",
+    "automatique": false,
     "blinds": 97.2
   },
   "TEST": {
