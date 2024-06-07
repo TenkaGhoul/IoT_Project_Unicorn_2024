@@ -1,4 +1,4 @@
-[/src/smartshade-banner.png](Banner)
+![/src/smartshade-banner.png](Banner)
 
 # SmartShade - IoT Project Unicorn 2024
 
@@ -36,16 +36,12 @@ It will open a new tab in your browser with the application running.
 - Simulation: Allows users to simulate certain actions or events.
 
 ## Screenshots
-
 ![alt text](/src/image-1.png)
-
 ![alt text](/src/image-4.png)
-
 ![alt text](/src/image-2.png)
-
 ![alt text](/src/image-3.png)
 
-## Hardwario Modules
+## Technologies
 
 - [Hardwario](https://www.hardwario.com/)
 - [Hardwario Core Module](https://shop.hardwario.com/core-module/)
